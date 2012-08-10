@@ -7,12 +7,12 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="E:/svn-JLT/projects/avrwifi/SparkFun.lbr"
-UsedLibrary="E:/svn-JLT/projects/avrwifi/avrwifi.lbr"
+UsedLibrary="lbr/SparkFun-Connectors.lbr"
+UsedLibrary="lbr/adafruit.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="75 75 1057 752"
+Loc="376 182 1358 859"
 State=2
 Number=0
 
