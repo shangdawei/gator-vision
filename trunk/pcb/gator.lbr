@@ -873,6 +873,54 @@ Used for STM32F417VGT6&lt;br&gt;</description>
 <text x="-5.08" y="84.328" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="STM32F417_ETH">
+<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="30.48" width="0.254" layer="94"/>
+<pin name="MII_INT" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="MII_MDIO" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="MII_MDC" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="RMII_REF_CLK" x="10.16" y="17.78" length="middle" rot="R180"/>
+<pin name="RMII_CRSDV" x="10.16" y="20.32" length="middle" rot="R180"/>
+<pin name="MII_RXD0" x="10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="MII_RXD1" x="10.16" y="12.7" length="middle" rot="R180"/>
+<pin name="MII_TXD0" x="10.16" y="22.86" length="middle" rot="R180"/>
+<pin name="MII_TXD1" x="10.16" y="25.4" length="middle" rot="R180"/>
+<pin name="MII_TX_EN" x="10.16" y="27.94" length="middle" rot="R180"/>
+<wire x1="5.08" y1="30.48" x2="0" y2="30.48" width="0.254" layer="94"/>
+<pin name="MII_RX_ER" x="10.16" y="15.24" length="middle" rot="R180"/>
+</symbol>
+<symbol name="STM32F417_SDIO">
+<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="20.32" x2="0" y2="20.32" width="0.254" layer="94"/>
+<pin name="SDIO_DETECT" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="SDIO_CMD" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="SDIO_CLK" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="SDIO_D0" x="10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="SDIO_D1" x="10.16" y="12.7" length="middle" rot="R180"/>
+<pin name="SDIO_D2" x="10.16" y="15.24" length="middle" rot="R180"/>
+<pin name="SDIO_D3" x="10.16" y="17.78" length="middle" rot="R180"/>
+</symbol>
+<symbol name="STM32F417_USBFS">
+<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
+<pin name="USB_VBUS" x="10.16" y="12.7" length="middle" rot="R180"/>
+<pin name="USB_EN_ID" x="10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="USB_FS_DM" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="USB_FS_DP" x="10.16" y="5.08" length="middle" rot="R180"/>
+</symbol>
+<symbol name="STM32F417_JTAG">
+<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="17.78" x2="0" y2="17.78" width="0.254" layer="94"/>
+<pin name="NRST" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="TRST" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="TDI" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="TDO/SWO" x="10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="TCK/SWCLK" x="10.16" y="12.7" length="middle" rot="R180"/>
+<pin name="TMS/SWDIO" x="10.16" y="15.24" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DP83848C">
@@ -939,8 +987,12 @@ Used for STM32F417VGT6&lt;br&gt;</description>
 </deviceset>
 <deviceset name="STM32F417VGT6">
 <gates>
-<gate name="G$1" symbol="STM32F417_PWR" x="-45.72" y="-30.48"/>
-<gate name="G$2" symbol="STM32F417_FSMC" x="-15.24" y="-48.26"/>
+<gate name="G$1" symbol="STM32F417_PWR" x="-45.72" y="-10.16"/>
+<gate name="G$2" symbol="STM32F417_FSMC" x="-17.78" y="-45.72"/>
+<gate name="G$3" symbol="STM32F417_ETH" x="12.7" y="5.08"/>
+<gate name="G$4" symbol="STM32F417_SDIO" x="12.7" y="-22.86"/>
+<gate name="G$5" symbol="STM32F417_USBFS" x="12.7" y="-45.72"/>
+<gate name="G$6" symbol="STM32F417_JTAG" x="-45.72" y="-40.64"/>
 </gates>
 <devices>
 <device name="" package="LQFP-100">
@@ -993,6 +1045,33 @@ Used for STM32F417VGT6&lt;br&gt;</description>
 <connect gate="G$2" pin="NOE" pad="85"/>
 <connect gate="G$2" pin="NWAIT" pad="87"/>
 <connect gate="G$2" pin="NWE" pad="86"/>
+<connect gate="G$3" pin="MII_INT" pad="53"/>
+<connect gate="G$3" pin="MII_MDC" pad="16"/>
+<connect gate="G$3" pin="MII_MDIO" pad="25"/>
+<connect gate="G$3" pin="MII_RXD0" pad="33"/>
+<connect gate="G$3" pin="MII_RXD1" pad="34"/>
+<connect gate="G$3" pin="MII_RX_ER" pad="47"/>
+<connect gate="G$3" pin="MII_TXD0" pad="51"/>
+<connect gate="G$3" pin="MII_TXD1" pad="52"/>
+<connect gate="G$3" pin="MII_TX_EN" pad="48"/>
+<connect gate="G$3" pin="RMII_CRSDV" pad="32"/>
+<connect gate="G$3" pin="RMII_REF_CLK" pad="24"/>
+<connect gate="G$4" pin="SDIO_CLK" pad="80"/>
+<connect gate="G$4" pin="SDIO_CMD" pad="83"/>
+<connect gate="G$4" pin="SDIO_D0" pad="65"/>
+<connect gate="G$4" pin="SDIO_D1" pad="66"/>
+<connect gate="G$4" pin="SDIO_D2" pad="78"/>
+<connect gate="G$4" pin="SDIO_D3" pad="79"/>
+<connect gate="G$5" pin="USB_EN_ID" pad="69"/>
+<connect gate="G$5" pin="USB_FS_DM" pad="70"/>
+<connect gate="G$5" pin="USB_FS_DP" pad="71"/>
+<connect gate="G$5" pin="USB_VBUS" pad="68"/>
+<connect gate="G$6" pin="NRST" pad="14"/>
+<connect gate="G$6" pin="TCK/SWCLK" pad="76"/>
+<connect gate="G$6" pin="TDI" pad="77"/>
+<connect gate="G$6" pin="TDO/SWO" pad="89"/>
+<connect gate="G$6" pin="TMS/SWDIO" pad="72"/>
+<connect gate="G$6" pin="TRST" pad="90"/>
 </connects>
 <technologies>
 <technology name=""/>

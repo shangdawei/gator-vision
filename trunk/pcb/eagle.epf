@@ -32,7 +32,7 @@ UsedLibrary="gator.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="960 0 1903 1001"
+Loc="480 0 1423 945"
 State=2
 Number=0
 
