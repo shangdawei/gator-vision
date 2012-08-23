@@ -921,6 +921,29 @@ Used for STM32F417VGT6&lt;br&gt;</description>
 <pin name="TCK/SWCLK" x="10.16" y="12.7" length="middle" rot="R180"/>
 <pin name="TMS/SWDIO" x="10.16" y="15.24" length="middle" rot="R180"/>
 </symbol>
+<symbol name="STM32F417_SPI1">
+<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="0" y2="12.7" width="0.254" layer="94"/>
+<pin name="SPI1_NSS" x="10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="SPI1_SCK" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="SPI1_MISO" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="SPI1_MOSI" x="10.16" y="2.54" length="middle" rot="R180"/>
+<text x="-5.08" y="13.208" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="STM32F417_CLK">
+<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
+<pin name="OSC32_IN" x="10.16" y="12.7" length="middle" rot="R180"/>
+<pin name="OSC32_OUT" x="10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="MCO1" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="OSC_OUT" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="OSC_IN" x="10.16" y="2.54" length="middle" rot="R180"/>
+<text x="-5.08" y="15.748" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DP83848C">
@@ -993,6 +1016,8 @@ Used for STM32F417VGT6&lt;br&gt;</description>
 <gate name="G$4" symbol="STM32F417_SDIO" x="12.7" y="-22.86"/>
 <gate name="G$5" symbol="STM32F417_USBFS" x="12.7" y="-45.72"/>
 <gate name="G$6" symbol="STM32F417_JTAG" x="-45.72" y="-40.64"/>
+<gate name="G$7" symbol="STM32F417_SPI1" x="38.1" y="22.86"/>
+<gate name="G$8" symbol="STM32F417_CLK" x="38.1" y="-7.62"/>
 </gates>
 <devices>
 <device name="" package="LQFP-100">
@@ -1072,6 +1097,15 @@ Used for STM32F417VGT6&lt;br&gt;</description>
 <connect gate="G$6" pin="TDO/SWO" pad="89"/>
 <connect gate="G$6" pin="TMS/SWDIO" pad="72"/>
 <connect gate="G$6" pin="TRST" pad="90"/>
+<connect gate="G$7" pin="SPI1_MISO" pad="31"/>
+<connect gate="G$7" pin="SPI1_MOSI" pad="91"/>
+<connect gate="G$7" pin="SPI1_NSS" pad="29"/>
+<connect gate="G$7" pin="SPI1_SCK" pad="30"/>
+<connect gate="G$8" pin="MCO1" pad="67"/>
+<connect gate="G$8" pin="OSC32_IN" pad="8"/>
+<connect gate="G$8" pin="OSC32_OUT" pad="9"/>
+<connect gate="G$8" pin="OSC_IN" pad="12"/>
+<connect gate="G$8" pin="OSC_OUT" pad="13"/>
 </connects>
 <technologies>
 <technology name=""/>
