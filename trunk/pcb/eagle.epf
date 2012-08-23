@@ -7,6 +7,8 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.2.0/lbr/supply1.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.2.0/lbr/supply2.lbr"
 UsedLibrary="lbr/LilyPad-Wearables.lbr"
 UsedLibrary="lbr/SparkFun-Aesthetics.lbr"
 UsedLibrary="lbr/SparkFun-AnalogIC.lbr"
@@ -32,7 +34,7 @@ UsedLibrary="gator.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="480 0 1423 945"
+Loc="0 0 943 1001"
 State=2
 Number=0
 
