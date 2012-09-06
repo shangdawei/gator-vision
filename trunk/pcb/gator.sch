@@ -1524,6 +1524,126 @@ Used for STM32F417VGT6&lt;br&gt;</description>
 <pad name="SH2" x="-3.81" y="7.25" drill="1.4"/>
 <pad name="SH1" x="1.09" y="7.85" drill="1.4"/>
 </package>
+<package name="TSOP54-400">
+<wire x1="-11.0084" y1="1.4" x2="-11.0084" y2="3.4" width="0.2032" layer="21" curve="180"/>
+<wire x1="11.0084" y1="-4.9784" x2="11.0084" y2="4.9784" width="0.2032" layer="21"/>
+<wire x1="11.0084" y1="4.9784" x2="-11.0084" y2="4.9784" width="0.2032" layer="21"/>
+<wire x1="-11.0084" y1="4.9784" x2="-11.0084" y2="3.4" width="0.2032" layer="21"/>
+<wire x1="-11.0084" y1="3.4" x2="-11.0084" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="-11.0084" y1="1.4" x2="-11.0084" y2="-4.9784" width="0.2032" layer="21"/>
+<wire x1="-11.0084" y1="-4.9784" x2="11.0084" y2="-4.9784" width="0.2032" layer="21"/>
+<circle x="-10.4" y="-4.4" radius="0.4" width="0" layer="21"/>
+<smd name="1" x="-10.4" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="-9.6" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="-8.8" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="-8" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="-7.2" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="6" x="-6.4" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="7" x="-5.6" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="8" x="-4.8" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="9" x="-4" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="10" x="-3.2" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="11" x="-2.4" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="12" x="-1.6" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="13" x="-0.8" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="14" x="0" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="15" x="0.8" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="16" x="1.6" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="17" x="2.4" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="18" x="3.2" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="19" x="4" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="20" x="4.8" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="21" x="5.6" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="22" x="6.4" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="23" x="7.2" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="24" x="8" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="25" x="8.8" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="26" x="9.6" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="27" x="10.4" y="-5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="28" x="10.4" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R270"/>
+<smd name="29" x="9.6" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="30" x="8.8" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="31" x="8" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="32" x="7.2" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="33" x="6.4" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="34" x="5.6" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="35" x="4.8" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="36" x="4" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="37" x="3.2" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="38" x="2.4" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="39" x="1.6" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="40" x="0.8" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="41" x="0" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="42" x="-0.8" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="43" x="-1.6" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="44" x="-2.4" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="45" x="-3.2" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="46" x="-4" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="47" x="-4.8" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="48" x="-5.6" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="49" x="-6.4" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="50" x="-7.2" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="51" x="-8" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="52" x="-8.8" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="53" x="-9.6" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="54" x="-10.4" y="5.68" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<text x="-9.118" y="2.964" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-9.048" y="2.14" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-10.8" y1="-5.6675" x2="-10" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="-10" y1="-5.6675" x2="-9.2" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="-9.2" y1="-5.6675" x2="-8.4" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="-8.4" y1="-5.6675" x2="-7.6" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="-7.6" y1="-5.6675" x2="-6.8" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="-6.8" y1="-5.6675" x2="-6" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="-6" y1="-5.6675" x2="-5.2" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="-5.2" y1="-5.6675" x2="-4.4" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="-4.4" y1="-5.6675" x2="-3.6" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="-3.6" y1="-5.6675" x2="-2.8" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="-2.8" y1="-5.6675" x2="-2" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="-2" y1="-5.6675" x2="-1.2" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="-1.2" y1="-5.6675" x2="-0.4" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="-0.4" y1="-5.6675" x2="0.4" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="0.4" y1="-5.6675" x2="1.2" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="1.2" y1="-5.6675" x2="2" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="2" y1="-5.6675" x2="2.8" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="2.8" y1="-5.6675" x2="3.6" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="3.6" y1="-5.6675" x2="4.4" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="4.4" y1="-5.6675" x2="5.2" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="5.2" y1="-5.6675" x2="6" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="6" y1="-5.6675" x2="6.8" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="6.8" y1="-5.6675" x2="7.6" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="7.6" y1="-5.6675" x2="8.4" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="8.4" y1="-5.6675" x2="9.2" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="9.2" y1="-5.6675" x2="10" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="10" y1="-5.6675" x2="10.8" y2="-5.2925" layer="51" rot="R90"/>
+<rectangle x1="10" y1="5.2925" x2="10.8" y2="5.6675" layer="51" rot="R270"/>
+<rectangle x1="9.2" y1="5.2925" x2="10" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="8.4" y1="5.2925" x2="9.2" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="7.6" y1="5.2925" x2="8.4" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="6.8" y1="5.2925" x2="7.6" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="6" y1="5.2925" x2="6.8" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="5.2" y1="5.2925" x2="6" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="4.4" y1="5.2925" x2="5.2" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="3.6" y1="5.2925" x2="4.4" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="2.8" y1="5.2925" x2="3.6" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="2" y1="5.2925" x2="2.8" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="1.2" y1="5.2925" x2="2" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="0.4" y1="5.2925" x2="1.2" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="-0.4" y1="5.2925" x2="0.4" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="-1.2" y1="5.2925" x2="-0.4" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="-2" y1="5.2925" x2="-1.2" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="-2.8" y1="5.2925" x2="-2" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="-3.6" y1="5.2925" x2="-2.8" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="-4.4" y1="5.2925" x2="-3.6" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="-5.2" y1="5.2925" x2="-4.4" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="-6" y1="5.2925" x2="-5.2" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="-6.8" y1="5.2925" x2="-6" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="-7.6" y1="5.2925" x2="-6.8" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="-8.4" y1="5.2925" x2="-7.6" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="-9.2" y1="5.2925" x2="-8.4" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="-10" y1="5.2925" x2="-9.2" y2="5.6675" layer="51" rot="R90"/>
+<rectangle x1="-10.8" y1="5.2925" x2="-10" y2="5.6675" layer="51" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DP83848C">
@@ -1763,6 +1883,68 @@ Used for STM32F417VGT6&lt;br&gt;</description>
 <text x="-10.16" y="23.622" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="MT48LC16M16A2P">
+<wire x1="-10.16" y1="43.18" x2="10.16" y2="43.18" width="0.254" layer="94"/>
+<wire x1="10.16" y1="43.18" x2="10.16" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-40.64" x2="-10.16" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-40.64" x2="-10.16" y2="43.18" width="0.254" layer="94"/>
+<text x="-10.16" y="44.196" size="1.27" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-43.18" size="1.27" layer="95">&gt;VALUE</text>
+<pin name="A0" x="-12.7" y="40.64" length="short"/>
+<pin name="A1" x="-12.7" y="38.1" length="short"/>
+<pin name="A2" x="-12.7" y="35.56" length="short"/>
+<pin name="A3" x="-12.7" y="33.02" length="short"/>
+<pin name="A4" x="-12.7" y="30.48" length="short"/>
+<pin name="A5" x="-12.7" y="27.94" length="short"/>
+<pin name="A6" x="-12.7" y="25.4" length="short"/>
+<pin name="A7" x="-12.7" y="22.86" length="short"/>
+<pin name="A8" x="-12.7" y="20.32" length="short"/>
+<pin name="A9" x="-12.7" y="17.78" length="short"/>
+<pin name="A10" x="-12.7" y="15.24" length="short"/>
+<pin name="A11" x="-12.7" y="12.7" length="short"/>
+<pin name="BA0" x="-12.7" y="5.08" length="short"/>
+<pin name="BA1" x="-12.7" y="2.54" length="short"/>
+<pin name="DQML" x="-12.7" y="-2.54" length="short"/>
+<pin name="DQMH" x="-12.7" y="-5.08" length="short"/>
+<pin name="CS" x="-12.7" y="-10.16" length="short"/>
+<pin name="WE" x="-12.7" y="-12.7" length="short"/>
+<pin name="CAS" x="-12.7" y="-15.24" length="short"/>
+<pin name="RAS" x="-12.7" y="-17.78" length="short"/>
+<pin name="CLK" x="-12.7" y="-22.86" length="short"/>
+<pin name="CKE" x="-12.7" y="-25.4" length="short"/>
+<pin name="DQ0" x="12.7" y="40.64" length="short" rot="R180"/>
+<pin name="DQ1" x="12.7" y="38.1" length="short" rot="R180"/>
+<pin name="DQ2" x="12.7" y="35.56" length="short" rot="R180"/>
+<pin name="DQ3" x="12.7" y="33.02" length="short" rot="R180"/>
+<pin name="DQ4" x="12.7" y="30.48" length="short" rot="R180"/>
+<pin name="DQ5" x="12.7" y="27.94" length="short" rot="R180"/>
+<pin name="DQ6" x="12.7" y="25.4" length="short" rot="R180"/>
+<pin name="DQ7" x="12.7" y="22.86" length="short" rot="R180"/>
+<pin name="DQ8" x="12.7" y="20.32" length="short" rot="R180"/>
+<pin name="DQ9" x="12.7" y="17.78" length="short" rot="R180"/>
+<pin name="DQ10" x="12.7" y="15.24" length="short" rot="R180"/>
+<pin name="DQ11" x="12.7" y="12.7" length="short" rot="R180"/>
+<pin name="DQ12" x="12.7" y="10.16" length="short" rot="R180"/>
+<pin name="DQ13" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="DQ14" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="DQ15" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="VDD1" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="VDD2" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="VDD3" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="VDDQ1" x="12.7" y="-10.16" length="short" rot="R180"/>
+<pin name="VDDQ2" x="12.7" y="-12.7" length="short" rot="R180"/>
+<pin name="VDDQ3" x="12.7" y="-15.24" length="short" rot="R180"/>
+<pin name="VDDQ4" x="12.7" y="-17.78" length="short" rot="R180"/>
+<pin name="VSS1" x="12.7" y="-22.86" length="short" rot="R180"/>
+<pin name="VSS2" x="12.7" y="-25.4" length="short" rot="R180"/>
+<pin name="VSS3" x="12.7" y="-27.94" length="short" rot="R180"/>
+<pin name="VSSQ1" x="12.7" y="-30.48" length="short" rot="R180"/>
+<pin name="VSSQ2" x="12.7" y="-33.02" length="short" rot="R180"/>
+<pin name="VSSQ3" x="12.7" y="-35.56" length="short" rot="R180"/>
+<pin name="VSSQ4" x="12.7" y="-38.1" length="short" rot="R180"/>
+<pin name="A12" x="-12.7" y="10.16" length="short"/>
+<pin name="NC" x="-12.7" y="-35.56" length="short"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DP83848C">
@@ -1974,6 +2156,74 @@ Used for STM32F417VGT6&lt;br&gt;</description>
 <connect gate="G$1" pin="TMDS_D2N" pad="P3"/>
 <connect gate="G$1" pin="TMDS_D2P" pad="P1"/>
 <connect gate="G$1" pin="TMDS_D2_SHLD" pad="P2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MT48LC16M16A2P">
+<gates>
+<gate name="G$1" symbol="MT48LC16M16A2P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSOP54-400">
+<connects>
+<connect gate="G$1" pin="A0" pad="23"/>
+<connect gate="G$1" pin="A1" pad="24"/>
+<connect gate="G$1" pin="A10" pad="22"/>
+<connect gate="G$1" pin="A11" pad="35"/>
+<connect gate="G$1" pin="A12" pad="36"/>
+<connect gate="G$1" pin="A2" pad="25"/>
+<connect gate="G$1" pin="A3" pad="26"/>
+<connect gate="G$1" pin="A4" pad="29"/>
+<connect gate="G$1" pin="A5" pad="30"/>
+<connect gate="G$1" pin="A6" pad="31"/>
+<connect gate="G$1" pin="A7" pad="32"/>
+<connect gate="G$1" pin="A8" pad="33"/>
+<connect gate="G$1" pin="A9" pad="34"/>
+<connect gate="G$1" pin="BA0" pad="20"/>
+<connect gate="G$1" pin="BA1" pad="21"/>
+<connect gate="G$1" pin="CAS" pad="17"/>
+<connect gate="G$1" pin="CKE" pad="37"/>
+<connect gate="G$1" pin="CLK" pad="38"/>
+<connect gate="G$1" pin="CS" pad="19"/>
+<connect gate="G$1" pin="DQ0" pad="2"/>
+<connect gate="G$1" pin="DQ1" pad="4"/>
+<connect gate="G$1" pin="DQ10" pad="45"/>
+<connect gate="G$1" pin="DQ11" pad="47"/>
+<connect gate="G$1" pin="DQ12" pad="48"/>
+<connect gate="G$1" pin="DQ13" pad="50"/>
+<connect gate="G$1" pin="DQ14" pad="51"/>
+<connect gate="G$1" pin="DQ15" pad="53"/>
+<connect gate="G$1" pin="DQ2" pad="5"/>
+<connect gate="G$1" pin="DQ3" pad="7"/>
+<connect gate="G$1" pin="DQ4" pad="8"/>
+<connect gate="G$1" pin="DQ5" pad="10"/>
+<connect gate="G$1" pin="DQ6" pad="11"/>
+<connect gate="G$1" pin="DQ7" pad="13"/>
+<connect gate="G$1" pin="DQ8" pad="42"/>
+<connect gate="G$1" pin="DQ9" pad="44"/>
+<connect gate="G$1" pin="DQMH" pad="39"/>
+<connect gate="G$1" pin="DQML" pad="15"/>
+<connect gate="G$1" pin="NC" pad="40"/>
+<connect gate="G$1" pin="RAS" pad="18"/>
+<connect gate="G$1" pin="VDD1" pad="1"/>
+<connect gate="G$1" pin="VDD2" pad="14"/>
+<connect gate="G$1" pin="VDD3" pad="27"/>
+<connect gate="G$1" pin="VDDQ1" pad="3"/>
+<connect gate="G$1" pin="VDDQ2" pad="9"/>
+<connect gate="G$1" pin="VDDQ3" pad="43"/>
+<connect gate="G$1" pin="VDDQ4" pad="49"/>
+<connect gate="G$1" pin="VSS1" pad="28"/>
+<connect gate="G$1" pin="VSS2" pad="41"/>
+<connect gate="G$1" pin="VSS3" pad="54"/>
+<connect gate="G$1" pin="VSSQ1" pad="6"/>
+<connect gate="G$1" pin="VSSQ2" pad="12"/>
+<connect gate="G$1" pin="VSSQ3" pad="46"/>
+<connect gate="G$1" pin="VSSQ4" pad="52"/>
+<connect gate="G$1" pin="WE" pad="16"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4915,6 +5165,7 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 <part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="5K6"/>
 <part name="R20" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="U$2" library="gator" deviceset="HDMI_A" device=""/>
+<part name="SDRAM" library="gator" deviceset="MT48LC16M16A2P" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4929,7 +5180,7 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 <instance part="ETH_PHY" gate="G$1" x="-144.78" y="284.48"/>
 <instance part="JTAG" gate="1" x="-350.52" y="269.24"/>
 <instance part="FPGA" gate="B0" x="-187.96" y="66.04"/>
-<instance part="WING" gate="G$1" x="-195.58" y="180.34" rot="MR0"/>
+<instance part="WING" gate="G$1" x="-215.9" y="177.8" rot="MR0"/>
 <instance part="WING" gate="G$2" x="27.94" y="236.22"/>
 <instance part="WING" gate="G$3" x="27.94" y="210.82"/>
 <instance part="R1" gate="G$1" x="-314.96" y="279.4"/>
@@ -5001,7 +5252,7 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 <instance part="U$1" gate="G$4" x="-396.24" y="317.5"/>
 <instance part="U$1" gate="G$5" x="-238.76" y="396.24"/>
 <instance part="U$1" gate="G$6" x="-353.06" y="226.06"/>
-<instance part="U$1" gate="G$7" x="-53.34" y="119.38"/>
+<instance part="U$1" gate="G$7" x="-154.94" y="111.76"/>
 <instance part="U$1" gate="G$8" x="-27.94" y="391.16"/>
 <instance part="U$1" gate="G$9" x="152.4" y="116.84"/>
 <instance part="SUPPLY13" gate="GND" x="-60.96" y="256.54"/>
@@ -5064,6 +5315,7 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 <instance part="R19" gate="G$1" x="-121.92" y="50.8" rot="R90"/>
 <instance part="R20" gate="G$1" x="-121.92" y="38.1" rot="R90"/>
 <instance part="U$2" gate="G$1" x="-99.06" y="66.04"/>
+<instance part="SDRAM" gate="G$1" x="22.86" y="81.28"/>
 </instances>
 <busses>
 </busses>
@@ -6411,22 +6663,12 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </net>
 <net name="D8" class="0">
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L64P_D8_2"/>
-<wire x1="-144.78" y1="144.78" x2="-142.24" y2="144.78" width="0.1524" layer="91"/>
-<label x="-142.24" y="144.78" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$2" pin="A8/D8"/>
 <wire x1="-43.18" y1="162.56" x2="-40.64" y2="162.56" width="0.1524" layer="91"/>
 <label x="-40.64" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D9" class="0">
-<segment>
-<pinref part="FPGA" gate="B2" pin="IO_L64N_D9_2"/>
-<wire x1="-144.78" y1="147.32" x2="-142.24" y2="147.32" width="0.1524" layer="91"/>
-<label x="-142.24" y="147.32" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$2" pin="A9/D9"/>
 <wire x1="-43.18" y1="165.1" x2="-40.64" y2="165.1" width="0.1524" layer="91"/>
@@ -6435,22 +6677,12 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </net>
 <net name="D5" class="0">
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L62P_D5_2"/>
-<wire x1="-144.78" y1="149.86" x2="-142.24" y2="149.86" width="0.1524" layer="91"/>
-<label x="-142.24" y="149.86" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$2" pin="A5/D5"/>
 <wire x1="-43.18" y1="154.94" x2="-40.64" y2="154.94" width="0.1524" layer="91"/>
 <label x="-40.64" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D6" class="0">
-<segment>
-<pinref part="FPGA" gate="B2" pin="IO_L62N_D6_2"/>
-<wire x1="-144.78" y1="152.4" x2="-142.24" y2="152.4" width="0.1524" layer="91"/>
-<label x="-142.24" y="152.4" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$2" pin="A6/D6"/>
 <wire x1="-43.18" y1="157.48" x2="-40.64" y2="157.48" width="0.1524" layer="91"/>
@@ -6459,22 +6691,12 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </net>
 <net name="D3" class="0">
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L49P_D3_2"/>
-<wire x1="-144.78" y1="154.94" x2="-142.24" y2="154.94" width="0.1524" layer="91"/>
-<label x="-142.24" y="154.94" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$2" pin="A3/D3"/>
 <wire x1="-43.18" y1="149.86" x2="-40.64" y2="149.86" width="0.1524" layer="91"/>
 <label x="-40.64" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D4" class="0">
-<segment>
-<pinref part="FPGA" gate="B2" pin="IO_L49N_D4_2"/>
-<wire x1="-144.78" y1="157.48" x2="-142.24" y2="157.48" width="0.1524" layer="91"/>
-<label x="-142.24" y="157.48" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$2" pin="A4/D4"/>
 <wire x1="-43.18" y1="152.4" x2="-40.64" y2="152.4" width="0.1524" layer="91"/>
@@ -6483,22 +6705,12 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </net>
 <net name="D7" class="0">
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L48P_D7_2"/>
-<wire x1="-144.78" y1="160.02" x2="-142.24" y2="160.02" width="0.1524" layer="91"/>
-<label x="-142.24" y="160.02" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$2" pin="A7/D7"/>
 <wire x1="-43.18" y1="160.02" x2="-40.64" y2="160.02" width="0.1524" layer="91"/>
 <label x="-40.64" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D14" class="0">
-<segment>
-<pinref part="FPGA" gate="B2" pin="IO_L31P_GCLK31_D14_2"/>
-<wire x1="-144.78" y1="165.1" x2="-142.24" y2="165.1" width="0.1524" layer="91"/>
-<label x="-142.24" y="165.1" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$2" pin="A14/D14"/>
 <wire x1="-43.18" y1="177.8" x2="-40.64" y2="177.8" width="0.1524" layer="91"/>
@@ -6507,22 +6719,12 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </net>
 <net name="D15" class="0">
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L31N_GCLK30_D15_2"/>
-<wire x1="-144.78" y1="167.64" x2="-142.24" y2="167.64" width="0.1524" layer="91"/>
-<label x="-142.24" y="167.64" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$2" pin="A15/D15"/>
 <wire x1="-43.18" y1="180.34" x2="-40.64" y2="180.34" width="0.1524" layer="91"/>
 <label x="-40.64" y="180.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D13" class="0">
-<segment>
-<pinref part="FPGA" gate="B2" pin="IO_L30P_GCLK1_D13_2"/>
-<wire x1="-144.78" y1="170.18" x2="-142.24" y2="170.18" width="0.1524" layer="91"/>
-<label x="-142.24" y="170.18" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$2" pin="A13/D13"/>
 <wire x1="-43.18" y1="175.26" x2="-40.64" y2="175.26" width="0.1524" layer="91"/>
@@ -6531,22 +6733,12 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </net>
 <net name="D11" class="0">
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L14P_D11_2"/>
-<wire x1="-144.78" y1="175.26" x2="-142.24" y2="175.26" width="0.1524" layer="91"/>
-<label x="-142.24" y="175.26" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$2" pin="A11/D11"/>
 <wire x1="-43.18" y1="170.18" x2="-40.64" y2="170.18" width="0.1524" layer="91"/>
 <label x="-40.64" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D12" class="0">
-<segment>
-<pinref part="FPGA" gate="B2" pin="IO_L14N_D12_2"/>
-<wire x1="-144.78" y1="177.8" x2="-142.24" y2="177.8" width="0.1524" layer="91"/>
-<label x="-142.24" y="177.8" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$2" pin="A12/D12"/>
 <wire x1="-43.18" y1="172.72" x2="-40.64" y2="172.72" width="0.1524" layer="91"/>
@@ -6555,22 +6747,12 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </net>
 <net name="D10" class="0">
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L13N_D10_2"/>
-<wire x1="-144.78" y1="182.88" x2="-142.24" y2="182.88" width="0.1524" layer="91"/>
-<label x="-142.24" y="182.88" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$2" pin="A10/D10"/>
 <wire x1="-43.18" y1="167.64" x2="-40.64" y2="167.64" width="0.1524" layer="91"/>
 <label x="-40.64" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D1" class="0">
-<segment>
-<pinref part="FPGA" gate="B2" pin="IO_L12P_D1_MISO2_2"/>
-<wire x1="-144.78" y1="185.42" x2="-142.24" y2="185.42" width="0.1524" layer="91"/>
-<label x="-142.24" y="185.42" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$2" pin="A1/D1"/>
 <wire x1="-43.18" y1="144.78" x2="-40.64" y2="144.78" width="0.1524" layer="91"/>
@@ -6579,22 +6761,12 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </net>
 <net name="D2" class="0">
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L12N_D2_MISO3_2"/>
-<wire x1="-144.78" y1="187.96" x2="-142.24" y2="187.96" width="0.1524" layer="91"/>
-<label x="-142.24" y="187.96" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$2" pin="A2/D2"/>
 <wire x1="-43.18" y1="147.32" x2="-40.64" y2="147.32" width="0.1524" layer="91"/>
 <label x="-40.64" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D0" class="0">
-<segment>
-<pinref part="FPGA" gate="B2" pin="IO_L03P_D0_DIN_MISO_MISO1_2"/>
-<wire x1="-144.78" y1="190.5" x2="-142.24" y2="190.5" width="0.1524" layer="91"/>
-<label x="-142.24" y="190.5" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$2" pin="A0/D0"/>
 <wire x1="-43.18" y1="142.24" x2="-40.64" y2="142.24" width="0.1524" layer="91"/>
@@ -6890,8 +7062,8 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </segment>
 <segment>
 <pinref part="WING" gate="G$1" pin="A1"/>
-<wire x1="-203.2" y1="160.02" x2="-205.74" y2="160.02" width="0.1524" layer="91"/>
-<label x="-220.98" y="160.02" size="1.778" layer="95"/>
+<wire x1="-223.52" y1="157.48" x2="-226.06" y2="157.48" width="0.1524" layer="91"/>
+<label x="-241.3" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WING_A2" class="0">
@@ -6902,8 +7074,8 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </segment>
 <segment>
 <pinref part="WING" gate="G$1" pin="A2"/>
-<wire x1="-203.2" y1="162.56" x2="-205.74" y2="162.56" width="0.1524" layer="91"/>
-<label x="-220.98" y="162.56" size="1.778" layer="95"/>
+<wire x1="-223.52" y1="160.02" x2="-226.06" y2="160.02" width="0.1524" layer="91"/>
+<label x="-241.3" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WING_A6" class="0">
@@ -6914,8 +7086,8 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </segment>
 <segment>
 <pinref part="WING" gate="G$1" pin="A6"/>
-<wire x1="-203.2" y1="172.72" x2="-205.74" y2="172.72" width="0.1524" layer="91"/>
-<label x="-220.98" y="172.72" size="1.778" layer="95"/>
+<wire x1="-223.52" y1="170.18" x2="-226.06" y2="170.18" width="0.1524" layer="91"/>
+<label x="-241.3" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WING_A5" class="0">
@@ -6926,8 +7098,8 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </segment>
 <segment>
 <pinref part="WING" gate="G$1" pin="A5"/>
-<wire x1="-203.2" y1="170.18" x2="-205.74" y2="170.18" width="0.1524" layer="91"/>
-<label x="-220.98" y="170.18" size="1.778" layer="95"/>
+<wire x1="-223.52" y1="167.64" x2="-226.06" y2="167.64" width="0.1524" layer="91"/>
+<label x="-241.3" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WING_A8" class="0">
@@ -6938,8 +7110,8 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </segment>
 <segment>
 <pinref part="WING" gate="G$1" pin="A8"/>
-<wire x1="-203.2" y1="177.8" x2="-205.74" y2="177.8" width="0.1524" layer="91"/>
-<label x="-220.98" y="177.8" size="1.778" layer="95"/>
+<wire x1="-223.52" y1="175.26" x2="-226.06" y2="175.26" width="0.1524" layer="91"/>
+<label x="-241.3" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WING_A7" class="0">
@@ -6950,8 +7122,8 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </segment>
 <segment>
 <pinref part="WING" gate="G$1" pin="A7"/>
-<wire x1="-203.2" y1="175.26" x2="-205.74" y2="175.26" width="0.1524" layer="91"/>
-<label x="-220.98" y="175.26" size="1.778" layer="95"/>
+<wire x1="-223.52" y1="172.72" x2="-226.06" y2="172.72" width="0.1524" layer="91"/>
+<label x="-241.3" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WING_A10" class="0">
@@ -6962,8 +7134,8 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </segment>
 <segment>
 <pinref part="WING" gate="G$1" pin="A10"/>
-<wire x1="-203.2" y1="182.88" x2="-205.74" y2="182.88" width="0.1524" layer="91"/>
-<label x="-220.98" y="182.88" size="1.778" layer="95"/>
+<wire x1="-223.52" y1="180.34" x2="-226.06" y2="180.34" width="0.1524" layer="91"/>
+<label x="-241.3" y="180.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WING_A9" class="0">
@@ -6974,8 +7146,8 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </segment>
 <segment>
 <pinref part="WING" gate="G$1" pin="A9"/>
-<wire x1="-203.2" y1="180.34" x2="-205.74" y2="180.34" width="0.1524" layer="91"/>
-<label x="-220.98" y="180.34" size="1.778" layer="95"/>
+<wire x1="-223.52" y1="177.8" x2="-226.06" y2="177.8" width="0.1524" layer="91"/>
+<label x="-241.3" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WING_A12" class="0">
@@ -6986,8 +7158,8 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </segment>
 <segment>
 <pinref part="WING" gate="G$1" pin="A12"/>
-<wire x1="-203.2" y1="187.96" x2="-205.74" y2="187.96" width="0.1524" layer="91"/>
-<label x="-220.98" y="187.96" size="1.778" layer="95"/>
+<wire x1="-223.52" y1="185.42" x2="-226.06" y2="185.42" width="0.1524" layer="91"/>
+<label x="-241.3" y="185.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WING_A11" class="0">
@@ -6998,8 +7170,8 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </segment>
 <segment>
 <pinref part="WING" gate="G$1" pin="A11"/>
-<wire x1="-203.2" y1="185.42" x2="-205.74" y2="185.42" width="0.1524" layer="91"/>
-<label x="-220.98" y="185.42" size="1.778" layer="95"/>
+<wire x1="-223.52" y1="182.88" x2="-226.06" y2="182.88" width="0.1524" layer="91"/>
+<label x="-241.3" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WING_A14" class="0">
@@ -7010,8 +7182,8 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </segment>
 <segment>
 <pinref part="WING" gate="G$1" pin="A14"/>
-<wire x1="-203.2" y1="193.04" x2="-205.74" y2="193.04" width="0.1524" layer="91"/>
-<label x="-220.98" y="193.04" size="1.778" layer="95"/>
+<wire x1="-223.52" y1="190.5" x2="-226.06" y2="190.5" width="0.1524" layer="91"/>
+<label x="-241.3" y="190.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WING_A13" class="0">
@@ -7022,8 +7194,8 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </segment>
 <segment>
 <pinref part="WING" gate="G$1" pin="A13"/>
-<wire x1="-203.2" y1="190.5" x2="-205.74" y2="190.5" width="0.1524" layer="91"/>
-<label x="-220.98" y="190.5" size="1.778" layer="95"/>
+<wire x1="-223.52" y1="187.96" x2="-226.06" y2="187.96" width="0.1524" layer="91"/>
+<label x="-241.3" y="187.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WING_A16" class="0">
@@ -7034,8 +7206,8 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </segment>
 <segment>
 <pinref part="WING" gate="G$1" pin="A16"/>
-<wire x1="-203.2" y1="198.12" x2="-205.74" y2="198.12" width="0.1524" layer="91"/>
-<label x="-220.98" y="198.12" size="1.778" layer="95"/>
+<wire x1="-223.52" y1="195.58" x2="-226.06" y2="195.58" width="0.1524" layer="91"/>
+<label x="-241.3" y="195.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WING_A15" class="0">
@@ -7046,8 +7218,8 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </segment>
 <segment>
 <pinref part="WING" gate="G$1" pin="A15"/>
-<wire x1="-203.2" y1="195.58" x2="-205.74" y2="195.58" width="0.1524" layer="91"/>
-<label x="-220.98" y="195.58" size="1.778" layer="95"/>
+<wire x1="-223.52" y1="193.04" x2="-226.06" y2="193.04" width="0.1524" layer="91"/>
+<label x="-241.3" y="193.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WING_A4" class="0">
@@ -7058,8 +7230,8 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </segment>
 <segment>
 <pinref part="WING" gate="G$1" pin="A4"/>
-<wire x1="-203.2" y1="167.64" x2="-205.74" y2="167.64" width="0.1524" layer="91"/>
-<label x="-220.98" y="167.64" size="1.778" layer="95"/>
+<wire x1="-223.52" y1="165.1" x2="-226.06" y2="165.1" width="0.1524" layer="91"/>
+<label x="-241.3" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WING_A3" class="0">
@@ -7070,8 +7242,542 @@ LM1117 5.0V Voltage regulator [AP1117E50GDIDKR-ND]&lt;br&gt;&lt;/p&gt;
 </segment>
 <segment>
 <pinref part="WING" gate="G$1" pin="A3"/>
-<wire x1="-203.2" y1="165.1" x2="-205.74" y2="165.1" width="0.1524" layer="91"/>
-<label x="-220.98" y="165.1" size="1.778" layer="95"/>
+<wire x1="-223.52" y1="162.56" x2="-226.06" y2="162.56" width="0.1524" layer="91"/>
+<label x="-241.3" y="162.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CFG_DIN" class="0">
+<segment>
+<pinref part="FPGA" gate="B2" pin="IO_L03P_D0_DIN_MISO_MISO1_2"/>
+<wire x1="-144.78" y1="190.5" x2="-142.24" y2="190.5" width="0.1524" layer="91"/>
+<label x="-142.24" y="190.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$7" pin="SPI1_MOSI"/>
+<wire x1="-144.78" y1="114.3" x2="-142.24" y2="114.3" width="0.1524" layer="91"/>
+<label x="-142.24" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CFG_CLK" class="0">
+<segment>
+<pinref part="FPGA" gate="B2" pin="IO_L01P_CCLK_2"/>
+<wire x1="-144.78" y1="200.66" x2="-142.24" y2="200.66" width="0.1524" layer="91"/>
+<label x="-142.24" y="200.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$7" pin="SPI1_SCK"/>
+<wire x1="-144.78" y1="119.38" x2="-142.24" y2="119.38" width="0.1524" layer="91"/>
+<label x="-142.24" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_A4" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="A4"/>
+<wire x1="10.16" y1="111.76" x2="7.62" y2="111.76" width="0.1524" layer="91"/>
+<label x="-2.54" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B0" pin="IO_L34P_GCLK19_0"/>
+<wire x1="-182.88" y1="71.12" x2="-180.34" y2="71.12" width="0.1524" layer="91"/>
+<label x="-180.34" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_A5" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="A5"/>
+<wire x1="10.16" y1="109.22" x2="7.62" y2="109.22" width="0.1524" layer="91"/>
+<label x="-2.54" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B0" pin="IO_L34N_GCLK18_0"/>
+<wire x1="-182.88" y1="73.66" x2="-180.34" y2="73.66" width="0.1524" layer="91"/>
+<label x="-180.34" y="73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_A6" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="A6"/>
+<wire x1="10.16" y1="106.68" x2="7.62" y2="106.68" width="0.1524" layer="91"/>
+<label x="-2.54" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B0" pin="IO_L35P_GCLK17_0"/>
+<wire x1="-182.88" y1="66.04" x2="-180.34" y2="66.04" width="0.1524" layer="91"/>
+<label x="-180.34" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_A7" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="A7"/>
+<wire x1="10.16" y1="104.14" x2="7.62" y2="104.14" width="0.1524" layer="91"/>
+<label x="-2.54" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B0" pin="IO_L35N_GCLK16_0"/>
+<wire x1="-182.88" y1="68.58" x2="-180.34" y2="68.58" width="0.1524" layer="91"/>
+<label x="-180.34" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_A8" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="A8"/>
+<wire x1="10.16" y1="101.6" x2="7.62" y2="101.6" width="0.1524" layer="91"/>
+<label x="-2.54" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B0" pin="IO_L36P_GCLK15_0"/>
+<wire x1="-182.88" y1="60.96" x2="-180.34" y2="60.96" width="0.1524" layer="91"/>
+<label x="-180.34" y="60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_A9" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="A9"/>
+<wire x1="10.16" y1="99.06" x2="7.62" y2="99.06" width="0.1524" layer="91"/>
+<label x="-2.54" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B0" pin="IO_L36N_GCLK14_0"/>
+<wire x1="-182.88" y1="63.5" x2="-180.34" y2="63.5" width="0.1524" layer="91"/>
+<label x="-180.34" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="FPGA" gate="B1" pin="IO_L33N_1"/>
+<wire x1="-269.24" y1="190.5" x2="-266.7" y2="190.5" width="0.1524" layer="91"/>
+<label x="-266.7" y="190.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="FPGA" gate="B1" pin="IO_L33P_1"/>
+<wire x1="-269.24" y1="187.96" x2="-266.7" y2="187.96" width="0.1524" layer="91"/>
+<label x="-266.7" y="187.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="FPGA" gate="B1" pin="IO_L32P_1"/>
+<wire x1="-269.24" y1="193.04" x2="-266.7" y2="193.04" width="0.1524" layer="91"/>
+<label x="-266.7" y="193.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="FPGA" gate="B1" pin="IO_L32N_1"/>
+<wire x1="-269.24" y1="195.58" x2="-266.7" y2="195.58" width="0.1524" layer="91"/>
+<label x="-266.7" y="195.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="FPGA" gate="B1" pin="IO_L01P_1"/>
+<wire x1="-269.24" y1="198.12" x2="-266.7" y2="198.12" width="0.1524" layer="91"/>
+<label x="-266.7" y="198.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="FPGA" gate="B1" pin="IO_L01N_VREF_1"/>
+<wire x1="-269.24" y1="200.66" x2="-266.7" y2="200.66" width="0.1524" layer="91"/>
+<label x="-266.7" y="200.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_A11" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="A11"/>
+<wire x1="10.16" y1="93.98" x2="7.62" y2="93.98" width="0.1524" layer="91"/>
+<label x="-2.54" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B0" pin="IO_L04N_0"/>
+<wire x1="-182.88" y1="78.74" x2="-180.34" y2="78.74" width="0.1524" layer="91"/>
+<label x="-180.34" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_A12" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="A12"/>
+<wire x1="10.16" y1="91.44" x2="7.62" y2="91.44" width="0.1524" layer="91"/>
+<label x="-2.54" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B0" pin="IO_L04P_0"/>
+<wire x1="-182.88" y1="76.2" x2="-180.34" y2="76.2" width="0.1524" layer="91"/>
+<label x="-180.34" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_CKE" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="CKE"/>
+<wire x1="10.16" y1="55.88" x2="7.62" y2="55.88" width="0.1524" layer="91"/>
+<label x="-2.54" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B0" pin="IO_L03N_0"/>
+<wire x1="-182.88" y1="83.82" x2="-180.34" y2="83.82" width="0.1524" layer="91"/>
+<label x="-180.34" y="83.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_CLK" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="CLK"/>
+<wire x1="10.16" y1="58.42" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
+<label x="-2.54" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B0" pin="IO_L03P_0"/>
+<wire x1="-182.88" y1="81.28" x2="-180.34" y2="81.28" width="0.1524" layer="91"/>
+<label x="-180.34" y="81.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_DQMH" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="DQMH"/>
+<wire x1="10.16" y1="76.2" x2="7.62" y2="76.2" width="0.1524" layer="91"/>
+<label x="-2.54" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B0" pin="IO_L02N_0"/>
+<wire x1="-182.88" y1="88.9" x2="-180.34" y2="88.9" width="0.1524" layer="91"/>
+<label x="-180.34" y="88.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_DQ8" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="DQ8"/>
+<wire x1="35.56" y1="101.6" x2="38.1" y2="101.6" width="0.1524" layer="91"/>
+<label x="38.1" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B0" pin="IO_L02P_0"/>
+<wire x1="-182.88" y1="86.36" x2="-180.34" y2="86.36" width="0.1524" layer="91"/>
+<label x="-180.34" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_DQ9" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="DQ9"/>
+<wire x1="35.56" y1="99.06" x2="38.1" y2="99.06" width="0.1524" layer="91"/>
+<label x="38.1" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B0" pin="IO_L01N_VREF_0"/>
+<wire x1="-182.88" y1="93.98" x2="-180.34" y2="93.98" width="0.1524" layer="91"/>
+<label x="-180.34" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_DQ10" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="DQ10"/>
+<wire x1="35.56" y1="96.52" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
+<label x="38.1" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B0" pin="IO_L01P_HSWAPEN_0"/>
+<wire x1="-182.88" y1="91.44" x2="-180.34" y2="91.44" width="0.1524" layer="91"/>
+<label x="-180.34" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_DQ11" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="DQ11"/>
+<wire x1="35.56" y1="93.98" x2="38.1" y2="93.98" width="0.1524" layer="91"/>
+<label x="38.1" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L83N_VREF_3"/>
+<wire x1="-86.36" y1="142.24" x2="-83.82" y2="142.24" width="0.1524" layer="91"/>
+<label x="-83.82" y="142.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_DQ12" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="DQ12"/>
+<wire x1="35.56" y1="91.44" x2="38.1" y2="91.44" width="0.1524" layer="91"/>
+<label x="38.1" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L83P_3"/>
+<wire x1="-86.36" y1="139.7" x2="-83.82" y2="139.7" width="0.1524" layer="91"/>
+<label x="-83.82" y="139.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_DQ13" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="DQ13"/>
+<wire x1="35.56" y1="88.9" x2="38.1" y2="88.9" width="0.1524" layer="91"/>
+<label x="38.1" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L52N_3"/>
+<wire x1="-86.36" y1="147.32" x2="-83.82" y2="147.32" width="0.1524" layer="91"/>
+<label x="-83.82" y="147.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_DQ14" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="DQ14"/>
+<wire x1="35.56" y1="86.36" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
+<label x="38.1" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L52P_3"/>
+<wire x1="-86.36" y1="144.78" x2="-83.82" y2="144.78" width="0.1524" layer="91"/>
+<label x="-83.82" y="144.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_DQ15" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="DQ15"/>
+<wire x1="35.56" y1="83.82" x2="38.1" y2="83.82" width="0.1524" layer="91"/>
+<label x="38.1" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L51N_3"/>
+<wire x1="-86.36" y1="152.4" x2="-83.82" y2="152.4" width="0.1524" layer="91"/>
+<label x="-83.82" y="152.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_A3" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="A3"/>
+<wire x1="10.16" y1="114.3" x2="7.62" y2="114.3" width="0.1524" layer="91"/>
+<label x="-2.54" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L51P_3"/>
+<wire x1="-86.36" y1="149.86" x2="-83.82" y2="149.86" width="0.1524" layer="91"/>
+<label x="-83.82" y="149.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_A1" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="A1"/>
+<wire x1="10.16" y1="119.38" x2="7.62" y2="119.38" width="0.1524" layer="91"/>
+<label x="-2.54" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L50P_3"/>
+<wire x1="-86.36" y1="154.94" x2="-83.82" y2="154.94" width="0.1524" layer="91"/>
+<label x="-83.82" y="154.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_A0" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="A0"/>
+<wire x1="10.16" y1="121.92" x2="7.62" y2="121.92" width="0.1524" layer="91"/>
+<label x="-2.54" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L49N_3"/>
+<wire x1="-86.36" y1="162.56" x2="-83.82" y2="162.56" width="0.1524" layer="91"/>
+<label x="-83.82" y="162.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_A2" class="0">
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L50N_3"/>
+<wire x1="-86.36" y1="157.48" x2="-83.82" y2="157.48" width="0.1524" layer="91"/>
+<label x="-83.82" y="157.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="A2"/>
+<wire x1="10.16" y1="116.84" x2="7.62" y2="116.84" width="0.1524" layer="91"/>
+<label x="-2.54" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_A10" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="A10"/>
+<wire x1="10.16" y1="96.52" x2="7.62" y2="96.52" width="0.1524" layer="91"/>
+<label x="-2.54" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L49P_3"/>
+<wire x1="-86.36" y1="160.02" x2="-83.82" y2="160.02" width="0.1524" layer="91"/>
+<label x="-83.82" y="160.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_BA1" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="BA1"/>
+<wire x1="10.16" y1="83.82" x2="7.62" y2="83.82" width="0.1524" layer="91"/>
+<label x="-2.54" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L44N_GCLK20_3"/>
+<wire x1="-86.36" y1="167.64" x2="-83.82" y2="167.64" width="0.1524" layer="91"/>
+<label x="-83.82" y="167.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_BA0" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="BA0"/>
+<wire x1="10.16" y1="86.36" x2="7.62" y2="86.36" width="0.1524" layer="91"/>
+<label x="-2.54" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L44P_GCLK21_3"/>
+<wire x1="-86.36" y1="165.1" x2="-83.82" y2="165.1" width="0.1524" layer="91"/>
+<label x="-83.82" y="165.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_CS" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="CS"/>
+<wire x1="10.16" y1="71.12" x2="7.62" y2="71.12" width="0.1524" layer="91"/>
+<label x="-2.54" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L43N_GCLK22_IRDY2_3"/>
+<wire x1="-86.36" y1="172.72" x2="-83.82" y2="172.72" width="0.1524" layer="91"/>
+<label x="-83.82" y="172.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_RAS" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="RAS"/>
+<wire x1="10.16" y1="63.5" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
+<label x="-2.54" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L43P_GCLK23_3"/>
+<wire x1="-86.36" y1="170.18" x2="-83.82" y2="170.18" width="0.1524" layer="91"/>
+<label x="-83.82" y="170.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_WE" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="WE"/>
+<wire x1="10.16" y1="68.58" x2="7.62" y2="68.58" width="0.1524" layer="91"/>
+<label x="-2.54" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L42P_GCLK25_TRDY2_3"/>
+<wire x1="-86.36" y1="175.26" x2="-83.82" y2="175.26" width="0.1524" layer="91"/>
+<label x="-83.82" y="175.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_CAS" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="CAS"/>
+<wire x1="10.16" y1="66.04" x2="7.62" y2="66.04" width="0.1524" layer="91"/>
+<label x="-2.54" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L42N_GCLK24_3"/>
+<wire x1="-86.36" y1="177.8" x2="-83.82" y2="177.8" width="0.1524" layer="91"/>
+<label x="-83.82" y="177.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_DQML" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="DQML"/>
+<wire x1="10.16" y1="78.74" x2="7.62" y2="78.74" width="0.1524" layer="91"/>
+<label x="-2.54" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L41N_GCLK26_3"/>
+<wire x1="-86.36" y1="182.88" x2="-83.82" y2="182.88" width="0.1524" layer="91"/>
+<label x="-83.82" y="182.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_DQ7" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="DQ7"/>
+<wire x1="35.56" y1="104.14" x2="38.1" y2="104.14" width="0.1524" layer="91"/>
+<label x="38.1" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L41P_GCLK27_3"/>
+<wire x1="-86.36" y1="180.34" x2="-83.82" y2="180.34" width="0.1524" layer="91"/>
+<label x="-83.82" y="180.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_DQ6" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="DQ6"/>
+<wire x1="35.56" y1="106.68" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
+<label x="38.1" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L37N_3"/>
+<wire x1="-86.36" y1="187.96" x2="-83.82" y2="187.96" width="0.1524" layer="91"/>
+<label x="-83.82" y="187.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_DQ5" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="DQ5"/>
+<wire x1="35.56" y1="109.22" x2="38.1" y2="109.22" width="0.1524" layer="91"/>
+<label x="38.1" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L37P_3"/>
+<wire x1="-86.36" y1="185.42" x2="-83.82" y2="185.42" width="0.1524" layer="91"/>
+<label x="-83.82" y="185.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_DQ4" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="DQ4"/>
+<wire x1="35.56" y1="111.76" x2="38.1" y2="111.76" width="0.1524" layer="91"/>
+<label x="38.1" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L36N_3"/>
+<wire x1="-86.36" y1="193.04" x2="-83.82" y2="193.04" width="0.1524" layer="91"/>
+<label x="-83.82" y="193.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_DQ3" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="DQ3"/>
+<wire x1="35.56" y1="114.3" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
+<label x="38.1" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L36P_3"/>
+<wire x1="-86.36" y1="190.5" x2="-83.82" y2="190.5" width="0.1524" layer="91"/>
+<label x="-83.82" y="190.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_DQ2" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="DQ2"/>
+<wire x1="35.56" y1="116.84" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
+<label x="38.1" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L02N_3"/>
+<wire x1="-86.36" y1="198.12" x2="-83.82" y2="198.12" width="0.1524" layer="91"/>
+<label x="-83.82" y="198.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_DQ1" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="DQ1"/>
+<wire x1="35.56" y1="119.38" x2="38.1" y2="119.38" width="0.1524" layer="91"/>
+<label x="38.1" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L02P_3"/>
+<wire x1="-86.36" y1="195.58" x2="-83.82" y2="195.58" width="0.1524" layer="91"/>
+<label x="-83.82" y="195.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDR_DQ0" class="0">
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="DQ0"/>
+<wire x1="35.56" y1="121.92" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
+<label x="38.1" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B3" pin="IO_L01N_VREF_3"/>
+<wire x1="-86.36" y1="203.2" x2="-83.82" y2="203.2" width="0.1524" layer="91"/>
+<label x="-83.82" y="203.2" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

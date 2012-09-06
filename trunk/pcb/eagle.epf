@@ -34,7 +34,7 @@ UsedLibrary="gator.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="0 0 943 1001"
+Loc="959 1 1902 1002"
 State=2
 Number=0
 
