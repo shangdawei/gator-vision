@@ -5520,7 +5520,6 @@ Dual Row, Vertical</description>
 <part name="R22" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="22"/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
-<part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="R23" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="R24" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="VCC2" library="supply1" deviceset="VCCIO" device=""/>
@@ -5546,6 +5545,7 @@ Dual Row, Vertical</description>
 <part name="SUPPLY27" library="supply2" deviceset="GND" device=""/>
 <part name="VCC10" library="supply1" deviceset="VCCIO" device=""/>
 <part name="X1" library="SparkFun-Connectors" deviceset="USB" device="-A-S"/>
+<part name="VCC11" library="supply1" deviceset="VCCIO" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5677,9 +5677,6 @@ Dual Row, Vertical</description>
 <instance part="R22" gate="G$1" x="50.8" y="398.78" rot="R180"/>
 <instance part="SUPPLY5" gate="GND" x="-7.62" y="137.16"/>
 <instance part="SUPPLY7" gate="GND" x="38.1" y="40.64"/>
-<instance part="+3V4" gate="G$1" x="38.1" y="81.28" smashed="yes">
-<attribute name="VALUE" x="41.656" y="76.708" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="R23" gate="G$1" x="-330.2" y="434.34" rot="R90"/>
 <instance part="R24" gate="G$1" x="-210.82" y="144.78"/>
 <instance part="VCC2" gate="G$1" x="-142.24" y="220.98"/>
@@ -5712,6 +5709,7 @@ Dual Row, Vertical</description>
 <instance part="SUPPLY27" gate="GND" x="-431.8" y="259.08"/>
 <instance part="VCC10" gate="G$1" x="-414.02" y="284.48"/>
 <instance part="X1" gate="G$1" x="66.04" y="393.7"/>
+<instance part="VCC11" gate="G$1" x="43.18" y="76.2"/>
 </instances>
 <busses>
 </busses>
@@ -6360,35 +6358,6 @@ Dual Row, Vertical</description>
 <pinref part="+3V14" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="SDRAM" gate="G$1" pin="VDD1"/>
-<pinref part="+3V4" gate="G$1" pin="+3V3"/>
-<wire x1="35.56" y1="78.74" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="SDRAM" gate="G$1" pin="VDD2"/>
-<wire x1="35.56" y1="76.2" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="76.2" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="SDRAM" gate="G$1" pin="VDD3"/>
-<wire x1="35.56" y1="73.66" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="73.66" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="SDRAM" gate="G$1" pin="VDDQ1"/>
-<wire x1="35.56" y1="71.12" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="71.12" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="SDRAM" gate="G$1" pin="VDDQ2"/>
-<wire x1="35.56" y1="68.58" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="68.58" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="SDRAM" gate="G$1" pin="VDDQ3"/>
-<wire x1="35.56" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="66.04" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="SDRAM" gate="G$1" pin="VDDQ4"/>
-<wire x1="35.56" y1="63.5" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="63.5" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
-<junction x="38.1" y="66.04"/>
-<junction x="38.1" y="68.58"/>
-<junction x="38.1" y="71.12"/>
-<junction x="38.1" y="73.66"/>
-<junction x="38.1" y="76.2"/>
-<junction x="38.1" y="78.74"/>
-</segment>
-<segment>
 <pinref part="R24" gate="G$1" pin="2"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 <wire x1="-205.74" y1="144.78" x2="-205.74" y2="149.86" width="0.1524" layer="91"/>
@@ -6795,6 +6764,35 @@ Dual Row, Vertical</description>
 <pinref part="VCC10" gate="G$1" pin="VCCIO"/>
 <wire x1="-416.56" y1="279.4" x2="-414.02" y2="279.4" width="0.1524" layer="91"/>
 <wire x1="-414.02" y1="279.4" x2="-414.02" y2="281.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SDRAM" gate="G$1" pin="VDD1"/>
+<wire x1="35.56" y1="78.74" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="SDRAM" gate="G$1" pin="VDD2"/>
+<wire x1="35.56" y1="76.2" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="76.2" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="SDRAM" gate="G$1" pin="VDD3"/>
+<wire x1="35.56" y1="73.66" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="73.66" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="SDRAM" gate="G$1" pin="VDDQ1"/>
+<wire x1="35.56" y1="71.12" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="71.12" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="SDRAM" gate="G$1" pin="VDDQ2"/>
+<wire x1="35.56" y1="68.58" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="68.58" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="SDRAM" gate="G$1" pin="VDDQ3"/>
+<wire x1="35.56" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="66.04" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="SDRAM" gate="G$1" pin="VDDQ4"/>
+<wire x1="35.56" y1="63.5" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="63.5" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
+<junction x="38.1" y="66.04"/>
+<junction x="38.1" y="68.58"/>
+<junction x="38.1" y="71.12"/>
+<junction x="38.1" y="73.66"/>
+<junction x="38.1" y="76.2"/>
+<pinref part="VCC11" gate="G$1" pin="VCCIO"/>
+<wire x1="38.1" y1="73.66" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TCK/SWCLK" class="0">
