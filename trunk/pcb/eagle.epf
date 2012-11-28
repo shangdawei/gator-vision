@@ -24,7 +24,6 @@ UsedLibrary="lbr/SparkFun-Passives.lbr"
 UsedLibrary="lbr/SparkFun-PowerIC.lbr"
 UsedLibrary="lbr/SparkFun-RF.lbr"
 UsedLibrary="lbr/SparkFun-Sensors.lbr"
-UsedLibrary="lbr/adafruit.lbr"
 UsedLibrary="lbr/ftdichip-3.lbr"
 UsedLibrary="lbr/hdmi.lbr"
 UsedLibrary="lbr/micro-intel.lbr"
@@ -34,8 +33,8 @@ UsedLibrary="gator.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="959 1 1902 1002"
-State=0
+Loc="0 0 943 1001"
+State=2
 Number=0
 
 [Desktop]

@@ -899,6 +899,31 @@ Used for STM32F417VGT6&lt;br&gt;</description>
 <rectangle x1="-10" y1="5.2925" x2="-9.2" y2="5.6675" layer="51" rot="R90"/>
 <rectangle x1="-10.8" y1="5.2925" x2="-10" y2="5.6675" layer="51" rot="R90"/>
 </package>
+<package name="USB-A-2H">
+<wire x1="0" y1="-6.5" x2="-17" y2="-6.5" width="0.127" layer="21"/>
+<pad name="VBUS1" x="-4.0272" y="3.55" drill="0.9144" rot="R270"/>
+<pad name="DM1" x="-4.0272" y="1.05" drill="0.9144" rot="R270"/>
+<pad name="DP1" x="-4.0272" y="-0.95" drill="0.9144" rot="R270"/>
+<pad name="GND1" x="-3.99" y="-3.45" drill="0.9144" rot="R270"/>
+<pad name="SH1" x="-6.7" y="-6.5" drill="2.3114" rot="R270"/>
+<pad name="SH4" x="-6.7" y="6.6" drill="2.3114" rot="R270"/>
+<text x="1.97" y="-5.07" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<wire x1="0" y1="6.6" x2="-17" y2="6.6" width="0.127" layer="21"/>
+<wire x1="-17" y1="-6.5" x2="-17" y2="6.6" width="0.127" layer="21"/>
+<wire x1="0" y1="-6.5" x2="0" y2="6.6" width="0.127" layer="21"/>
+<pad name="SH2" x="-1.02" y="-6.5" drill="2.3114" rot="R270"/>
+<pad name="SH3" x="-1.02" y="6.6" drill="2.3114" rot="R270"/>
+<wire x1="-16" y1="4.5" x2="-16" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-16" y1="-4.5" x2="-16" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-16" y1="4.5" x2="-10" y2="5.5" width="0.127" layer="21"/>
+<wire x1="-16" y1="1.5" x2="-10" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-16" y1="-1.5" x2="-10" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-16" y1="-4.5" x2="-10" y2="-5.5" width="0.127" layer="21"/>
+<pad name="GND2" x="-1.37" y="-3.45" drill="0.9144" rot="R270"/>
+<pad name="DP2" x="-1.37" y="-0.95" drill="0.9144" rot="R270"/>
+<pad name="DM2" x="-1.37" y="1.05" drill="0.9144" rot="R270"/>
+<pad name="VBUS2" x="-1.37" y="3.55" drill="0.9144" rot="R270"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DP83848C">
@@ -1206,6 +1231,25 @@ Used for STM32F417VGT6&lt;br&gt;</description>
 <pin name="A12" x="-12.7" y="10.16" length="short"/>
 <pin name="NC" x="-12.7" y="-35.56" length="short"/>
 </symbol>
+<symbol name="USB_A_2H">
+<wire x1="0" y1="17.78" x2="0" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="-15.24" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<pin name="SH1" x="2.54" y="-20.32" length="middle" rot="R90"/>
+<pin name="SH2" x="5.08" y="-20.32" length="middle" rot="R90"/>
+<pin name="SH3" x="7.62" y="-20.32" length="middle" rot="R90"/>
+<pin name="SH4" x="10.16" y="-20.32" length="middle" rot="R90"/>
+<pin name="GND2" x="-5.08" y="-5.08" length="middle"/>
+<pin name="DM2" x="-5.08" y="-2.54" length="middle"/>
+<pin name="DP2" x="-5.08" y="0" length="middle"/>
+<pin name="VBUS2" x="-5.08" y="2.54" length="middle"/>
+<pin name="GND1" x="-5.08" y="7.62" length="middle"/>
+<pin name="DM1" x="-5.08" y="10.16" length="middle"/>
+<pin name="DP1" x="-5.08" y="12.7" length="middle"/>
+<pin name="VBUS1" x="-5.08" y="15.24" length="middle"/>
+<text x="0" y="20.32" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="18.288" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DP83848C">
@@ -1485,6 +1529,32 @@ Used for STM32F417VGT6&lt;br&gt;</description>
 <connect gate="G$1" pin="VSSQ3" pad="46"/>
 <connect gate="G$1" pin="VSSQ4" pad="52"/>
 <connect gate="G$1" pin="WE" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB_A_2H">
+<gates>
+<gate name="USB_A_2H" symbol="USB_A_2H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="USB-A-2H">
+<connects>
+<connect gate="USB_A_2H" pin="DM1" pad="DM1"/>
+<connect gate="USB_A_2H" pin="DM2" pad="DM2"/>
+<connect gate="USB_A_2H" pin="DP1" pad="DP1"/>
+<connect gate="USB_A_2H" pin="DP2" pad="DP2"/>
+<connect gate="USB_A_2H" pin="GND1" pad="GND1"/>
+<connect gate="USB_A_2H" pin="GND2" pad="GND2"/>
+<connect gate="USB_A_2H" pin="SH1" pad="SH1"/>
+<connect gate="USB_A_2H" pin="SH2" pad="SH2"/>
+<connect gate="USB_A_2H" pin="SH3" pad="SH3"/>
+<connect gate="USB_A_2H" pin="SH4" pad="SH4"/>
+<connect gate="USB_A_2H" pin="VBUS1" pad="VBUS1"/>
+<connect gate="USB_A_2H" pin="VBUS2" pad="VBUS2"/>
 </connects>
 <technologies>
 <technology name=""/>
