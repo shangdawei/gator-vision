@@ -5546,6 +5546,11 @@ Dual Row, Vertical</description>
 <part name="VCC10" library="supply1" deviceset="VCCIO" device=""/>
 <part name="X1" library="SparkFun-Connectors" deviceset="USB" device="-A-S"/>
 <part name="VCC11" library="supply1" deviceset="VCCIO" device=""/>
+<part name="R29" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="50"/>
+<part name="R30" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="4K7"/>
+<part name="R31" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="4K7"/>
+<part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V16" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5710,6 +5715,11 @@ Dual Row, Vertical</description>
 <instance part="VCC10" gate="G$1" x="-414.02" y="284.48"/>
 <instance part="X1" gate="G$1" x="66.04" y="393.7"/>
 <instance part="VCC11" gate="G$1" x="43.18" y="76.2"/>
+<instance part="R29" gate="G$1" x="-132.08" y="203.2"/>
+<instance part="R30" gate="G$1" x="-213.36" y="175.26" rot="R90"/>
+<instance part="R31" gate="G$1" x="-205.74" y="175.26" rot="R90"/>
+<instance part="+3V4" gate="G$1" x="-205.74" y="185.42"/>
+<instance part="+3V16" gate="G$1" x="-5.08" y="175.26"/>
 </instances>
 <busses>
 </busses>
@@ -6370,6 +6380,34 @@ Dual Row, Vertical</description>
 <wire x1="-205.74" y1="350.52" x2="-205.74" y2="353.06" width="0.1524" layer="91"/>
 <wire x1="-210.82" y1="350.52" x2="-205.74" y2="350.52" width="0.1524" layer="91"/>
 <junction x="-205.74" y="350.52"/>
+</segment>
+<segment>
+<pinref part="R30" gate="G$1" pin="2"/>
+<pinref part="R31" gate="G$1" pin="2"/>
+<wire x1="-213.36" y1="180.34" x2="-205.74" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<wire x1="-205.74" y1="180.34" x2="-205.74" y2="182.88" width="0.1524" layer="91"/>
+<junction x="-205.74" y="180.34"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VDD@100"/>
+<pinref part="U$1" gate="G$1" pin="VDD@11"/>
+<wire x1="-10.16" y1="160.02" x2="-10.16" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="+3V16" gate="G$1" pin="+3V3"/>
+<wire x1="-10.16" y1="162.56" x2="-10.16" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="165.1" x2="-10.16" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="167.64" x2="-10.16" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="170.18" x2="-10.16" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="172.72" x2="-5.08" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VDD@19"/>
+<junction x="-10.16" y="170.18"/>
+<pinref part="U$1" gate="G$1" pin="VDD@28"/>
+<junction x="-10.16" y="167.64"/>
+<pinref part="U$1" gate="G$1" pin="VDD@50"/>
+<junction x="-10.16" y="165.1"/>
+<pinref part="U$1" gate="G$1" pin="VDD@75"/>
+<junction x="-10.16" y="162.56"/>
+<junction x="-10.16" y="172.72"/>
 </segment>
 </net>
 <net name="SD_D0" class="0">
@@ -7104,12 +7142,24 @@ Dual Row, Vertical</description>
 <wire x1="-144.78" y1="205.74" x2="-142.24" y2="205.74" width="0.1524" layer="91"/>
 <label x="-142.24" y="205.74" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$9" pin="PA3"/>
+<wire x1="-228.6" y1="172.72" x2="-226.06" y2="172.72" width="0.1524" layer="91"/>
+<label x="-226.06" y="172.72" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="INIT_B" class="0">
 <segment>
 <pinref part="FPGA" gate="B2" pin="IO_L65P_INIT_B_2"/>
 <wire x1="-144.78" y1="139.7" x2="-142.24" y2="139.7" width="0.1524" layer="91"/>
 <label x="-142.24" y="139.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$9" pin="PB1"/>
+<label x="-226.06" y="167.64" size="1.778" layer="95"/>
+<pinref part="R31" gate="G$1" pin="1"/>
+<wire x1="-228.6" y1="167.64" x2="-205.74" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-205.74" y1="167.64" x2="-205.74" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PROGRAM_B" class="0">
@@ -7118,12 +7168,11 @@ Dual Row, Vertical</description>
 <wire x1="-144.78" y1="137.16" x2="-142.24" y2="137.16" width="0.1524" layer="91"/>
 <label x="-142.24" y="137.16" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="CSO_B" class="0">
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L65N_CSO_B_2"/>
-<wire x1="-144.78" y1="142.24" x2="-142.24" y2="142.24" width="0.1524" layer="91"/>
-<label x="-142.24" y="142.24" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$9" pin="PB0"/>
+<label x="-226.06" y="170.18" size="1.778" layer="95"/>
+<pinref part="R30" gate="G$1" pin="1"/>
+<wire x1="-228.6" y1="170.18" x2="-213.36" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D8" class="0">
@@ -7716,14 +7765,14 @@ Dual Row, Vertical</description>
 </net>
 <net name="CFG_CLK" class="0">
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L01P_CCLK_2"/>
-<wire x1="-144.78" y1="200.66" x2="-142.24" y2="200.66" width="0.1524" layer="91"/>
-<label x="-142.24" y="200.66" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$7" pin="SPI1_SCK"/>
 <wire x1="-144.78" y1="119.38" x2="-142.24" y2="119.38" width="0.1524" layer="91"/>
 <label x="-142.24" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R29" gate="G$1" pin="2"/>
+<wire x1="-127" y1="203.2" x2="-124.46" y2="203.2" width="0.1524" layer="91"/>
+<label x="-129.54" y="203.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDR_A4" class="0">
@@ -8342,6 +8391,22 @@ Dual Row, Vertical</description>
 <pinref part="FPGA" gate="BNA" pin="TDI"/>
 <wire x1="-416.56" y1="269.24" x2="-391.16" y2="269.24" width="0.1524" layer="91"/>
 <label x="-416.56" y="269.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VSYNC" class="0">
+<segment>
+<pinref part="FPGA" gate="B2" pin="IO_L03N_MOSI_CSI_B_MISO0_2"/>
+<wire x1="-144.78" y1="193.04" x2="-142.24" y2="193.04" width="0.1524" layer="91"/>
+<label x="-142.24" y="193.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="FPGA" gate="B2" pin="IO_L01P_CCLK_2"/>
+<wire x1="-144.78" y1="200.66" x2="-139.7" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="200.66" x2="-139.7" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="R29" gate="G$1" pin="1"/>
+<wire x1="-139.7" y1="203.2" x2="-137.16" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
