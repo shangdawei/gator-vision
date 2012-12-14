@@ -7169,10 +7169,11 @@ Dual Row, Vertical</description>
 <label x="-142.24" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$9" pin="PB0"/>
-<label x="-226.06" y="170.18" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$9" pin="PB15"/>
+<label x="-226.06" y="157.48" size="1.778" layer="95"/>
 <pinref part="R30" gate="G$1" pin="1"/>
-<wire x1="-228.6" y1="170.18" x2="-213.36" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="-228.6" y1="157.48" x2="-213.36" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="-213.36" y1="157.48" x2="-213.36" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D8" class="0">
@@ -8398,6 +8399,11 @@ Dual Row, Vertical</description>
 <pinref part="FPGA" gate="B2" pin="IO_L03N_MOSI_CSI_B_MISO0_2"/>
 <wire x1="-144.78" y1="193.04" x2="-142.24" y2="193.04" width="0.1524" layer="91"/>
 <label x="-142.24" y="193.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$9" pin="PB0"/>
+<wire x1="-228.6" y1="170.18" x2="-226.06" y2="170.18" width="0.1524" layer="91"/>
+<label x="-226.06" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$33" class="0">
