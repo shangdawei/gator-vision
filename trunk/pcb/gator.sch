@@ -6845,7 +6845,7 @@ Dual Row, Vertical</description>
 <label x="-340.36" y="266.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="RD+" class="0">
 <segment>
 <pinref part="ETH_PHY" gate="G$1" pin="RD+"/>
 <wire x1="-114.3" y1="271.78" x2="-73.66" y2="271.78" width="0.1524" layer="91"/>
@@ -6857,7 +6857,7 @@ Dual Row, Vertical</description>
 <junction x="-73.66" y="274.32"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="RD-" class="0">
 <segment>
 <pinref part="ETH_PHY" gate="G$1" pin="RD-"/>
 <pinref part="RJ45" gate="G$1" pin="RD-"/>
@@ -6868,7 +6868,7 @@ Dual Row, Vertical</description>
 <junction x="-81.28" y="269.24"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="TD+" class="0">
 <segment>
 <pinref part="ETH_PHY" gate="G$1" pin="TD+"/>
 <wire x1="-114.3" y1="279.4" x2="-88.9" y2="279.4" width="0.1524" layer="91"/>
@@ -6881,7 +6881,7 @@ Dual Row, Vertical</description>
 <junction x="-88.9" y="279.4"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="TD-" class="0">
 <segment>
 <pinref part="ETH_PHY" gate="G$1" pin="TD-"/>
 <wire x1="-114.3" y1="276.86" x2="-96.52" y2="276.86" width="0.1524" layer="91"/>
