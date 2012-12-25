@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5439,7 +5439,7 @@ Dual Row, Vertical</description>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="2.2u"/>
 <part name="P+4" library="supply1" deviceset="V+" device=""/>
-<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="PTH" value="REVPROT"/>
+<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="PTH" value="RPROT"/>
 <part name="MIC5219-3.3YM5_1" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD"/>
 <part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="470p"/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
