@@ -5484,7 +5484,6 @@ Dual Row, Vertical</description>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="C21" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10u"/>
 <part name="C22" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="100n"/>
-<part name="C23" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="100n"/>
 <part name="R16" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="4K87"/>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="GND" device=""/>
@@ -5640,10 +5639,9 @@ Dual Row, Vertical</description>
 <instance part="+3V10" gate="G$1" x="-5.08" y="274.32"/>
 <instance part="C21" gate="G$1" x="-101.6" y="309.88"/>
 <instance part="C22" gate="G$1" x="-93.98" y="309.88"/>
-<instance part="C23" gate="G$1" x="-86.36" y="309.88"/>
 <instance part="R16" gate="G$1" x="-104.14" y="292.1" rot="R90"/>
 <instance part="SUPPLY16" gate="GND" x="-104.14" y="284.48"/>
-<instance part="SUPPLY17" gate="GND" x="-86.36" y="304.8"/>
+<instance part="SUPPLY17" gate="GND" x="-93.98" y="304.8"/>
 <instance part="+3V11" gate="G$1" x="-106.68" y="302.26"/>
 <instance part="+3V12" gate="G$1" x="-147.32" y="325.12"/>
 <instance part="SUPPLY19" gate="GND" x="-193.04" y="274.32"/>
@@ -6022,14 +6020,11 @@ Dual Row, Vertical</description>
 <pinref part="SUPPLY16" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C23" gate="G$1" pin="2"/>
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
 <pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="-86.36" y1="307.34" x2="-93.98" y2="307.34" width="0.1524" layer="91"/>
 <pinref part="C22" gate="G$1" pin="2"/>
 <junction x="-93.98" y="307.34"/>
 <wire x1="-93.98" y1="307.34" x2="-101.6" y2="307.34" width="0.1524" layer="91"/>
-<junction x="-86.36" y="307.34"/>
 </segment>
 <segment>
 <pinref part="SUPPLY19" gate="GND" pin="GND"/>
@@ -6951,18 +6946,15 @@ Dual Row, Vertical</description>
 <pinref part="ETH_PHY" gate="G$1" pin="PFBOUT"/>
 <wire x1="-114.3" y1="294.64" x2="-111.76" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="-111.76" y1="294.64" x2="-111.76" y2="314.96" width="0.1524" layer="91"/>
-<pinref part="C23" gate="G$1" pin="1"/>
 <wire x1="-111.76" y1="314.96" x2="-101.6" y2="314.96" width="0.1524" layer="91"/>
 <pinref part="ETH_PHY" gate="G$1" pin="PFBIN1"/>
 <wire x1="-101.6" y1="314.96" x2="-93.98" y2="314.96" width="0.1524" layer="91"/>
-<wire x1="-93.98" y1="314.96" x2="-86.36" y2="314.96" width="0.1524" layer="91"/>
 <wire x1="-114.3" y1="281.94" x2="-111.76" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="-111.76" y1="281.94" x2="-111.76" y2="294.64" width="0.1524" layer="91"/>
 <junction x="-111.76" y="294.64"/>
 <pinref part="C21" gate="G$1" pin="1"/>
 <junction x="-101.6" y="314.96"/>
 <pinref part="C22" gate="G$1" pin="1"/>
-<junction x="-93.98" y="314.96"/>
 <label x="-109.22" y="314.96" size="1.778" layer="95"/>
 </segment>
 <segment>
