@@ -6670,9 +6670,9 @@ Dual Row, Vertical</description>
 <wire x1="-15.24" y1="381" x2="10.16" y2="381" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$9" pin="PC6"/>
-<wire x1="-228.6" y1="147.32" x2="-226.06" y2="147.32" width="0.1524" layer="91"/>
-<label x="-228.6" y="147.32" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$5" pin="USB_EN_ID"/>
+<wire x1="27.94" y1="406.4" x2="30.48" y2="406.4" width="0.1524" layer="91"/>
+<label x="30.48" y="406.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCCINT" class="0">
@@ -8578,6 +8578,20 @@ Dual Row, Vertical</description>
 <pinref part="FPGA" gate="B0" pin="IO_L66P_SCP1_0"/>
 <wire x1="-236.22" y1="30.48" x2="-233.68" y2="30.48" width="0.1524" layer="91"/>
 <label x="-233.68" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LED_RIGHT" class="0">
+<segment>
+<pinref part="U$1" gate="G$9" pin="PC6"/>
+<wire x1="-228.6" y1="147.32" x2="-226.06" y2="147.32" width="0.1524" layer="91"/>
+<label x="-228.6" y="147.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LED_LEFT" class="0">
+<segment>
+<pinref part="FPGA" gate="B1" pin="IO_L33P_1"/>
+<wire x1="-269.24" y1="187.96" x2="-266.7" y2="187.96" width="0.1524" layer="91"/>
+<label x="-266.7" y="187.96" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
