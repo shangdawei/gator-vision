@@ -3808,25 +3808,25 @@ Used for STM32F417VGT6&lt;br&gt;</description>
 <symbol name="STM32F417_PWR">
 <wire x1="0" y1="50.8" x2="5.08" y2="50.8" width="0.254" layer="94"/>
 <wire x1="5.08" y1="50.8" x2="5.08" y2="0" width="0.254" layer="94"/>
-<pin name="VBAT" x="10.16" y="40.64" length="middle" direction="pwr" rot="R180"/>
-<pin name="VSS@10" x="10.16" y="10.16" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD@11" x="10.16" y="35.56" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD@19" x="10.16" y="33.02" length="middle" direction="pwr" rot="R180"/>
-<pin name="VSSA" x="10.16" y="12.7" length="middle" direction="pwr" rot="R180"/>
-<pin name="VREFP" x="10.16" y="15.24" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDDA" x="10.16" y="38.1" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD@28" x="10.16" y="30.48" length="middle" direction="pwr" rot="R180"/>
-<pin name="VSS@27" x="10.16" y="7.62" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD@50" x="10.16" y="27.94" length="middle" direction="pwr" rot="R180"/>
-<pin name="VCAP_1" x="10.16" y="17.78" length="middle" direction="pwr" rot="R180"/>
-<pin name="VCAP_2" x="10.16" y="20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="VBAT" x="10.16" y="40.64" length="middle" rot="R180"/>
+<pin name="VSS@10" x="10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="VDD@11" x="10.16" y="35.56" length="middle" rot="R180"/>
+<pin name="VDD@19" x="10.16" y="33.02" length="middle" rot="R180"/>
+<pin name="VSSA" x="10.16" y="12.7" length="middle" rot="R180"/>
+<pin name="VREFP" x="10.16" y="15.24" length="middle" rot="R180"/>
+<pin name="VDDA" x="10.16" y="38.1" length="middle" rot="R180"/>
+<pin name="VDD@28" x="10.16" y="30.48" length="middle" rot="R180"/>
+<pin name="VSS@27" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="VDD@50" x="10.16" y="27.94" length="middle" rot="R180"/>
+<pin name="VCAP_1" x="10.16" y="17.78" length="middle" rot="R180"/>
+<pin name="VCAP_2" x="10.16" y="20.32" length="middle" rot="R180"/>
 <wire x1="5.08" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
 <text x="-7.62" y="51.308" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="VDD@75" x="10.16" y="25.4" length="middle" direction="pwr" rot="R180"/>
-<pin name="VSS@74" x="10.16" y="5.08" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD@100" x="10.16" y="22.86" length="middle" direction="pwr" rot="R180"/>
-<pin name="VSS@99" x="10.16" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD@75" x="10.16" y="25.4" length="middle" rot="R180"/>
+<pin name="VSS@74" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="VDD@100" x="10.16" y="22.86" length="middle" rot="R180"/>
+<pin name="VSS@99" x="10.16" y="2.54" length="middle" rot="R180"/>
 <pin name="WKUP" x="10.16" y="48.26" length="middle" rot="R180"/>
 <pin name="BOOT0" x="10.16" y="45.72" length="middle" rot="R180"/>
 <pin name="BOOT1" x="10.16" y="43.18" length="middle" rot="R180"/>
@@ -11243,9 +11243,9 @@ Source: www.kingbright.com</description>
 <part name="RJ45" library="SparkFun-Connectors" deviceset="MAGJACK-2" device=""/>
 <part name="MICROSD" library="SparkFun-Connectors" deviceset="USD-SOCKET" device="NEW"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH"/>
-<part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH"/>
+<part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH" value="0"/>
 <part name="ETH_PHY" library="gator" deviceset="DP83848C" device=""/>
-<part name="JTAG" library="con-ml" deviceset="ML20" device=""/>
+<part name="JTAG" library="con-ml" deviceset="ML20" device="" value="HEADER"/>
 <part name="FPGA" library="xilinx_devices" deviceset="6SLX9TQG144" device=""/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
@@ -11288,7 +11288,7 @@ Source: www.kingbright.com</description>
 <part name="P+6" library="supply1" deviceset="V+" device=""/>
 <part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="VCC3" library="supply1" deviceset="VCCIO" device=""/>
-<part name="NCP565ST12T3G" library="microbuilder" deviceset="LM1117" device="SOT223-REFLOW"/>
+<part name="NCP565ST12T3G" library="microbuilder" deviceset="LM1117" device="SOT223-REFLOW" value="1.2V"/>
 <part name="C15" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="100n"/>
 <part name="P+7" library="supply1" deviceset="V+" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
@@ -11387,8 +11387,8 @@ Source: www.kingbright.com</description>
 <part name="R33" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="22"/>
 <part name="R34" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="R35" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
-<part name="LED_L_EYE" library="led" deviceset="LED" device="3MM"/>
-<part name="LED_R_EYE" library="led" deviceset="LED" device="3MM"/>
+<part name="LED_L_EYE" library="led" deviceset="LED" device="3MM" value="GRN"/>
+<part name="LED_R_EYE" library="led" deviceset="LED" device="3MM" value="GRN"/>
 <part name="R36" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="120"/>
 <part name="SUPPLY29" library="supply2" deviceset="GND" device=""/>
 <part name="R37" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="120"/>
@@ -12923,13 +12923,6 @@ Source: www.kingbright.com</description>
 <wire x1="-185.42" y1="297.18" x2="-185.42" y2="302.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RMII_REF_CLK" class="0">
-<segment>
-<pinref part="ETH_PHY" gate="G$1" pin="25MHZ_OUT"/>
-<wire x1="-175.26" y1="269.24" x2="-177.8" y2="269.24" width="0.1524" layer="91"/>
-<label x="-190.5" y="266.7" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="MII_RX_ER" class="0">
 <segment>
 <pinref part="U$1" gate="G$3" pin="MII_RX_ER"/>
@@ -13397,6 +13390,11 @@ Source: www.kingbright.com</description>
 <pinref part="U$1" gate="G$2" pin="CLK"/>
 <wire x1="-43.18" y1="210.82" x2="-40.64" y2="210.82" width="0.1524" layer="91"/>
 <label x="-40.64" y="210.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B2" pin="IO_L02P_CMPCLK_2"/>
+<wire x1="-144.78" y1="195.58" x2="-142.24" y2="195.58" width="0.1524" layer="91"/>
+<label x="-142.24" y="195.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="NBL0" class="0">
@@ -14333,13 +14331,6 @@ Source: www.kingbright.com</description>
 <pinref part="FPGA" gate="B0" pin="IO_L65N_SCP2_0"/>
 <wire x1="-236.22" y1="38.1" x2="-233.68" y2="38.1" width="0.1524" layer="91"/>
 <label x="-233.68" y="38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DDC_EN" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="EN"/>
-<wire x1="-86.36" y1="-2.54" x2="-83.82" y2="-2.54" width="0.1524" layer="91"/>
-<label x="-83.82" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$9" class="0">
