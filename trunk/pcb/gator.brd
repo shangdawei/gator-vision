@@ -128,7 +128,7 @@
 <hole x="99.06" y="2.54" drill="2.8"/>
 <text x="51.435" y="3.81" size="1.778" layer="16" font="vector" ratio="17" rot="MR0">Jeff Theusch
 Rev A, Jan 2013</text>
-<text x="39.37" y="26.67" size="1.4224" layer="1" font="vector" ratio="15">{Gator Vision}</text>
+<text x="39.37" y="26.67" size="1.4224" layer="1" font="vector" ratio="20">{Gator Vision}</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -287,54 +287,54 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="3.4" y1="3.1" x2="3.1" y2="3.4" width="0.2032" layer="21"/>
 <circle x="-4.3" y="3.704" radius="0.15" width="0.4064" layer="21"/>
 <circle x="-2.4" y="2.35" radius="0.2" width="0.4" layer="21"/>
-<smd name="1" x="-4.3" y="2.75" dx="1.5" dy="0.25" layer="1"/>
-<smd name="2" x="-4.3" y="2.25" dx="1.5" dy="0.25" layer="1"/>
-<smd name="3" x="-4.3" y="1.75" dx="1.5" dy="0.25" layer="1"/>
-<smd name="4" x="-4.3" y="1.25" dx="1.5" dy="0.25" layer="1"/>
-<smd name="5" x="-4.3" y="0.75" dx="1.5" dy="0.25" layer="1"/>
-<smd name="6" x="-4.3" y="0.25" dx="1.5" dy="0.25" layer="1"/>
-<smd name="7" x="-4.3" y="-0.25" dx="1.5" dy="0.25" layer="1"/>
-<smd name="8" x="-4.3" y="-0.75" dx="1.5" dy="0.25" layer="1"/>
-<smd name="9" x="-4.3" y="-1.25" dx="1.5" dy="0.25" layer="1"/>
-<smd name="10" x="-4.3" y="-1.75" dx="1.5" dy="0.25" layer="1"/>
-<smd name="11" x="-4.3" y="-2.25" dx="1.5" dy="0.25" layer="1"/>
-<smd name="12" x="-4.3" y="-2.75" dx="1.5" dy="0.25" layer="1"/>
-<smd name="13" x="-2.75" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="14" x="-2.25" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="15" x="-1.75" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="16" x="-1.25" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="17" x="-0.75" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="18" x="-0.25" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="19" x="0.25" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="20" x="0.75" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="21" x="1.25" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="22" x="1.75" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="23" x="2.25" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="24" x="2.75" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="25" x="4.3" y="-2.75" dx="1.5" dy="0.25" layer="1"/>
-<smd name="26" x="4.3" y="-2.25" dx="1.5" dy="0.25" layer="1"/>
-<smd name="27" x="4.3" y="-1.75" dx="1.5" dy="0.25" layer="1"/>
-<smd name="28" x="4.3" y="-1.25" dx="1.5" dy="0.25" layer="1"/>
-<smd name="29" x="4.3" y="-0.75" dx="1.5" dy="0.25" layer="1"/>
-<smd name="30" x="4.3" y="-0.25" dx="1.5" dy="0.25" layer="1"/>
-<smd name="31" x="4.3" y="0.25" dx="1.5" dy="0.25" layer="1"/>
-<smd name="32" x="4.3" y="0.75" dx="1.5" dy="0.25" layer="1"/>
-<smd name="33" x="4.3" y="1.25" dx="1.5" dy="0.25" layer="1"/>
-<smd name="34" x="4.3" y="1.75" dx="1.5" dy="0.25" layer="1"/>
-<smd name="35" x="4.3" y="2.25" dx="1.5" dy="0.25" layer="1"/>
-<smd name="36" x="4.3" y="2.75" dx="1.5" dy="0.25" layer="1"/>
-<smd name="37" x="2.75" y="4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="38" x="2.25" y="4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="39" x="1.75" y="4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="40" x="1.25" y="4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="41" x="0.75" y="4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="42" x="0.25" y="4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="43" x="-0.25" y="4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="44" x="-0.75" y="4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="45" x="-1.25" y="4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="46" x="-1.75" y="4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="47" x="-2.25" y="4.3" dx="0.25" dy="1.5" layer="1"/>
-<smd name="48" x="-2.75" y="4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="1" x="-4.3" y="2.75" dx="1.5" dy="0.254" layer="1"/>
+<smd name="2" x="-4.3" y="2.25" dx="1.5" dy="0.254" layer="1"/>
+<smd name="3" x="-4.3" y="1.75" dx="1.5" dy="0.254" layer="1"/>
+<smd name="4" x="-4.3" y="1.25" dx="1.5" dy="0.254" layer="1"/>
+<smd name="5" x="-4.3" y="0.75" dx="1.5" dy="0.254" layer="1"/>
+<smd name="6" x="-4.3" y="0.25" dx="1.5" dy="0.254" layer="1"/>
+<smd name="7" x="-4.3" y="-0.25" dx="1.5" dy="0.254" layer="1"/>
+<smd name="8" x="-4.3" y="-0.75" dx="1.5" dy="0.254" layer="1"/>
+<smd name="9" x="-4.3" y="-1.25" dx="1.5" dy="0.254" layer="1"/>
+<smd name="10" x="-4.3" y="-1.75" dx="1.5" dy="0.254" layer="1"/>
+<smd name="11" x="-4.3" y="-2.25" dx="1.5" dy="0.254" layer="1"/>
+<smd name="12" x="-4.3" y="-2.75" dx="1.5" dy="0.254" layer="1"/>
+<smd name="13" x="-2.75" y="-4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="14" x="-2.25" y="-4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="15" x="-1.75" y="-4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="16" x="-1.25" y="-4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="17" x="-0.75" y="-4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="18" x="-0.25" y="-4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="19" x="0.25" y="-4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="20" x="0.75" y="-4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="21" x="1.25" y="-4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="22" x="1.75" y="-4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="23" x="2.25" y="-4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="24" x="2.75" y="-4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="25" x="4.3" y="-2.75" dx="1.5" dy="0.254" layer="1"/>
+<smd name="26" x="4.3" y="-2.25" dx="1.5" dy="0.254" layer="1"/>
+<smd name="27" x="4.3" y="-1.75" dx="1.5" dy="0.254" layer="1"/>
+<smd name="28" x="4.3" y="-1.25" dx="1.5" dy="0.254" layer="1"/>
+<smd name="29" x="4.3" y="-0.75" dx="1.5" dy="0.254" layer="1"/>
+<smd name="30" x="4.3" y="-0.25" dx="1.5" dy="0.254" layer="1"/>
+<smd name="31" x="4.3" y="0.25" dx="1.5" dy="0.254" layer="1"/>
+<smd name="32" x="4.3" y="0.75" dx="1.5" dy="0.254" layer="1"/>
+<smd name="33" x="4.3" y="1.25" dx="1.5" dy="0.254" layer="1"/>
+<smd name="34" x="4.3" y="1.75" dx="1.5" dy="0.254" layer="1"/>
+<smd name="35" x="4.3" y="2.25" dx="1.5" dy="0.254" layer="1"/>
+<smd name="36" x="4.3" y="2.75" dx="1.5" dy="0.254" layer="1"/>
+<smd name="37" x="2.75" y="4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="38" x="2.25" y="4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="39" x="1.75" y="4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="40" x="1.25" y="4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="41" x="0.75" y="4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="42" x="0.25" y="4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="43" x="-0.25" y="4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="44" x="-0.75" y="4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="45" x="-1.25" y="4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="46" x="-1.75" y="4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="47" x="-2.25" y="4.3" dx="0.254" dy="1.5" layer="1"/>
+<smd name="48" x="-2.75" y="4.3" dx="0.254" dy="1.5" layer="1"/>
 <text x="-2.974" y="5.3001" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-2.9261" y="-5.9379" size="0.4064" layer="27">&gt;VALUE</text>
 <rectangle x1="-4.4999" y1="2.5999" x2="-3.4501" y2="2.9001" layer="51"/>
@@ -1596,7 +1596,7 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="SparkFun *">
+<designrules name="gator">
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 The default Design Rules have been set to cover
@@ -1619,9 +1619,9 @@ design rules under a new name.</description>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="10mil"/>
-<param name="mdDrill" value="8mil"/>
+<param name="mdDrill" value="10mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="8mil"/>
+<param name="msWidth" value="10mil"/>
 <param name="msDrill" value="20mil"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
