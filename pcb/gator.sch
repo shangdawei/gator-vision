@@ -11773,7 +11773,7 @@ Source: www.kingbright.com</description>
 <part name="RJ45" library="SparkFun-Connectors" deviceset="MAGJACK-2" device=""/>
 <part name="MICROSD" library="SparkFun-Connectors" deviceset="USD-SOCKET" device="NEW"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH"/>
-<part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH" value="0"/>
+<part name="RESET" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH" value="0"/>
 <part name="ETH_PHY" library="gator" deviceset="DP83848C" device=""/>
 <part name="JTAG" library="con-ml" deviceset="ML20" device="" value="HEADER"/>
 <part name="FPGA" library="xilinx_devices" deviceset="6SLX9TQG144" device=""/>
@@ -11825,7 +11825,7 @@ Source: www.kingbright.com</description>
 <part name="C16" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10u"/>
 <part name="C17" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="100n"/>
 <part name="VCC4" library="supply1" deviceset="VCCINT" device=""/>
-<part name="U$1" library="gator" deviceset="STM32F417VGT6" device=""/>
+<part name="MCU" library="gator" deviceset="STM32F417VGT6" device=""/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="51"/>
@@ -11959,7 +11959,7 @@ to minimize hotplug ripple</text>
 <instance part="RJ45" gate="G$1" x="-40.64" y="274.32"/>
 <instance part="MICROSD" gate="G$1" x="-337.82" y="320.04"/>
 <instance part="J2" gate="G$1" x="-350.52" y="388.62"/>
-<instance part="S1" gate="S" x="-279.4" y="271.78"/>
+<instance part="RESET" gate="S" x="-279.4" y="271.78"/>
 <instance part="ETH_PHY" gate="G$1" x="-144.78" y="284.48"/>
 <instance part="JTAG" gate="1" x="-350.52" y="269.24"/>
 <instance part="FPGA" gate="B0" x="-241.3" y="66.04"/>
@@ -12011,15 +12011,15 @@ to minimize hotplug ripple</text>
 <instance part="C16" gate="G$1" x="12.7" y="431.8"/>
 <instance part="C17" gate="G$1" x="22.86" y="431.8"/>
 <instance part="VCC4" gate="G$1" x="22.86" y="444.5"/>
-<instance part="U$1" gate="G$1" x="-20.32" y="137.16"/>
-<instance part="U$1" gate="G$2" x="-53.34" y="139.7"/>
-<instance part="U$1" gate="G$3" x="-238.76" y="307.34"/>
-<instance part="U$1" gate="G$4" x="-353.06" y="342.9"/>
-<instance part="U$1" gate="G$5" x="17.78" y="396.24"/>
-<instance part="U$1" gate="G$6" x="-353.06" y="226.06"/>
-<instance part="U$1" gate="G$7" x="-154.94" y="111.76"/>
-<instance part="U$1" gate="G$8" x="-314.96" y="96.52"/>
-<instance part="U$1" gate="G$9" x="-238.76" y="139.7"/>
+<instance part="MCU" gate="G$1" x="-20.32" y="137.16"/>
+<instance part="MCU" gate="G$2" x="-53.34" y="139.7"/>
+<instance part="MCU" gate="G$3" x="-238.76" y="307.34"/>
+<instance part="MCU" gate="G$4" x="-353.06" y="342.9"/>
+<instance part="MCU" gate="G$5" x="17.78" y="396.24"/>
+<instance part="MCU" gate="G$6" x="-353.06" y="226.06"/>
+<instance part="MCU" gate="G$7" x="-154.94" y="111.76"/>
+<instance part="MCU" gate="G$8" x="-314.96" y="96.52"/>
+<instance part="MCU" gate="G$9" x="-238.76" y="139.7"/>
 <instance part="SUPPLY13" gate="GND" x="-60.96" y="256.54"/>
 <instance part="+3V7" gate="G$1" x="-60.96" y="304.8"/>
 <instance part="R5" gate="G$1" x="-96.52" y="292.1" rot="R90"/>
@@ -12165,7 +12165,7 @@ to minimize hotplug ripple</text>
 <label x="-340.36" y="259.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$6" pin="TRST"/>
+<pinref part="MCU" gate="G$6" pin="TRST"/>
 <wire x1="-342.9" y1="231.14" x2="-340.36" y2="231.14" width="0.1524" layer="91"/>
 <label x="-340.36" y="231.14" size="1.778" layer="95"/>
 </segment>
@@ -12177,7 +12177,7 @@ to minimize hotplug ripple</text>
 <label x="-340.36" y="261.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$6" pin="TDI"/>
+<pinref part="MCU" gate="G$6" pin="TDI"/>
 <wire x1="-342.9" y1="233.68" x2="-340.36" y2="233.68" width="0.1524" layer="91"/>
 <label x="-340.36" y="233.68" size="1.778" layer="95"/>
 </segment>
@@ -12189,7 +12189,7 @@ to minimize hotplug ripple</text>
 <label x="-340.36" y="264.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$6" pin="TMS/SWDIO"/>
+<pinref part="MCU" gate="G$6" pin="TMS/SWDIO"/>
 <wire x1="-342.9" y1="241.3" x2="-340.36" y2="241.3" width="0.1524" layer="91"/>
 <label x="-340.36" y="241.3" size="1.778" layer="95"/>
 </segment>
@@ -12209,7 +12209,7 @@ to minimize hotplug ripple</text>
 <label x="-340.36" y="271.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$6" pin="TDO/SWO"/>
+<pinref part="MCU" gate="G$6" pin="TDO/SWO"/>
 <wire x1="-342.9" y1="236.22" x2="-340.36" y2="236.22" width="0.1524" layer="91"/>
 <label x="-340.36" y="236.22" size="1.778" layer="95"/>
 </segment>
@@ -12222,19 +12222,19 @@ to minimize hotplug ripple</text>
 </segment>
 <segment>
 <wire x1="-243.84" y1="271.78" x2="-271.78" y2="271.78" width="0.1524" layer="91"/>
-<pinref part="S1" gate="S" pin="3"/>
+<pinref part="RESET" gate="S" pin="3"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="-274.32" y1="271.78" x2="-271.78" y2="271.78" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="-271.78" y1="271.78" x2="-271.78" y2="269.24" width="0.1524" layer="91"/>
-<pinref part="S1" gate="S" pin="4"/>
+<pinref part="RESET" gate="S" pin="4"/>
 <wire x1="-271.78" y1="269.24" x2="-274.32" y2="269.24" width="0.1524" layer="91"/>
 <junction x="-271.78" y="269.24"/>
 <junction x="-271.78" y="271.78"/>
 <label x="-259.08" y="271.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$6" pin="NRST"/>
+<pinref part="MCU" gate="G$6" pin="NRST"/>
 <wire x1="-342.9" y1="228.6" x2="-340.36" y2="228.6" width="0.1524" layer="91"/>
 <label x="-340.36" y="228.6" size="1.778" layer="95"/>
 </segment>
@@ -12314,14 +12314,14 @@ to minimize hotplug ripple</text>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="S1" gate="S" pin="1"/>
+<pinref part="RESET" gate="S" pin="1"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="-284.48" y1="271.78" x2="-284.48" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="-284.48" y1="269.24" x2="-284.48" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="-284.48" y1="261.62" x2="-271.78" y2="261.62" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 <wire x1="-271.78" y1="261.62" x2="-271.78" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="S1" gate="S" pin="2"/>
+<pinref part="RESET" gate="S" pin="2"/>
 <junction x="-284.48" y="269.24"/>
 <junction x="-271.78" y="261.62"/>
 </segment>
@@ -12654,18 +12654,18 @@ to minimize hotplug ripple</text>
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
-<pinref part="U$1" gate="G$1" pin="VSS@99"/>
+<pinref part="MCU" gate="G$1" pin="VSS@99"/>
 <wire x1="-7.62" y1="139.7" x2="-10.16" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VSS@74"/>
+<pinref part="MCU" gate="G$1" pin="VSS@74"/>
 <wire x1="-7.62" y1="139.7" x2="-7.62" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="142.24" x2="-7.62" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VSS@27"/>
+<pinref part="MCU" gate="G$1" pin="VSS@27"/>
 <wire x1="-7.62" y1="142.24" x2="-7.62" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="144.78" x2="-7.62" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VSS@10"/>
+<pinref part="MCU" gate="G$1" pin="VSS@10"/>
 <wire x1="-7.62" y1="144.78" x2="-7.62" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="147.32" x2="-7.62" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VSSA"/>
+<pinref part="MCU" gate="G$1" pin="VSSA"/>
 <wire x1="-7.62" y1="147.32" x2="-7.62" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="149.86" x2="-10.16" y2="149.86" width="0.1524" layer="91"/>
 <junction x="-7.62" y="147.32"/>
@@ -12923,8 +12923,8 @@ to minimize hotplug ripple</text>
 <junction x="-205.74" y="180.34"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VDD@100"/>
-<pinref part="U$1" gate="G$1" pin="VDD@11"/>
+<pinref part="MCU" gate="G$1" pin="VDD@100"/>
+<pinref part="MCU" gate="G$1" pin="VDD@11"/>
 <wire x1="-10.16" y1="160.02" x2="-10.16" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="+3V16" gate="G$1" pin="+3V3"/>
 <wire x1="-10.16" y1="162.56" x2="-10.16" y2="165.1" width="0.1524" layer="91"/>
@@ -12932,13 +12932,13 @@ to minimize hotplug ripple</text>
 <wire x1="-10.16" y1="167.64" x2="-10.16" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="170.18" x2="-10.16" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="172.72" x2="-5.08" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VDD@19"/>
+<pinref part="MCU" gate="G$1" pin="VDD@19"/>
 <junction x="-10.16" y="170.18"/>
-<pinref part="U$1" gate="G$1" pin="VDD@28"/>
+<pinref part="MCU" gate="G$1" pin="VDD@28"/>
 <junction x="-10.16" y="167.64"/>
-<pinref part="U$1" gate="G$1" pin="VDD@50"/>
+<pinref part="MCU" gate="G$1" pin="VDD@50"/>
 <junction x="-10.16" y="165.1"/>
-<pinref part="U$1" gate="G$1" pin="VDD@75"/>
+<pinref part="MCU" gate="G$1" pin="VDD@75"/>
 <junction x="-10.16" y="162.56"/>
 <junction x="-10.16" y="172.72"/>
 </segment>
@@ -12950,7 +12950,7 @@ to minimize hotplug ripple</text>
 <label x="-355.6" y="317.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$4" pin="SDIO_D0"/>
+<pinref part="MCU" gate="G$4" pin="SDIO_D0"/>
 <wire x1="-342.9" y1="350.52" x2="-340.36" y2="350.52" width="0.1524" layer="91"/>
 <label x="-340.36" y="350.52" size="1.778" layer="95"/>
 </segment>
@@ -12962,7 +12962,7 @@ to minimize hotplug ripple</text>
 <label x="-355.6" y="314.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$4" pin="SDIO_D1"/>
+<pinref part="MCU" gate="G$4" pin="SDIO_D1"/>
 <wire x1="-342.9" y1="353.06" x2="-340.36" y2="353.06" width="0.1524" layer="91"/>
 <label x="-340.36" y="353.06" size="1.778" layer="95"/>
 </segment>
@@ -12974,7 +12974,7 @@ to minimize hotplug ripple</text>
 <label x="-355.6" y="332.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$4" pin="SDIO_D2"/>
+<pinref part="MCU" gate="G$4" pin="SDIO_D2"/>
 <wire x1="-342.9" y1="355.6" x2="-340.36" y2="355.6" width="0.1524" layer="91"/>
 <label x="-340.36" y="355.6" size="1.778" layer="95"/>
 </segment>
@@ -12986,7 +12986,7 @@ to minimize hotplug ripple</text>
 <label x="-355.6" y="330.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$4" pin="SDIO_D3"/>
+<pinref part="MCU" gate="G$4" pin="SDIO_D3"/>
 <wire x1="-342.9" y1="358.14" x2="-340.36" y2="358.14" width="0.1524" layer="91"/>
 <label x="-340.36" y="358.14" size="1.778" layer="95"/>
 </segment>
@@ -13000,7 +13000,7 @@ to minimize hotplug ripple</text>
 <wire x1="-370.84" y1="322.58" x2="-370.84" y2="314.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$4" pin="SDIO_CLK"/>
+<pinref part="MCU" gate="G$4" pin="SDIO_CLK"/>
 <wire x1="-342.9" y1="347.98" x2="-340.36" y2="347.98" width="0.1524" layer="91"/>
 <label x="-340.36" y="347.98" size="1.778" layer="95"/>
 </segment>
@@ -13012,7 +13012,7 @@ to minimize hotplug ripple</text>
 <label x="-355.6" y="327.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$4" pin="SDIO_CMD"/>
+<pinref part="MCU" gate="G$4" pin="SDIO_CMD"/>
 <wire x1="-342.9" y1="345.44" x2="-340.36" y2="345.44" width="0.1524" layer="91"/>
 <label x="-340.36" y="345.44" size="1.778" layer="95"/>
 </segment>
@@ -13029,7 +13029,7 @@ to minimize hotplug ripple</text>
 <junction x="43.18" y="391.16"/>
 <label x="27.94" y="391.16" size="1.778" layer="95"/>
 <wire x1="58.42" y1="396.24" x2="63.5" y2="396.24" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$5" pin="USB_VBUS"/>
+<pinref part="MCU" gate="G$5" pin="USB_VBUS"/>
 <wire x1="27.94" y1="408.94" x2="58.42" y2="408.94" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="408.94" x2="58.42" y2="396.24" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="391.16" x2="58.42" y2="391.16" width="0.1524" layer="91"/>
@@ -13135,7 +13135,7 @@ to minimize hotplug ripple</text>
 <wire x1="-15.24" y1="381" x2="10.16" y2="381" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$5" pin="USB_EN_ID"/>
+<pinref part="MCU" gate="G$5" pin="USB_EN_ID"/>
 <wire x1="27.94" y1="406.4" x2="30.48" y2="406.4" width="0.1524" layer="91"/>
 <label x="30.48" y="406.4" size="1.778" layer="95"/>
 </segment>
@@ -13414,7 +13414,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="TCK/SWCLK" class="0">
 <segment>
-<pinref part="U$1" gate="G$6" pin="TCK/SWCLK"/>
+<pinref part="MCU" gate="G$6" pin="TCK/SWCLK"/>
 <wire x1="-342.9" y1="238.76" x2="-340.36" y2="238.76" width="0.1524" layer="91"/>
 <label x="-340.36" y="238.76" size="1.778" layer="95"/>
 </segment>
@@ -13556,7 +13556,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="MII_TX_EN" class="0">
 <segment>
-<pinref part="U$1" gate="G$3" pin="MII_TX_EN"/>
+<pinref part="MCU" gate="G$3" pin="MII_TX_EN"/>
 <wire x1="-228.6" y1="335.28" x2="-226.06" y2="335.28" width="0.1524" layer="91"/>
 <label x="-226.06" y="335.28" size="1.778" layer="95"/>
 </segment>
@@ -13569,7 +13569,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="MII_TXD1" class="0">
 <segment>
-<pinref part="U$1" gate="G$3" pin="MII_TXD1"/>
+<pinref part="MCU" gate="G$3" pin="MII_TXD1"/>
 <wire x1="-228.6" y1="332.74" x2="-226.06" y2="332.74" width="0.1524" layer="91"/>
 <label x="-226.06" y="332.74" size="1.778" layer="95"/>
 </segment>
@@ -13582,7 +13582,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="MII_TXD0" class="0">
 <segment>
-<pinref part="U$1" gate="G$3" pin="MII_TXD0"/>
+<pinref part="MCU" gate="G$3" pin="MII_TXD0"/>
 <wire x1="-228.6" y1="330.2" x2="-226.06" y2="330.2" width="0.1524" layer="91"/>
 <label x="-226.06" y="330.2" size="1.778" layer="95"/>
 </segment>
@@ -13595,7 +13595,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="RMII_CRSDV" class="0">
 <segment>
-<pinref part="U$1" gate="G$3" pin="RMII_CRSDV"/>
+<pinref part="MCU" gate="G$3" pin="RMII_CRSDV"/>
 <wire x1="-228.6" y1="327.66" x2="-226.06" y2="327.66" width="0.1524" layer="91"/>
 <label x="-226.06" y="327.66" size="1.778" layer="95"/>
 </segment>
@@ -13609,7 +13609,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="MII_RX_ER" class="0">
 <segment>
-<pinref part="U$1" gate="G$3" pin="MII_RX_ER"/>
+<pinref part="MCU" gate="G$3" pin="MII_RX_ER"/>
 <wire x1="-228.6" y1="322.58" x2="-226.06" y2="322.58" width="0.1524" layer="91"/>
 <label x="-226.06" y="322.58" size="1.778" layer="95"/>
 </segment>
@@ -13621,7 +13621,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="MII_RXD1" class="0">
 <segment>
-<pinref part="U$1" gate="G$3" pin="MII_RXD1"/>
+<pinref part="MCU" gate="G$3" pin="MII_RXD1"/>
 <wire x1="-228.6" y1="320.04" x2="-226.06" y2="320.04" width="0.1524" layer="91"/>
 <label x="-226.06" y="320.04" size="1.778" layer="95"/>
 </segment>
@@ -13633,7 +13633,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="MII_RXD0" class="0">
 <segment>
-<pinref part="U$1" gate="G$3" pin="MII_RXD0"/>
+<pinref part="MCU" gate="G$3" pin="MII_RXD0"/>
 <wire x1="-228.6" y1="317.5" x2="-226.06" y2="317.5" width="0.1524" layer="91"/>
 <label x="-226.06" y="317.5" size="1.778" layer="95"/>
 </segment>
@@ -13645,7 +13645,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="MII_MDC" class="0">
 <segment>
-<pinref part="U$1" gate="G$3" pin="MII_MDC"/>
+<pinref part="MCU" gate="G$3" pin="MII_MDC"/>
 <wire x1="-228.6" y1="314.96" x2="-226.06" y2="314.96" width="0.1524" layer="91"/>
 <label x="-226.06" y="314.96" size="1.778" layer="95"/>
 </segment>
@@ -13657,7 +13657,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="MII_MDIO" class="0">
 <segment>
-<pinref part="U$1" gate="G$3" pin="MII_MDIO"/>
+<pinref part="MCU" gate="G$3" pin="MII_MDIO"/>
 <wire x1="-228.6" y1="312.42" x2="-226.06" y2="312.42" width="0.1524" layer="91"/>
 <label x="-226.06" y="312.42" size="1.778" layer="95"/>
 </segment>
@@ -13669,7 +13669,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="MII_INT" class="0">
 <segment>
-<pinref part="U$1" gate="G$3" pin="MII_INT"/>
+<pinref part="MCU" gate="G$3" pin="MII_INT"/>
 <wire x1="-228.6" y1="309.88" x2="-226.06" y2="309.88" width="0.1524" layer="91"/>
 <label x="-226.06" y="309.88" size="1.778" layer="95"/>
 </segment>
@@ -13688,7 +13688,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="50MHZ_OSC" class="0">
 <segment>
-<pinref part="U$1" gate="G$3" pin="RMII_REF_CLK"/>
+<pinref part="MCU" gate="G$3" pin="RMII_REF_CLK"/>
 <pinref part="ETH_PHY" gate="G$1" pin="X1"/>
 <wire x1="-228.6" y1="325.12" x2="-170.18" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="325.12" x2="-152.4" y2="325.12" width="0.1524" layer="91"/>
@@ -13712,7 +13712,7 @@ to minimize hotplug ripple</text>
 <label x="-142.24" y="205.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$9" pin="PA3"/>
+<pinref part="MCU" gate="G$9" pin="PA3"/>
 <wire x1="-228.6" y1="172.72" x2="-226.06" y2="172.72" width="0.1524" layer="91"/>
 <label x="-226.06" y="172.72" size="1.778" layer="95"/>
 </segment>
@@ -13724,7 +13724,7 @@ to minimize hotplug ripple</text>
 <label x="-142.24" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$9" pin="PB1"/>
+<pinref part="MCU" gate="G$9" pin="PB1"/>
 <label x="-226.06" y="167.64" size="1.778" layer="95"/>
 <pinref part="R31" gate="G$1" pin="1"/>
 <wire x1="-228.6" y1="167.64" x2="-205.74" y2="167.64" width="0.1524" layer="91"/>
@@ -13738,7 +13738,7 @@ to minimize hotplug ripple</text>
 <label x="-142.24" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$9" pin="PB15"/>
+<pinref part="MCU" gate="G$9" pin="PB15"/>
 <label x="-226.06" y="157.48" size="1.778" layer="95"/>
 <pinref part="R30" gate="G$1" pin="1"/>
 <wire x1="-228.6" y1="157.48" x2="-213.36" y2="157.48" width="0.1524" layer="91"/>
@@ -13747,7 +13747,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="D8" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A8/D8"/>
+<pinref part="MCU" gate="G$2" pin="A8/D8"/>
 <wire x1="-43.18" y1="162.56" x2="-40.64" y2="162.56" width="0.1524" layer="91"/>
 <label x="-40.64" y="162.56" size="1.778" layer="95"/>
 </segment>
@@ -13759,7 +13759,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="D9" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A9/D9"/>
+<pinref part="MCU" gate="G$2" pin="A9/D9"/>
 <wire x1="-43.18" y1="165.1" x2="-40.64" y2="165.1" width="0.1524" layer="91"/>
 <label x="-40.64" y="165.1" size="1.778" layer="95"/>
 </segment>
@@ -13771,7 +13771,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="D5" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A5/D5"/>
+<pinref part="MCU" gate="G$2" pin="A5/D5"/>
 <wire x1="-43.18" y1="154.94" x2="-40.64" y2="154.94" width="0.1524" layer="91"/>
 <label x="-40.64" y="154.94" size="1.778" layer="95"/>
 </segment>
@@ -13783,7 +13783,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="D6" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A6/D6"/>
+<pinref part="MCU" gate="G$2" pin="A6/D6"/>
 <wire x1="-43.18" y1="157.48" x2="-40.64" y2="157.48" width="0.1524" layer="91"/>
 <label x="-40.64" y="157.48" size="1.778" layer="95"/>
 </segment>
@@ -13795,7 +13795,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="D3" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A3/D3"/>
+<pinref part="MCU" gate="G$2" pin="A3/D3"/>
 <wire x1="-43.18" y1="149.86" x2="-40.64" y2="149.86" width="0.1524" layer="91"/>
 <label x="-40.64" y="149.86" size="1.778" layer="95"/>
 </segment>
@@ -13807,7 +13807,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="D4" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A4/D4"/>
+<pinref part="MCU" gate="G$2" pin="A4/D4"/>
 <wire x1="-43.18" y1="152.4" x2="-40.64" y2="152.4" width="0.1524" layer="91"/>
 <label x="-40.64" y="152.4" size="1.778" layer="95"/>
 </segment>
@@ -13819,7 +13819,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="D7" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A7/D7"/>
+<pinref part="MCU" gate="G$2" pin="A7/D7"/>
 <wire x1="-43.18" y1="160.02" x2="-40.64" y2="160.02" width="0.1524" layer="91"/>
 <label x="-40.64" y="160.02" size="1.778" layer="95"/>
 </segment>
@@ -13831,7 +13831,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="D14" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A14/D14"/>
+<pinref part="MCU" gate="G$2" pin="A14/D14"/>
 <wire x1="-43.18" y1="177.8" x2="-40.64" y2="177.8" width="0.1524" layer="91"/>
 <label x="-40.64" y="177.8" size="1.778" layer="95"/>
 </segment>
@@ -13843,7 +13843,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="D15" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A15/D15"/>
+<pinref part="MCU" gate="G$2" pin="A15/D15"/>
 <wire x1="-43.18" y1="180.34" x2="-40.64" y2="180.34" width="0.1524" layer="91"/>
 <label x="-40.64" y="180.34" size="1.778" layer="95"/>
 </segment>
@@ -13855,7 +13855,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="D13" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A13/D13"/>
+<pinref part="MCU" gate="G$2" pin="A13/D13"/>
 <wire x1="-43.18" y1="175.26" x2="-40.64" y2="175.26" width="0.1524" layer="91"/>
 <label x="-40.64" y="175.26" size="1.778" layer="95"/>
 </segment>
@@ -13867,7 +13867,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="D11" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A11/D11"/>
+<pinref part="MCU" gate="G$2" pin="A11/D11"/>
 <wire x1="-43.18" y1="170.18" x2="-40.64" y2="170.18" width="0.1524" layer="91"/>
 <label x="-40.64" y="170.18" size="1.778" layer="95"/>
 </segment>
@@ -13879,7 +13879,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="D12" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A12/D12"/>
+<pinref part="MCU" gate="G$2" pin="A12/D12"/>
 <wire x1="-43.18" y1="172.72" x2="-40.64" y2="172.72" width="0.1524" layer="91"/>
 <label x="-40.64" y="172.72" size="1.778" layer="95"/>
 </segment>
@@ -13891,7 +13891,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="D10" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A10/D10"/>
+<pinref part="MCU" gate="G$2" pin="A10/D10"/>
 <wire x1="-43.18" y1="167.64" x2="-40.64" y2="167.64" width="0.1524" layer="91"/>
 <label x="-40.64" y="167.64" size="1.778" layer="95"/>
 </segment>
@@ -13903,7 +13903,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="D1" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A1/D1"/>
+<pinref part="MCU" gate="G$2" pin="A1/D1"/>
 <wire x1="-43.18" y1="144.78" x2="-40.64" y2="144.78" width="0.1524" layer="91"/>
 <label x="-40.64" y="144.78" size="1.778" layer="95"/>
 </segment>
@@ -13915,7 +13915,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="D2" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A2/D2"/>
+<pinref part="MCU" gate="G$2" pin="A2/D2"/>
 <wire x1="-43.18" y1="147.32" x2="-40.64" y2="147.32" width="0.1524" layer="91"/>
 <label x="-40.64" y="147.32" size="1.778" layer="95"/>
 </segment>
@@ -13927,7 +13927,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="D0" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A0/D0"/>
+<pinref part="MCU" gate="G$2" pin="A0/D0"/>
 <wire x1="-43.18" y1="142.24" x2="-40.64" y2="142.24" width="0.1524" layer="91"/>
 <label x="-40.64" y="142.24" size="1.778" layer="95"/>
 </segment>
@@ -13939,7 +13939,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="A16" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A16"/>
+<pinref part="MCU" gate="G$2" pin="A16"/>
 <wire x1="-43.18" y1="182.88" x2="-40.64" y2="182.88" width="0.1524" layer="91"/>
 <label x="-40.64" y="182.88" size="1.778" layer="95"/>
 </segment>
@@ -13951,7 +13951,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="A17" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A17"/>
+<pinref part="MCU" gate="G$2" pin="A17"/>
 <wire x1="-43.18" y1="185.42" x2="-40.64" y2="185.42" width="0.1524" layer="91"/>
 <label x="-40.64" y="185.42" size="1.778" layer="95"/>
 </segment>
@@ -13963,7 +13963,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="A18" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A18"/>
+<pinref part="MCU" gate="G$2" pin="A18"/>
 <wire x1="-43.18" y1="187.96" x2="-40.64" y2="187.96" width="0.1524" layer="91"/>
 <label x="-40.64" y="187.96" size="1.778" layer="95"/>
 </segment>
@@ -13975,7 +13975,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="A19" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A19"/>
+<pinref part="MCU" gate="G$2" pin="A19"/>
 <wire x1="-43.18" y1="190.5" x2="-40.64" y2="190.5" width="0.1524" layer="91"/>
 <label x="-40.64" y="190.5" size="1.778" layer="95"/>
 </segment>
@@ -13987,7 +13987,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="A20" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A20"/>
+<pinref part="MCU" gate="G$2" pin="A20"/>
 <wire x1="-43.18" y1="193.04" x2="-40.64" y2="193.04" width="0.1524" layer="91"/>
 <label x="-40.64" y="193.04" size="1.778" layer="95"/>
 </segment>
@@ -13999,7 +13999,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="A21" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A21"/>
+<pinref part="MCU" gate="G$2" pin="A21"/>
 <wire x1="-43.18" y1="195.58" x2="-40.64" y2="195.58" width="0.1524" layer="91"/>
 <label x="-40.64" y="195.58" size="1.778" layer="95"/>
 </segment>
@@ -14011,7 +14011,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="A22" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A22"/>
+<pinref part="MCU" gate="G$2" pin="A22"/>
 <wire x1="-43.18" y1="198.12" x2="-40.64" y2="198.12" width="0.1524" layer="91"/>
 <label x="-40.64" y="198.12" size="1.778" layer="95"/>
 </segment>
@@ -14023,7 +14023,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="A23" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="A23"/>
+<pinref part="MCU" gate="G$2" pin="A23"/>
 <wire x1="-43.18" y1="200.66" x2="-40.64" y2="200.66" width="0.1524" layer="91"/>
 <label x="-40.64" y="200.66" size="1.778" layer="95"/>
 </segment>
@@ -14035,7 +14035,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="NOE" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="NOE"/>
+<pinref part="MCU" gate="G$2" pin="NOE"/>
 <wire x1="-43.18" y1="203.2" x2="-40.64" y2="203.2" width="0.1524" layer="91"/>
 <label x="-40.64" y="203.2" size="1.778" layer="95"/>
 </segment>
@@ -14047,7 +14047,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="NWE" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="NWE"/>
+<pinref part="MCU" gate="G$2" pin="NWE"/>
 <wire x1="-43.18" y1="205.74" x2="-40.64" y2="205.74" width="0.1524" layer="91"/>
 <label x="-40.64" y="205.74" size="1.778" layer="95"/>
 </segment>
@@ -14059,7 +14059,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="NWAIT" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="NWAIT"/>
+<pinref part="MCU" gate="G$2" pin="NWAIT"/>
 <wire x1="-43.18" y1="208.28" x2="-40.64" y2="208.28" width="0.1524" layer="91"/>
 <label x="-40.64" y="208.28" size="1.778" layer="95"/>
 </segment>
@@ -14071,7 +14071,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="FSMC_CLK" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="CLK"/>
+<pinref part="MCU" gate="G$2" pin="CLK"/>
 <wire x1="-43.18" y1="210.82" x2="-40.64" y2="210.82" width="0.1524" layer="91"/>
 <label x="-40.64" y="210.82" size="1.778" layer="95"/>
 </segment>
@@ -14083,7 +14083,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="NBL0" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="NBL0"/>
+<pinref part="MCU" gate="G$2" pin="NBL0"/>
 <wire x1="-43.18" y1="215.9" x2="-40.64" y2="215.9" width="0.1524" layer="91"/>
 <label x="-40.64" y="215.9" size="1.778" layer="95"/>
 </segment>
@@ -14095,7 +14095,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="NL" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="NL"/>
+<pinref part="MCU" gate="G$2" pin="NL"/>
 <wire x1="-43.18" y1="218.44" x2="-40.64" y2="218.44" width="0.1524" layer="91"/>
 <label x="-40.64" y="218.44" size="1.778" layer="95"/>
 </segment>
@@ -14107,7 +14107,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="NE1" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="NE1"/>
+<pinref part="MCU" gate="G$2" pin="NE1"/>
 <wire x1="-43.18" y1="220.98" x2="-40.64" y2="220.98" width="0.1524" layer="91"/>
 <label x="-40.64" y="220.98" size="1.778" layer="95"/>
 </segment>
@@ -14349,14 +14349,14 @@ to minimize hotplug ripple</text>
 <label x="-142.24" y="190.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$7" pin="SPI1_MOSI"/>
+<pinref part="MCU" gate="G$7" pin="SPI1_MOSI"/>
 <wire x1="-144.78" y1="114.3" x2="-142.24" y2="114.3" width="0.1524" layer="91"/>
 <label x="-142.24" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CFG_CLK" class="0">
 <segment>
-<pinref part="U$1" gate="G$7" pin="SPI1_SCK"/>
+<pinref part="MCU" gate="G$7" pin="SPI1_SCK"/>
 <wire x1="-144.78" y1="119.38" x2="-142.24" y2="119.38" width="0.1524" layer="91"/>
 <label x="-142.24" y="119.38" size="1.778" layer="95"/>
 </segment>
@@ -14836,7 +14836,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="NBL1" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="NBL1"/>
+<pinref part="MCU" gate="G$2" pin="NBL1"/>
 <wire x1="-43.18" y1="213.36" x2="-40.64" y2="213.36" width="0.1524" layer="91"/>
 <label x="-40.64" y="213.36" size="1.778" layer="95"/>
 </segment>
@@ -14848,14 +14848,14 @@ to minimize hotplug ripple</text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U$1" gate="G$5" pin="USB_FS_DP"/>
+<pinref part="MCU" gate="G$5" pin="USB_FS_DP"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="401.32" x2="35.56" y2="401.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U$1" gate="G$5" pin="USB_FS_DM"/>
+<pinref part="MCU" gate="G$5" pin="USB_FS_DM"/>
 <pinref part="R22" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="398.78" x2="45.72" y2="398.78" width="0.1524" layer="91"/>
 </segment>
@@ -14876,7 +14876,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="SPI_MISO" class="0">
 <segment>
-<pinref part="U$1" gate="G$7" pin="SPI1_MISO"/>
+<pinref part="MCU" gate="G$7" pin="SPI1_MISO"/>
 <wire x1="-144.78" y1="116.84" x2="-142.24" y2="116.84" width="0.1524" layer="91"/>
 <label x="-142.24" y="116.84" size="1.778" layer="95"/>
 </segment>
@@ -14902,7 +14902,7 @@ to minimize hotplug ripple</text>
 </segment>
 <segment>
 <pinref part="R24" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$9" pin="PC7"/>
+<pinref part="MCU" gate="G$9" pin="PC7"/>
 <wire x1="-220.98" y1="137.16" x2="-220.98" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="-220.98" y1="144.78" x2="-228.6" y2="144.78" width="0.1524" layer="91"/>
 <label x="-228.6" y="144.78" size="1.778" layer="95"/>
@@ -14910,7 +14910,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="FPGA_CLK1" class="0">
 <segment>
-<pinref part="U$1" gate="G$8" pin="MCO1"/>
+<pinref part="MCU" gate="G$8" pin="MCO1"/>
 <wire x1="-304.8" y1="104.14" x2="-302.26" y2="104.14" width="0.1524" layer="91"/>
 <label x="-302.26" y="104.14" size="1.778" layer="95"/>
 </segment>
@@ -14923,7 +14923,7 @@ to minimize hotplug ripple</text>
 <net name="N$29" class="0">
 <segment>
 <pinref part="Y1" gate="G$1" pin="2"/>
-<pinref part="U$1" gate="G$8" pin="OSC_IN"/>
+<pinref part="MCU" gate="G$8" pin="OSC_IN"/>
 <wire x1="-294.64" y1="99.06" x2="-297.18" y2="99.06" width="0.1524" layer="91"/>
 <junction x="-297.18" y="99.06"/>
 <wire x1="-297.18" y1="99.06" x2="-304.8" y2="99.06" width="0.1524" layer="91"/>
@@ -14935,7 +14935,7 @@ to minimize hotplug ripple</text>
 <segment>
 <pinref part="Y1" gate="G$1" pin="1"/>
 <wire x1="-289.56" y1="99.06" x2="-289.56" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$8" pin="OSC_OUT"/>
+<pinref part="MCU" gate="G$8" pin="OSC_OUT"/>
 <wire x1="-289.56" y1="101.6" x2="-304.8" y2="101.6" width="0.1524" layer="91"/>
 <junction x="-289.56" y="99.06"/>
 <pinref part="C19" gate="G$1" pin="1"/>
@@ -14992,7 +14992,7 @@ to minimize hotplug ripple</text>
 <label x="-142.24" y="193.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$9" pin="PB0"/>
+<pinref part="MCU" gate="G$9" pin="PB0"/>
 <wire x1="-228.6" y1="170.18" x2="-226.06" y2="170.18" width="0.1524" layer="91"/>
 <label x="-226.06" y="170.18" size="1.778" layer="95"/>
 </segment>
@@ -15066,7 +15066,7 @@ to minimize hotplug ripple</text>
 </net>
 <net name="LED_RIGHT" class="0">
 <segment>
-<pinref part="U$1" gate="G$9" pin="PC6"/>
+<pinref part="MCU" gate="G$9" pin="PC6"/>
 <label x="-228.6" y="147.32" size="1.778" layer="95"/>
 <pinref part="R37" gate="G$1" pin="2"/>
 <wire x1="-228.6" y1="147.32" x2="-215.9" y2="147.32" width="0.1524" layer="91"/>
