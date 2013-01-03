@@ -13752,9 +13752,9 @@ to minimize hotplug ripple</text>
 <label x="-40.64" y="162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L14P_D11_2"/>
-<wire x1="-144.78" y1="175.26" x2="-142.24" y2="175.26" width="0.1524" layer="91"/>
-<label x="-142.24" y="175.26" size="1.778" layer="95"/>
+<pinref part="FPGA" gate="B2" pin="IO_L13N_D10_2"/>
+<wire x1="-144.78" y1="182.88" x2="-142.24" y2="182.88" width="0.1524" layer="91"/>
+<label x="-142.24" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D9" class="0">
@@ -13764,9 +13764,9 @@ to minimize hotplug ripple</text>
 <label x="-40.64" y="165.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L14N_D12_2"/>
-<wire x1="-144.78" y1="177.8" x2="-142.24" y2="177.8" width="0.1524" layer="91"/>
-<label x="-142.24" y="177.8" size="1.778" layer="95"/>
+<pinref part="FPGA" gate="B2" pin="IO_L14P_D11_2"/>
+<wire x1="-144.78" y1="175.26" x2="-142.24" y2="175.26" width="0.1524" layer="91"/>
+<label x="-142.24" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D5" class="0">
@@ -13776,9 +13776,9 @@ to minimize hotplug ripple</text>
 <label x="-40.64" y="154.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L12N_D2_MISO3_2"/>
-<wire x1="-144.78" y1="187.96" x2="-142.24" y2="187.96" width="0.1524" layer="91"/>
-<label x="-142.24" y="187.96" size="1.778" layer="95"/>
+<pinref part="FPGA" gate="B2" pin="IO_L12P_D1_MISO2_2"/>
+<wire x1="-144.78" y1="185.42" x2="-142.24" y2="185.42" width="0.1524" layer="91"/>
+<label x="-142.24" y="185.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D6" class="0">
@@ -13788,9 +13788,9 @@ to minimize hotplug ripple</text>
 <label x="-40.64" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L13P_M1_2"/>
-<wire x1="-144.78" y1="180.34" x2="-142.24" y2="180.34" width="0.1524" layer="91"/>
-<label x="-142.24" y="180.34" size="1.778" layer="95"/>
+<pinref part="FPGA" gate="B2" pin="IO_L12N_D2_MISO3_2"/>
+<wire x1="-144.78" y1="187.96" x2="-142.24" y2="187.96" width="0.1524" layer="91"/>
+<label x="-142.24" y="187.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D3" class="0">
@@ -13812,9 +13812,9 @@ to minimize hotplug ripple</text>
 <label x="-40.64" y="152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L12P_D1_MISO2_2"/>
-<wire x1="-144.78" y1="185.42" x2="-142.24" y2="185.42" width="0.1524" layer="91"/>
-<label x="-142.24" y="185.42" size="1.778" layer="95"/>
+<pinref part="FPGA" gate="B2" pin="IO_L03N_MOSI_CSI_B_MISO0_2"/>
+<wire x1="-144.78" y1="193.04" x2="-142.24" y2="193.04" width="0.1524" layer="91"/>
+<label x="-142.24" y="193.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D7" class="0">
@@ -13824,9 +13824,9 @@ to minimize hotplug ripple</text>
 <label x="-40.64" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L13N_D10_2"/>
-<wire x1="-144.78" y1="182.88" x2="-142.24" y2="182.88" width="0.1524" layer="91"/>
-<label x="-142.24" y="182.88" size="1.778" layer="95"/>
+<pinref part="FPGA" gate="B2" pin="IO_L13P_M1_2"/>
+<wire x1="-144.78" y1="180.34" x2="-142.24" y2="180.34" width="0.1524" layer="91"/>
+<label x="-142.24" y="180.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D14" class="0">
@@ -13872,9 +13872,9 @@ to minimize hotplug ripple</text>
 <label x="-40.64" y="170.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L30N_GCLK0_USERCCLK_2"/>
-<wire x1="-144.78" y1="172.72" x2="-142.24" y2="172.72" width="0.1524" layer="91"/>
-<label x="-142.24" y="172.72" size="1.778" layer="95"/>
+<pinref part="FPGA" gate="B2" pin="IO_L30P_GCLK1_D13_2"/>
+<wire x1="-144.78" y1="170.18" x2="-142.24" y2="170.18" width="0.1524" layer="91"/>
+<label x="-142.24" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D12" class="0">
@@ -13896,9 +13896,9 @@ to minimize hotplug ripple</text>
 <label x="-40.64" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L30P_GCLK1_D13_2"/>
-<wire x1="-144.78" y1="170.18" x2="-142.24" y2="170.18" width="0.1524" layer="91"/>
-<label x="-142.24" y="170.18" size="1.778" layer="95"/>
+<pinref part="FPGA" gate="B2" pin="IO_L14N_D12_2"/>
+<wire x1="-144.78" y1="177.8" x2="-142.24" y2="177.8" width="0.1524" layer="91"/>
+<label x="-142.24" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D1" class="0">
@@ -14076,9 +14076,9 @@ to minimize hotplug ripple</text>
 <label x="-40.64" y="210.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L02P_CMPCLK_2"/>
-<wire x1="-144.78" y1="195.58" x2="-142.24" y2="195.58" width="0.1524" layer="91"/>
-<label x="-142.24" y="195.58" size="1.778" layer="95"/>
+<pinref part="FPGA" gate="B2" pin="IO_L30N_GCLK0_USERCCLK_2"/>
+<wire x1="-144.78" y1="172.72" x2="-142.24" y2="172.72" width="0.1524" layer="91"/>
+<label x="-142.24" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="NBL0" class="0">
@@ -14344,14 +14344,14 @@ to minimize hotplug ripple</text>
 </net>
 <net name="CFG_DIN" class="0">
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L03P_D0_DIN_MISO_MISO1_2"/>
-<wire x1="-144.78" y1="190.5" x2="-142.24" y2="190.5" width="0.1524" layer="91"/>
-<label x="-142.24" y="190.5" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="MCU" gate="G$7" pin="SPI1_MOSI"/>
 <wire x1="-144.78" y1="114.3" x2="-142.24" y2="114.3" width="0.1524" layer="91"/>
 <label x="-142.24" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B2" pin="IO_L03P_D0_DIN_MISO_MISO1_2"/>
+<wire x1="-144.78" y1="190.5" x2="-142.24" y2="190.5" width="0.1524" layer="91"/>
+<label x="-142.24" y="190.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CFG_CLK" class="0">
@@ -14881,9 +14881,9 @@ to minimize hotplug ripple</text>
 <label x="-142.24" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L02N_CMPMOSI_2"/>
-<wire x1="-144.78" y1="198.12" x2="-142.24" y2="198.12" width="0.1524" layer="91"/>
-<label x="-142.24" y="198.12" size="1.778" layer="95"/>
+<pinref part="FPGA" gate="B2" pin="IO_L02P_CMPCLK_2"/>
+<wire x1="-144.78" y1="195.58" x2="-142.24" y2="195.58" width="0.1524" layer="91"/>
+<label x="-142.24" y="195.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -14987,14 +14987,14 @@ to minimize hotplug ripple</text>
 </net>
 <net name="VSYNC" class="0">
 <segment>
-<pinref part="FPGA" gate="B2" pin="IO_L03N_MOSI_CSI_B_MISO0_2"/>
-<wire x1="-144.78" y1="193.04" x2="-142.24" y2="193.04" width="0.1524" layer="91"/>
-<label x="-142.24" y="193.04" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="MCU" gate="G$9" pin="PB0"/>
 <wire x1="-228.6" y1="170.18" x2="-226.06" y2="170.18" width="0.1524" layer="91"/>
 <label x="-226.06" y="170.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FPGA" gate="B2" pin="IO_L02N_CMPMOSI_2"/>
+<wire x1="-144.78" y1="198.12" x2="-142.24" y2="198.12" width="0.1524" layer="91"/>
+<label x="-142.24" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$33" class="0">
