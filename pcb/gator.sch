@@ -11895,7 +11895,7 @@ Source: www.kingbright.com</description>
 <part name="OSC_50M" library="SparkFun-FreqCtrl" deviceset="OSCILLATOR" device="5X3-PIN1-INDICATED"/>
 <part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY25" library="supply2" deviceset="GND" device=""/>
-<part name="R26" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="2K2"/>
+<part name="R26" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="R27" library="SparkFun-Passives" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="51"/>
 <part name="R28" library="SparkFun-Passives" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="51"/>
 <part name="VCC9" library="supply1" deviceset="VCCIO" device=""/>
@@ -11946,18 +11946,25 @@ Source: www.kingbright.com</description>
 <part name="C47" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH1" value="100u"/>
 <part name="C48" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH1" value="100u"/>
 <part name="C49" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="100n"/>
-<part name="R38" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
+<part name="R38" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="47K"/>
+<part name="R39" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="47K"/>
+<part name="R40" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="47K"/>
+<part name="R41" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="47K"/>
+<part name="R42" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="47K"/>
+<part name="R43" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="47K"/>
+<part name="R44" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1K5"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="-322.58" y="116.84" size="1.778" layer="91">PLL: M=6, N=168, P=2, Q=7</text>
-<text x="-398.78" y="327.66" size="1.778" layer="91">Place C20 near SD socket
+<text x="-373.38" y="309.88" size="1.778" layer="91">Place C20 near SD socket
 to minimize hotplug ripple</text>
+<text x="-55.88" y="302.26" size="1.778" layer="91">Place caps close to TD, RD, and center taps</text>
 </plain>
 <instances>
 <instance part="RJ45" gate="G$1" x="-40.64" y="274.32"/>
-<instance part="MICROSD" gate="G$1" x="-337.82" y="320.04"/>
+<instance part="MICROSD" gate="G$1" x="-309.88" y="335.28"/>
 <instance part="J2" gate="G$1" x="-350.52" y="388.62"/>
 <instance part="RESET" gate="S" x="-279.4" y="271.78"/>
 <instance part="ETH_PHY" gate="G$1" x="-144.78" y="284.48"/>
@@ -11973,8 +11980,8 @@ to minimize hotplug ripple</text>
 <instance part="+3V2" gate="G$1" x="-271.78" y="287.02"/>
 <instance part="C1" gate="G$1" x="-271.78" y="266.7" rot="R180"/>
 <instance part="SUPPLY3" gate="GND" x="-271.78" y="256.54"/>
-<instance part="SUPPLY4" gate="GND" x="-363.22" y="297.18"/>
-<instance part="+3V3" gate="G$1" x="-363.22" y="330.2"/>
+<instance part="SUPPLY4" gate="GND" x="-320.04" y="312.42"/>
+<instance part="+3V3" gate="G$1" x="-325.12" y="365.76"/>
 <instance part="MIC5219-5.0YM5" gate="G$1" x="20.32" y="386.08"/>
 <instance part="C2" gate="G$1" x="35.56" y="375.92"/>
 <instance part="SUPPLY6" gate="GND" x="35.56" y="368.3"/>
@@ -12014,7 +12021,7 @@ to minimize hotplug ripple</text>
 <instance part="MCU" gate="G$1" x="-20.32" y="137.16"/>
 <instance part="MCU" gate="G$2" x="-53.34" y="139.7"/>
 <instance part="MCU" gate="G$3" x="-238.76" y="307.34"/>
-<instance part="MCU" gate="G$4" x="-353.06" y="342.9"/>
+<instance part="MCU" gate="G$4" x="-403.86" y="317.5"/>
 <instance part="MCU" gate="G$5" x="17.78" y="396.24"/>
 <instance part="MCU" gate="G$6" x="-353.06" y="226.06"/>
 <instance part="MCU" gate="G$7" x="-154.94" y="111.76"/>
@@ -12031,7 +12038,7 @@ to minimize hotplug ripple</text>
 <instance part="R11" gate="G$1" x="-132.08" y="337.82"/>
 <instance part="R12" gate="G$1" x="-129.54" y="330.2"/>
 <instance part="R13" gate="G$1" x="-127" y="322.58"/>
-<instance part="+3V8" gate="G$1" x="-119.38" y="345.44"/>
+<instance part="+3V8" gate="G$1" x="-119.38" y="347.98"/>
 <instance part="+3V9" gate="G$1" x="-5.08" y="289.56"/>
 <instance part="R14" gate="G$1" x="-15.24" y="284.48"/>
 <instance part="R15" gate="G$1" x="-15.24" y="269.24" rot="R180"/>
@@ -12133,7 +12140,7 @@ to minimize hotplug ripple</text>
 <instance part="U$4" gate="G$1" x="-271.78" y="383.54"/>
 <instance part="SUPPLY31" gate="GND" x="-261.62" y="383.54"/>
 <instance part="SUPPLY32" gate="GND" x="-276.86" y="383.54"/>
-<instance part="C20" gate="G$1" x="-378.46" y="322.58" rot="R180"/>
+<instance part="C20" gate="G$1" x="-360.68" y="322.58" rot="R180"/>
 <instance part="C23" gate="G$1" x="33.02" y="431.8"/>
 <instance part="C32" gate="G$1" x="43.18" y="431.8"/>
 <instance part="C33" gate="G$1" x="-116.84" y="429.26"/>
@@ -12153,7 +12160,13 @@ to minimize hotplug ripple</text>
 <instance part="C47" gate="G$1" x="-309.88" y="393.7"/>
 <instance part="C48" gate="G$1" x="-299.72" y="393.7"/>
 <instance part="C49" gate="G$1" x="-132.08" y="38.1"/>
-<instance part="R38" gate="G$1" x="-370.84" y="309.88" rot="R90"/>
+<instance part="R38" gate="G$1" x="-342.9" y="320.04" rot="R90"/>
+<instance part="R39" gate="G$1" x="-325.12" y="355.6" rot="R90"/>
+<instance part="R40" gate="G$1" x="-332.74" y="355.6" rot="R90"/>
+<instance part="R41" gate="G$1" x="-340.36" y="355.6" rot="R90"/>
+<instance part="R42" gate="G$1" x="-347.98" y="355.6" rot="R90"/>
+<instance part="R43" gate="G$1" x="-355.6" y="355.6" rot="R90"/>
+<instance part="R44" gate="G$1" x="-134.62" y="345.44"/>
 </instances>
 <busses>
 </busses>
@@ -12324,26 +12337,6 @@ to minimize hotplug ripple</text>
 <pinref part="RESET" gate="S" pin="2"/>
 <junction x="-284.48" y="269.24"/>
 <junction x="-271.78" y="261.62"/>
-</segment>
-<segment>
-<pinref part="MICROSD" gate="G$1" pin="GND"/>
-<wire x1="-345.44" y1="320.04" x2="-363.22" y2="320.04" width="0.1524" layer="91"/>
-<wire x1="-363.22" y1="320.04" x2="-363.22" y2="317.5" width="0.1524" layer="91"/>
-<pinref part="MICROSD" gate="G$1" pin="SHIELD@1"/>
-<wire x1="-363.22" y1="317.5" x2="-363.22" y2="309.88" width="0.1524" layer="91"/>
-<wire x1="-363.22" y1="309.88" x2="-363.22" y2="304.8" width="0.1524" layer="91"/>
-<wire x1="-363.22" y1="304.8" x2="-363.22" y2="299.72" width="0.1524" layer="91"/>
-<wire x1="-345.44" y1="309.88" x2="-363.22" y2="309.88" width="0.1524" layer="91"/>
-<pinref part="MICROSD" gate="G$1" pin="SHIELD@3"/>
-<wire x1="-345.44" y1="304.8" x2="-363.22" y2="304.8" width="0.1524" layer="91"/>
-<pinref part="SUPPLY4" gate="GND" pin="GND"/>
-<junction x="-363.22" y="309.88"/>
-<junction x="-363.22" y="304.8"/>
-<pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="-378.46" y1="317.5" x2="-363.22" y2="317.5" width="0.1524" layer="91"/>
-<junction x="-363.22" y="317.5"/>
-<pinref part="R38" gate="G$1" pin="1"/>
-<wire x1="-370.84" y1="304.8" x2="-363.22" y2="304.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -12766,6 +12759,27 @@ to minimize hotplug ripple</text>
 <pinref part="SUPPLY31" gate="GND" pin="GND"/>
 <wire x1="-264.16" y1="386.08" x2="-261.62" y2="386.08" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SUPPLY4" gate="GND" pin="GND"/>
+<pinref part="MICROSD" gate="G$1" pin="SHIELD@1"/>
+<wire x1="-320.04" y1="314.96" x2="-320.04" y2="320.04" width="0.1524" layer="91"/>
+<wire x1="-320.04" y1="320.04" x2="-320.04" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="-320.04" y1="325.12" x2="-317.5" y2="325.12" width="0.1524" layer="91"/>
+<pinref part="MICROSD" gate="G$1" pin="SHIELD@3"/>
+<wire x1="-317.5" y1="320.04" x2="-320.04" y2="320.04" width="0.1524" layer="91"/>
+<junction x="-320.04" y="320.04"/>
+<pinref part="MICROSD" gate="G$1" pin="GND"/>
+<wire x1="-317.5" y1="335.28" x2="-320.04" y2="335.28" width="0.1524" layer="91"/>
+<wire x1="-320.04" y1="335.28" x2="-320.04" y2="325.12" width="0.1524" layer="91"/>
+<junction x="-320.04" y="325.12"/>
+<pinref part="R38" gate="G$1" pin="1"/>
+<wire x1="-342.9" y1="314.96" x2="-320.04" y2="314.96" width="0.1524" layer="91"/>
+<junction x="-320.04" y="314.96"/>
+<pinref part="C20" gate="G$1" pin="1"/>
+<wire x1="-360.68" y1="317.5" x2="-360.68" y2="314.96" width="0.1524" layer="91"/>
+<wire x1="-360.68" y1="314.96" x2="-342.9" y2="314.96" width="0.1524" layer="91"/>
+<junction x="-342.9" y="314.96"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -12778,15 +12792,6 @@ to minimize hotplug ripple</text>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <wire x1="-271.78" y1="284.48" x2="-271.78" y2="281.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="MICROSD" gate="G$1" pin="VCC"/>
-<pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<wire x1="-345.44" y1="325.12" x2="-363.22" y2="325.12" width="0.1524" layer="91"/>
-<wire x1="-363.22" y1="325.12" x2="-363.22" y2="327.66" width="0.1524" layer="91"/>
-<pinref part="C20" gate="G$1" pin="2"/>
-<wire x1="-378.46" y1="325.12" x2="-363.22" y2="325.12" width="0.1524" layer="91"/>
-<junction x="-363.22" y="325.12"/>
 </segment>
 <segment>
 <pinref part="MIC5219-3.3YM5_1" gate="G$1" pin="OUT"/>
@@ -12874,7 +12879,7 @@ to minimize hotplug ripple</text>
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
 <wire x1="-127" y1="337.82" x2="-119.38" y2="337.82" width="0.1524" layer="91"/>
-<wire x1="-119.38" y1="337.82" x2="-119.38" y2="342.9" width="0.1524" layer="91"/>
+<wire x1="-119.38" y1="337.82" x2="-119.38" y2="345.44" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="-124.46" y1="330.2" x2="-119.38" y2="330.2" width="0.1524" layer="91"/>
 <wire x1="-119.38" y1="330.2" x2="-119.38" y2="337.82" width="0.1524" layer="91"/>
@@ -12883,6 +12888,9 @@ to minimize hotplug ripple</text>
 <wire x1="-119.38" y1="322.58" x2="-119.38" y2="330.2" width="0.1524" layer="91"/>
 <junction x="-119.38" y="330.2"/>
 <junction x="-119.38" y="337.82"/>
+<pinref part="R44" gate="G$1" pin="2"/>
+<wire x1="-129.54" y1="345.44" x2="-119.38" y2="345.44" width="0.1524" layer="91"/>
+<junction x="-119.38" y="345.44"/>
 </segment>
 <segment>
 <pinref part="ETH_PHY" gate="G$1" pin="IOVDD33(1)"/>
@@ -12942,79 +12950,114 @@ to minimize hotplug ripple</text>
 <junction x="-10.16" y="162.56"/>
 <junction x="-10.16" y="172.72"/>
 </segment>
+<segment>
+<pinref part="R39" gate="G$1" pin="2"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<wire x1="-325.12" y1="360.68" x2="-325.12" y2="363.22" width="0.1524" layer="91"/>
+<pinref part="R41" gate="G$1" pin="2"/>
+<wire x1="-340.36" y1="360.68" x2="-332.74" y2="360.68" width="0.1524" layer="91"/>
+<pinref part="R43" gate="G$1" pin="2"/>
+<wire x1="-332.74" y1="360.68" x2="-325.12" y2="360.68" width="0.1524" layer="91"/>
+<wire x1="-355.6" y1="360.68" x2="-347.98" y2="360.68" width="0.1524" layer="91"/>
+<pinref part="R42" gate="G$1" pin="2"/>
+<junction x="-347.98" y="360.68"/>
+<wire x1="-347.98" y1="360.68" x2="-340.36" y2="360.68" width="0.1524" layer="91"/>
+<junction x="-340.36" y="360.68"/>
+<pinref part="R40" gate="G$1" pin="2"/>
+<junction x="-332.74" y="360.68"/>
+<junction x="-325.12" y="360.68"/>
+<pinref part="MICROSD" gate="G$1" pin="VCC"/>
+<wire x1="-317.5" y1="340.36" x2="-320.04" y2="340.36" width="0.1524" layer="91"/>
+<wire x1="-320.04" y1="340.36" x2="-320.04" y2="360.68" width="0.1524" layer="91"/>
+<wire x1="-320.04" y1="360.68" x2="-325.12" y2="360.68" width="0.1524" layer="91"/>
+<pinref part="C20" gate="G$1" pin="2"/>
+<wire x1="-360.68" y1="325.12" x2="-360.68" y2="360.68" width="0.1524" layer="91"/>
+<wire x1="-360.68" y1="360.68" x2="-355.6" y2="360.68" width="0.1524" layer="91"/>
+<junction x="-355.6" y="360.68"/>
+</segment>
 </net>
 <net name="SD_D0" class="0">
 <segment>
 <pinref part="MICROSD" gate="G$1" pin="DO"/>
-<wire x1="-345.44" y1="317.5" x2="-347.98" y2="317.5" width="0.1524" layer="91"/>
-<label x="-355.6" y="317.5" size="1.778" layer="95"/>
+<label x="-327.66" y="332.74" size="1.778" layer="95"/>
+<pinref part="R42" gate="G$1" pin="1"/>
+<wire x1="-317.5" y1="332.74" x2="-347.98" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="-347.98" y1="332.74" x2="-347.98" y2="350.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="G$4" pin="SDIO_D0"/>
-<wire x1="-342.9" y1="350.52" x2="-340.36" y2="350.52" width="0.1524" layer="91"/>
-<label x="-340.36" y="350.52" size="1.778" layer="95"/>
+<wire x1="-393.7" y1="325.12" x2="-391.16" y2="325.12" width="0.1524" layer="91"/>
+<label x="-391.16" y="325.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SD_D1" class="0">
 <segment>
 <pinref part="MICROSD" gate="G$1" pin="RSV"/>
-<wire x1="-345.44" y1="314.96" x2="-347.98" y2="314.96" width="0.1524" layer="91"/>
-<label x="-355.6" y="314.96" size="1.778" layer="95"/>
+<label x="-327.66" y="330.2" size="1.778" layer="95"/>
+<pinref part="R43" gate="G$1" pin="1"/>
+<wire x1="-317.5" y1="330.2" x2="-355.6" y2="330.2" width="0.1524" layer="91"/>
+<wire x1="-355.6" y1="330.2" x2="-355.6" y2="350.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="G$4" pin="SDIO_D1"/>
-<wire x1="-342.9" y1="353.06" x2="-340.36" y2="353.06" width="0.1524" layer="91"/>
-<label x="-340.36" y="353.06" size="1.778" layer="95"/>
+<wire x1="-393.7" y1="327.66" x2="-391.16" y2="327.66" width="0.1524" layer="91"/>
+<label x="-391.16" y="327.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SD_D2" class="0">
 <segment>
 <pinref part="MICROSD" gate="G$1" pin="NC"/>
-<wire x1="-345.44" y1="332.74" x2="-347.98" y2="332.74" width="0.1524" layer="91"/>
-<label x="-355.6" y="332.74" size="1.778" layer="95"/>
+<wire x1="-317.5" y1="347.98" x2="-325.12" y2="347.98" width="0.1524" layer="91"/>
+<label x="-327.66" y="347.98" size="1.778" layer="95"/>
+<pinref part="R39" gate="G$1" pin="1"/>
+<wire x1="-325.12" y1="347.98" x2="-325.12" y2="350.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="G$4" pin="SDIO_D2"/>
-<wire x1="-342.9" y1="355.6" x2="-340.36" y2="355.6" width="0.1524" layer="91"/>
-<label x="-340.36" y="355.6" size="1.778" layer="95"/>
+<wire x1="-393.7" y1="330.2" x2="-391.16" y2="330.2" width="0.1524" layer="91"/>
+<label x="-391.16" y="330.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SD_D3" class="0">
 <segment>
 <pinref part="MICROSD" gate="G$1" pin="CS"/>
-<wire x1="-345.44" y1="330.2" x2="-347.98" y2="330.2" width="0.1524" layer="91"/>
-<label x="-355.6" y="330.2" size="1.778" layer="95"/>
+<label x="-327.66" y="345.44" size="1.778" layer="95"/>
+<pinref part="R40" gate="G$1" pin="1"/>
+<wire x1="-317.5" y1="345.44" x2="-332.74" y2="345.44" width="0.1524" layer="91"/>
+<wire x1="-332.74" y1="345.44" x2="-332.74" y2="350.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="G$4" pin="SDIO_D3"/>
-<wire x1="-342.9" y1="358.14" x2="-340.36" y2="358.14" width="0.1524" layer="91"/>
-<label x="-340.36" y="358.14" size="1.778" layer="95"/>
+<wire x1="-393.7" y1="332.74" x2="-391.16" y2="332.74" width="0.1524" layer="91"/>
+<label x="-391.16" y="332.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SD_CLK" class="0">
 <segment>
 <pinref part="MICROSD" gate="G$1" pin="SCK"/>
-<label x="-355.6" y="322.58" size="1.778" layer="95"/>
+<label x="-327.66" y="337.82" size="1.778" layer="95"/>
+<wire x1="-317.5" y1="337.82" x2="-342.9" y2="337.82" width="0.1524" layer="91"/>
 <pinref part="R38" gate="G$1" pin="2"/>
-<wire x1="-345.44" y1="322.58" x2="-370.84" y2="322.58" width="0.1524" layer="91"/>
-<wire x1="-370.84" y1="322.58" x2="-370.84" y2="314.96" width="0.1524" layer="91"/>
+<wire x1="-342.9" y1="325.12" x2="-342.9" y2="337.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="G$4" pin="SDIO_CLK"/>
-<wire x1="-342.9" y1="347.98" x2="-340.36" y2="347.98" width="0.1524" layer="91"/>
-<label x="-340.36" y="347.98" size="1.778" layer="95"/>
+<wire x1="-393.7" y1="322.58" x2="-391.16" y2="322.58" width="0.1524" layer="91"/>
+<label x="-391.16" y="322.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SD_CMD" class="0">
 <segment>
 <pinref part="MICROSD" gate="G$1" pin="DI"/>
-<wire x1="-345.44" y1="327.66" x2="-347.98" y2="327.66" width="0.1524" layer="91"/>
-<label x="-355.6" y="327.66" size="1.778" layer="95"/>
+<label x="-327.66" y="342.9" size="1.778" layer="95"/>
+<pinref part="R41" gate="G$1" pin="1"/>
+<wire x1="-317.5" y1="342.9" x2="-340.36" y2="342.9" width="0.1524" layer="91"/>
+<wire x1="-340.36" y1="342.9" x2="-340.36" y2="350.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="G$4" pin="SDIO_CMD"/>
-<wire x1="-342.9" y1="345.44" x2="-340.36" y2="345.44" width="0.1524" layer="91"/>
-<label x="-340.36" y="345.44" size="1.778" layer="95"/>
+<wire x1="-393.7" y1="320.04" x2="-391.16" y2="320.04" width="0.1524" layer="91"/>
+<label x="-391.16" y="320.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USB_VBUS" class="0">
@@ -13663,8 +13706,10 @@ to minimize hotplug ripple</text>
 </segment>
 <segment>
 <pinref part="ETH_PHY" gate="G$1" pin="MDIO"/>
-<wire x1="-142.24" y1="312.42" x2="-142.24" y2="320.04" width="0.1524" layer="91"/>
 <label x="-142.24" y="320.04" size="1.778" layer="95"/>
+<pinref part="R44" gate="G$1" pin="1"/>
+<wire x1="-142.24" y1="312.42" x2="-142.24" y2="345.44" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="345.44" x2="-139.7" y2="345.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MII_INT" class="0">
@@ -14897,8 +14942,8 @@ to minimize hotplug ripple</text>
 <net name="SD_DETECT" class="0">
 <segment>
 <pinref part="MICROSD" gate="G$1" pin="SHIELD@2"/>
-<wire x1="-345.44" y1="307.34" x2="-347.98" y2="307.34" width="0.1524" layer="91"/>
-<label x="-360.68" y="307.34" size="1.778" layer="95"/>
+<wire x1="-317.5" y1="322.58" x2="-332.74" y2="322.58" width="0.1524" layer="91"/>
+<label x="-337.82" y="322.58" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R24" gate="G$1" pin="1"/>
