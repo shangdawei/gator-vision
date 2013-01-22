@@ -1,0 +1,40 @@
+[Eagle]
+Version="06 03 00"
+Platform="Windows"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.3.0/lbr/led.lbr"
+UsedLibrary="lbr/LilyPad-Wearables.lbr"
+UsedLibrary="lbr/SparkFun-Aesthetics.lbr"
+UsedLibrary="lbr/SparkFun-AnalogIC.lbr"
+UsedLibrary="lbr/SparkFun-Boards.lbr"
+UsedLibrary="lbr/SparkFun-Connectors.lbr"
+UsedLibrary="lbr/SparkFun-DigitalIC.lbr"
+UsedLibrary="lbr/SparkFun-DiscreteSemi.lbr"
+UsedLibrary="lbr/SparkFun-Displays.lbr"
+UsedLibrary="lbr/SparkFun-Electromechanical.lbr"
+UsedLibrary="lbr/SparkFun-FreqCtrl.lbr"
+UsedLibrary="lbr/SparkFun-LED.lbr"
+UsedLibrary="lbr/SparkFun-Passives.lbr"
+UsedLibrary="lbr/SparkFun-PowerIC.lbr"
+UsedLibrary="lbr/SparkFun-RF.lbr"
+UsedLibrary="lbr/SparkFun-Sensors.lbr"
+UsedLibrary="lbr/hdmi.lbr"
+UsedLibrary="lbr/micro-intel.lbr"
+UsedLibrary="lbr/microbuilder.lbr"
+UsedLibrary="lbr/xilinx_devices.lbr"
+UsedLibrary="gator.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="267 164 1407 911"
+State=2
+Number=0
+
+[Desktop]
+Screen="3200 1080"
+Window="Win_1"
