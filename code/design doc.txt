@@ -1,0 +1,33 @@
+{Gator Vision}
+HDL, Firmware, and Software Design Document
+
+Distributed under GPLv3 by Jeff Theusch
+http://www.gnu.org/licenses/gpl.html
+
+---
+
+Table of Contents
+
+1. Overall Architecture
+2. Multitasking Kernel - OpenRTOS
+4. USB Host Stack
+   4-1. Enumeration
+   4-2. USB Human Interface Device (HID)
+   4-3. USB Mass Storage
+5. File System - FatFs
+   5-1. microSD Card Directory Structure
+6. TCP/IP Stack - lwIP
+   5-1. FTP Service
+   5-2. Telnet Service
+   5-3. HTTP Client
+   5-4. Update Manager
+7. Abstracted App
+3. FPGA Reconfiguration
+7. Shared Memory Interface - FSMC
+8. SPI Command Service
+9. HDMI Driver
+10. SDRAM Controller
+11. Abstracted System-on-chip (SoC)
+
+
+
