@@ -1,0 +1,3 @@
+SECONDARY_FLASH := gator-vision-system.hex
+SECONDARY_LIST := gator-vision-system.lst
+SECONDARY_SIZE := gator-vision-system.siz
