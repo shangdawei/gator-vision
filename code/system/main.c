@@ -27,13 +27,13 @@ int main(void)
 
    while (TRUE)
    {
-      for (blink_counter = 0; blink_counter < 0x000FFFFF; blink_counter++)
+      for (blink_counter = 0; blink_counter < 0x0001FFFF; blink_counter++)
       {
          // Turn on LED
          GPIO_SetBits(GPIOG, GPIO_Pin_6 | GPIO_Pin_8);
       }
 
-      for (blink_counter = 0; blink_counter < 0x000FFFFF; blink_counter++)
+      for (blink_counter = 0; blink_counter < 0x001FFFFF; blink_counter++)
       {
          // Turn off LED
          GPIO_ResetBits(GPIOG, GPIO_Pin_6 | GPIO_Pin_8);
