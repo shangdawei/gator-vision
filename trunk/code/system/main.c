@@ -3,54 +3,24 @@
 #include "stm32f4xx.h"
 #include "FreeRTOS.h"
 #include "task.h"
+#include "init_tasks.h"
+#include "led_flasher.h"
 
-//#include "FreeRTOS.h"
-//#include "task.h"
-//#include "timers.h"
-//#include "semphr.h"
 
-static GPIO_InitTypeDef PG6_INIT = { GPIO_Pin_6, GPIO_Mode_OUT, GPIO_Speed_50MHz, GPIO_OType_PP, GPIO_PuPd_UP };
-static GPIO_InitTypeDef PG8_INIT = { GPIO_Pin_8, GPIO_Mode_OUT, GPIO_Speed_50MHz, GPIO_OType_PP, GPIO_PuPd_UP };
+
 
 int main(void)
 {
-   uint32_t blink_counter;
-
    // Init stuff
-   //SystemInit();
-   NVIC_PriorityGroupConfig( NVIC_PriorityGroup_4 );
+   InitTasks();
 
-   GPIO_DeInit(GPIOG);
+   // Start the FreeRTOS scheduler
+   //vTaskStartScheduler();
 
-   RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOG, ENABLE);
+   // If FreeRTOS stops for some reason, reinit the LED port and blink in an endless loop
+   FlashLEDFallback();
 
-   GPIO_Init(GPIOG, &PG6_INIT);
-   GPIO_Init(GPIOG, &PG8_INIT);
-
-   /* Start the scheduler. */
-   vTaskStartScheduler();
-
-   while (TRUE)
-   {
-      // Blink real creepy to indicate that FreeRTOS stopped working
-
-      for (blink_counter = 0; blink_counter < 0x0001FFFF; blink_counter++)
-      {
-         // Turn on LED
-         //GPIO_SetBits(GPIOG, GPIO_Pin_6 | GPIO_Pin_8);
-         GPIO_SetBits(GPIOG, GPIO_Pin_8);
-      }
-
-      for (blink_counter = 0; blink_counter < 0x001FFFFF; blink_counter++)
-      {
-         // Turn off LED
-         //GPIO_ResetBits(GPIOG, GPIO_Pin_6 | GPIO_Pin_8);
-         GPIO_ResetBits(GPIOG, GPIO_Pin_8);
-      }
-   }
-
-
-
+   // If that stops, well then... I guess we're screwed
    return 0;
 }
 
