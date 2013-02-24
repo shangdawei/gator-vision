@@ -1,6 +1,9 @@
 #include "global_defs.h"
 #include "stm32f4xx.h"
+#include "FreeRTOS.h"
+#include "task.h"
 #include "init_tasks.h"
+
 
 struct GPIO_AFTypeDef_S
 {
@@ -77,6 +80,9 @@ static GPIO_TypeDef * GPIO_INIT_PORT_EVAL[] =
 };
 
 #undef GPIO_CONFIG_EVAL
+
+
+static xTaskHandle LED_Flash_Handle;
 
 
 bool IsRunningOnEvalBoard(void)
@@ -196,7 +202,7 @@ static void InitPorts(void)
 
 static void CreateTasks(void)
 {
-
+   xTaskCreate( LED_Flash_Task, ( signed char * ) "LED_Flash_Task", configMINIMAL_STACK_SIZE, NULL, 1, &LED_Flash_Handle );
 }
 
 void InitTasks(void)
