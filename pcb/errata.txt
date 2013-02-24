@@ -1,0 +1,6 @@
+Rev A errors/changes
+--------------------
+- Boot0 pin needs to be connected to GND
+- VRefP not connected for analog reference
+- Need VCAP_1 and VCAP_2
+- Connect OTG_HS for second USB port
