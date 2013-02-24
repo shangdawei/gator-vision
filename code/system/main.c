@@ -15,7 +15,7 @@ int main(void)
    InitTasks();
 
    // Start the FreeRTOS scheduler
-   //vTaskStartScheduler();
+   vTaskStartScheduler();
 
    // If FreeRTOS stops for some reason, reinit the LED port and blink in an endless loop
    FlashLEDFallback();

@@ -3,6 +3,6 @@
 
 
 void FlashLEDFallback(void);
-
+portTASK_FUNCTION_PROTO( LED_Flash_Task, params );
 
 #endif
