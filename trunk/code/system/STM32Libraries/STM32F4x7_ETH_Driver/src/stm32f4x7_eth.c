@@ -27,7 +27,7 @@
   */
 
 /* Includes ------------------------------------------------------------------*/
-#include "mod_ethernet.h"
+#include "mod_ethernet_config.h"
 #include "stm32f4x7_eth.h"
 #include "stm32f4xx_rcc.h"
 #include <string.h>
@@ -384,7 +384,7 @@ uint32_t ETH_Init(ETH_InitTypeDef* ETH_InitStruct, uint16_t PHYAddress)
     /* We wait for linked status... */
     do
     {
-      ETHERNET_UpdateInitDisplay();
+      //ETHERNET_UpdateInitDisplay();
       timeout++;
     } while (!(ETH_ReadPHYRegister(PHYAddress, PHY_BSR) & PHY_Linked_Status) && (timeout < 0x20));
 
