@@ -32,7 +32,7 @@ UsedLibrary="gator.lbr"
 [Win_1]
 Type="Control Panel"
 Loc="267 164 1407 911"
-State=2
+State=0
 Number=0
 
 [Desktop]

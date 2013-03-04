@@ -11770,13 +11770,38 @@ Source: www.kingbright.com</description>
 </class>
 </classes>
 <parts>
-<part name="RJ45" library="SparkFun-Connectors" deviceset="MAGJACK-2" device=""/>
-<part name="MICROSD" library="SparkFun-Connectors" deviceset="USD-SOCKET" device="NEW"/>
-<part name="J2" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH"/>
+<part name="RJ45" library="SparkFun-Connectors" deviceset="MAGJACK-2" device="">
+<attribute name="DIGIKEY#" value="380-1103-ND"/>
+<attribute name="MANF" value="Stewart Connector"/>
+<attribute name="MANF#" value="SI-50170-F"/>
+</part>
+<part name="MICROSD" library="SparkFun-Connectors" deviceset="USD-SOCKET" device="NEW">
+<attribute name="DIGIKEY#" value="101-00660-68-6-1-ND"/>
+<attribute name="MANF" value="Amphenol Commercial Products"/>
+<attribute name="MANF#" value="101-00660-68-6"/>
+</part>
+<part name="J2" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH">
+<attribute name="DIGIKEY#" value="CP-002A-ND"/>
+<attribute name="MANF" value="CUI Inc"/>
+<attribute name="MANF#" value="PJ-002A"/>
+</part>
 <part name="RESET" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH" value="0"/>
-<part name="ETH_PHY" library="gator" deviceset="DP83848C" device=""/>
-<part name="JTAG" library="con-ml" deviceset="ML20" device="" value="HEADER"/>
-<part name="FPGA" library="xilinx_devices" deviceset="6SLX9TQG144" device=""/>
+<part name="ETH_PHY" library="gator" deviceset="DP83848C" device="">
+<attribute name="DIGIKEY#" value="DP83848CVVX/NOPBCT-ND"/>
+<attribute name="MANF" value="Texas Instruments"/>
+<attribute name="MANF#" value="DP83848CVVX/NOPB"/>
+<attribute name="MOUSER#" value="926-DP83848CVVX/NOPB"/>
+</part>
+<part name="JTAG" library="con-ml" deviceset="ML20" device="" value="HEADER">
+<attribute name="DIGIKEY#" value="S9172-ND"/>
+<attribute name="MANF" value="Sullins Connector Solutions"/>
+<attribute name="MANF#" value="SBH11-PBPC-D10-ST-BK"/>
+</part>
+<part name="FPGA" library="xilinx_devices" deviceset="6SLX9TQG144" device="">
+<attribute name="DIGIKEY#" value="122-1745-ND"/>
+<attribute name="MANF" value="Xilinx Inc"/>
+<attribute name="MANF#" value="XC6SLX9-2TQG144C"/>
+</part>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
@@ -11789,7 +11814,11 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="MIC5219-5.0YM5" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD"/>
+<part name="MIC5219-5.0YM5" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD" value="5.0V">
+<attribute name="DIGIKEY#" value="576-2770-1-ND"/>
+<attribute name="MANF" value="Micrel Inc"/>
+<attribute name="MANF#" value="MIC5219-5.0YM5 TR"/>
+</part>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="470p"/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 <part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="100n"/>
@@ -11799,8 +11828,16 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10u"/>
 <part name="P+4" library="supply1" deviceset="V+" device=""/>
-<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="PTH" value="RPROT"/>
-<part name="MIC5219-3.3YM5_1" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD"/>
+<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="PTH" value="RPROT">
+<attribute name="DIGIKEY#" value="497-6588-1-ND"/>
+<attribute name="MANF" value="STMicroelectronics"/>
+<attribute name="MANF#" value="STPS5L40RL"/>
+</part>
+<part name="MIC5219-3.3YM5_1" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD" value="3.3V">
+<attribute name="DIGIKEY#" value="576-1281-1-ND"/>
+<attribute name="MANF" value="Micrel Inc"/>
+<attribute name="MANF#" value="MIC5219-3.3YM5 TR"/>
+</part>
 <part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="470p"/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="100n"/>
@@ -11809,7 +11846,11 @@ Source: www.kingbright.com</description>
 <part name="P+5" library="supply1" deviceset="V+" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
-<part name="MIC5219-3.3YM5_2" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD"/>
+<part name="MIC5219-3.3YM5_2" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD" value="3.3V">
+<attribute name="DIGIKEY#" value="576-1281-1-ND"/>
+<attribute name="MANF" value="Micrel Inc"/>
+<attribute name="MANF#" value="MIC5219-3.3YM5 TR"/>
+</part>
 <part name="C11" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="470p"/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
 <part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="100n"/>
@@ -11818,14 +11859,22 @@ Source: www.kingbright.com</description>
 <part name="P+6" library="supply1" deviceset="V+" device=""/>
 <part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="VCC3" library="supply1" deviceset="VCCIO" device=""/>
-<part name="NCP565ST12T3G" library="microbuilder" deviceset="LM1117" device="SOT223-REFLOW" value="1.2V"/>
+<part name="NCP565ST12T3G" library="microbuilder" deviceset="LM1117" device="SOT223-REFLOW" value="1.2V">
+<attribute name="DIGIKEY#" value="NCP565ST12T3GOSCT-ND"/>
+<attribute name="MANF" value="ON Semiconductor"/>
+<attribute name="MANF#" value="NCP565ST12T3G"/>
+</part>
 <part name="C15" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="100n"/>
 <part name="P+7" library="supply1" deviceset="V+" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
 <part name="C16" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10u"/>
 <part name="C17" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="100n"/>
 <part name="VCC4" library="supply1" deviceset="VCCINT" device=""/>
-<part name="MCU" library="gator" deviceset="STM32F417VGT6" device=""/>
+<part name="MCU" library="gator" deviceset="STM32F417VGT6" device="">
+<attribute name="DIGIKEY#" value="497-11900-ND"/>
+<attribute name="MANF" value="STMicroelectronics"/>
+<attribute name="MANF#" value="STM32F417VGT6"/>
+</part>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="51"/>
@@ -11863,7 +11912,11 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="supply2" deviceset="GND" device=""/>
 <part name="VCC1" library="supply1" deviceset="VCCINT" device=""/>
-<part name="MIC5219-5.0YM1" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD"/>
+<part name="MIC5219-5.0YM1" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD" value="5.0V">
+<attribute name="DIGIKEY#" value="576-2770-1-ND"/>
+<attribute name="MANF" value="Micrel Inc"/>
+<attribute name="MANF#" value="MIC5219-5.0YM5 TR"/>
+</part>
 <part name="C28" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="470p"/>
 <part name="SUPPLY23" library="supply2" deviceset="GND" device=""/>
 <part name="C29" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="100n"/>
@@ -11873,8 +11926,17 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY24" library="supply2" deviceset="GND" device=""/>
 <part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="4K7"/>
 <part name="R20" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="4K7"/>
-<part name="U$2" library="gator" deviceset="HDMI_A" device=""/>
-<part name="SDRAM" library="gator" deviceset="MT48LC16M16A2P" device=""/>
+<part name="U$2" library="gator" deviceset="HDMI_A" device="">
+<attribute name="DIGIKEY#" value="WM19084CT-ND"/>
+<attribute name="MANF" value="Molex Inc"/>
+<attribute name="MANF#" value="5002541927"/>
+</part>
+<part name="SDRAM" library="gator" deviceset="MT48LC16M16A2P" device="">
+<attribute name="DIGIKEY#" value="557-1223-1-ND"/>
+<attribute name="MANF" value="Micron Technology Inc"/>
+<attribute name="MANF#" value="MT48LC16M16A2P-6A:D TR"/>
+<attribute name="MOUSER#" value="913-AS4C16M16S-6TAN"/>
+</part>
 <part name="R21" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="22"/>
 <part name="R22" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="22"/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
@@ -11888,22 +11950,46 @@ Source: www.kingbright.com</description>
 <part name="VCC8" library="supply1" deviceset="VCCIO" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="R25" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
-<part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="HC49US" value="12MHz"/>
+<part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="HC49US" value="12MHz">
+<attribute name="DIGIKEY#" value="CTX904-ND"/>
+<attribute name="MANF" value="CTS-Frequency Controls"/>
+<attribute name="MANF#" value="ATS120B"/>
+</part>
 <part name="C18" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="20p"/>
 <part name="C19" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="20p"/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
-<part name="OSC_50M" library="SparkFun-FreqCtrl" deviceset="OSCILLATOR" device="5X3-PIN1-INDICATED"/>
+<part name="OSC_50M" library="SparkFun-FreqCtrl" deviceset="OSCILLATOR" device="5X3-PIN1-INDICATED">
+<attribute name="DIGIKEY#" value="CTX1011CT-ND"/>
+<attribute name="MANF" value="CTS-Frequency Controls"/>
+<attribute name="MANF#" value="636L3C050M00000"/>
+</part>
 <part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY25" library="supply2" deviceset="GND" device=""/>
 <part name="R26" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
-<part name="R27" library="SparkFun-Passives" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="51"/>
-<part name="R28" library="SparkFun-Passives" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="51"/>
+<part name="R27" library="SparkFun-Passives" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="51">
+<attribute name="DIGIKEY#" value="YC164J-51CT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="YC164-JR-0751RL"/>
+</part>
+<part name="R28" library="SparkFun-Passives" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="51">
+<attribute name="DIGIKEY#" value="YC164J-51CT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="YC164-JR-0751RL"/>
+</part>
 <part name="VCC9" library="supply1" deviceset="VCCIO" device=""/>
-<part name="FPGA_JTAG" library="con-molex-milli-grid" deviceset="87758-14" device=""/>
+<part name="FPGA_JTAG" library="con-molex-milli-grid" deviceset="87758-14" device="">
+<attribute name="DIGIKEY#" value="AE10561-ND"/>
+<attribute name="MANF" value="Assmann WSW Components"/>
+<attribute name="MANF#" value="AWHW2-14G-0202-T-R"/>
+</part>
 <part name="SUPPLY26" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY27" library="supply2" deviceset="GND" device=""/>
 <part name="VCC10" library="supply1" deviceset="VCCIO" device=""/>
-<part name="X1" library="SparkFun-Connectors" deviceset="USB" device="-A-S"/>
+<part name="X1" library="SparkFun-Connectors" deviceset="USB" device="-A-S">
+<attribute name="DIGIKEY#" value="1175-1016-ND"/>
+<attribute name="MANF" value="CNC Tech"/>
+<attribute name="MANF#" value="1002-002-01100"/>
+</part>
 <part name="VCC11" library="supply1" deviceset="VCCIO" device=""/>
 <part name="R29" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="51"/>
 <part name="R30" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="4K7"/>
@@ -11911,19 +11997,35 @@ Source: www.kingbright.com</description>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V16" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY28" library="supply2" deviceset="GND" device=""/>
-<part name="U$3" library="gator" deviceset="PCA9527" device=""/>
+<part name="U$3" library="gator" deviceset="PCA9527" device="">
+<attribute name="DIGIKEY#" value="568-4770-1-ND"/>
+<attribute name="MANF" value="NXP Semiconductors"/>
+<attribute name="MANF#" value="PCA9527DP,118"/>
+</part>
 <part name="VCC12" library="supply1" deviceset="VCCIO" device=""/>
 <part name="R32" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="22"/>
 <part name="R33" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="22"/>
 <part name="R34" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="R35" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
-<part name="LED_L_EYE" library="led" deviceset="LED" device="3MM" value="GRN"/>
-<part name="LED_R_EYE" library="led" deviceset="LED" device="3MM" value="GRN"/>
+<part name="LED_L_EYE" library="led" deviceset="LED" device="3MM" value="GRN">
+<attribute name="DIGIKEY#" value="160-1659-ND"/>
+<attribute name="MANF" value="Lite-On Inc"/>
+<attribute name="MANF#" value="LTL1CHKGKNN"/>
+</part>
+<part name="LED_R_EYE" library="led" deviceset="LED" device="3MM" value="GRN">
+<attribute name="DIGIKEY#" value="160-1659-ND"/>
+<attribute name="MANF" value="Lite-On Inc"/>
+<attribute name="MANF#" value="LTL1CHKGKNN"/>
+</part>
 <part name="R36" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="120"/>
 <part name="SUPPLY29" library="supply2" deviceset="GND" device=""/>
 <part name="R37" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="120"/>
 <part name="SUPPLY30" library="supply2" deviceset="GND" device=""/>
-<part name="U$4" library="gator" deviceset="GATOR_HEAD" device=""/>
+<part name="U$4" library="gator" deviceset="GATOR_HEAD" device="">
+<attribute name="DIGIKEY#" value="T1065-P5P-ND"/>
+<attribute name="MANF" value="CUI Inc"/>
+<attribute name="MANF#" value="ETSA060200UDC-P5P-SZ"/>
+</part>
 <part name="SUPPLY31" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY32" library="supply2" deviceset="GND" device=""/>
 <part name="C20" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10u"/>
@@ -11963,12 +12065,33 @@ to minimize hotplug ripple</text>
 <text x="-55.88" y="302.26" size="1.778" layer="91">Place caps close to TD, RD, and center taps</text>
 </plain>
 <instances>
-<instance part="RJ45" gate="G$1" x="-40.64" y="274.32"/>
-<instance part="MICROSD" gate="G$1" x="-309.88" y="335.28"/>
-<instance part="J2" gate="G$1" x="-350.52" y="388.62"/>
+<instance part="RJ45" gate="G$1" x="-40.64" y="274.32">
+<attribute name="DIGIKEY#" x="-40.64" y="274.32" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="-40.64" y="274.32" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="-40.64" y="274.32" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="MICROSD" gate="G$1" x="-309.88" y="335.28">
+<attribute name="DIGIKEY#" x="-309.88" y="335.28" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="-309.88" y="335.28" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="-309.88" y="335.28" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J2" gate="G$1" x="-350.52" y="388.62">
+<attribute name="DIGIKEY#" x="-350.52" y="388.62" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="-350.52" y="388.62" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="-350.52" y="388.62" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="RESET" gate="S" x="-279.4" y="271.78"/>
-<instance part="ETH_PHY" gate="G$1" x="-144.78" y="284.48"/>
-<instance part="JTAG" gate="1" x="-350.52" y="269.24"/>
+<instance part="ETH_PHY" gate="G$1" x="-144.78" y="284.48">
+<attribute name="DIGIKEY#" x="-144.78" y="284.48" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="-144.78" y="284.48" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="-144.78" y="284.48" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="-144.78" y="284.48" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JTAG" gate="1" x="-350.52" y="269.24">
+<attribute name="DIGIKEY#" x="-350.52" y="269.24" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="-350.52" y="269.24" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="-350.52" y="269.24" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="FPGA" gate="B0" x="-241.3" y="66.04"/>
 <instance part="R1" gate="G$1" x="-314.96" y="279.4"/>
 <instance part="R2" gate="G$1" x="-322.58" y="276.86"/>
@@ -11982,7 +12105,11 @@ to minimize hotplug ripple</text>
 <instance part="SUPPLY3" gate="GND" x="-271.78" y="256.54"/>
 <instance part="SUPPLY4" gate="GND" x="-320.04" y="312.42"/>
 <instance part="+3V3" gate="G$1" x="-325.12" y="365.76"/>
-<instance part="MIC5219-5.0YM5" gate="G$1" x="20.32" y="386.08"/>
+<instance part="MIC5219-5.0YM5" gate="G$1" x="20.32" y="386.08">
+<attribute name="DIGIKEY#" x="20.32" y="386.08" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="20.32" y="386.08" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="20.32" y="386.08" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C2" gate="G$1" x="35.56" y="375.92"/>
 <instance part="SUPPLY6" gate="GND" x="35.56" y="368.3"/>
 <instance part="C3" gate="G$1" x="43.18" y="383.54"/>
@@ -11992,8 +12119,16 @@ to minimize hotplug ripple</text>
 <instance part="SUPPLY8" gate="GND" x="-347.98" y="386.08"/>
 <instance part="C6" gate="G$1" x="-320.04" y="391.16"/>
 <instance part="P+4" gate="1" x="-320.04" y="403.86"/>
-<instance part="D1" gate="G$1" x="-337.82" y="396.24"/>
-<instance part="MIC5219-3.3YM5_1" gate="G$1" x="-157.48" y="386.08"/>
+<instance part="D1" gate="G$1" x="-337.82" y="396.24">
+<attribute name="DIGIKEY#" x="-337.82" y="396.24" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="-337.82" y="396.24" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="-337.82" y="396.24" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="MIC5219-3.3YM5_1" gate="G$1" x="-157.48" y="386.08">
+<attribute name="DIGIKEY#" x="-157.48" y="386.08" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="-157.48" y="386.08" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="-157.48" y="386.08" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C7" gate="G$1" x="-142.24" y="375.92"/>
 <instance part="SUPPLY9" gate="GND" x="-142.24" y="368.3"/>
 <instance part="C8" gate="G$1" x="-134.62" y="386.08"/>
@@ -12002,7 +12137,11 @@ to minimize hotplug ripple</text>
 <instance part="P+5" gate="1" x="-182.88" y="403.86"/>
 <instance part="+3V6" gate="G$1" x="-124.46" y="398.78"/>
 <instance part="R7" gate="G$1" x="-190.5" y="388.62" rot="R90"/>
-<instance part="MIC5219-3.3YM5_2" gate="G$1" x="-157.48" y="429.26"/>
+<instance part="MIC5219-3.3YM5_2" gate="G$1" x="-157.48" y="429.26">
+<attribute name="DIGIKEY#" x="-157.48" y="429.26" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="-157.48" y="429.26" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="-157.48" y="429.26" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C11" gate="G$1" x="-142.24" y="419.1"/>
 <instance part="SUPPLY10" gate="GND" x="-142.24" y="411.48"/>
 <instance part="C12" gate="G$1" x="-134.62" y="429.26"/>
@@ -12011,7 +12150,11 @@ to minimize hotplug ripple</text>
 <instance part="P+6" gate="1" x="-182.88" y="447.04"/>
 <instance part="R8" gate="G$1" x="-190.5" y="431.8" rot="R90"/>
 <instance part="VCC3" gate="G$1" x="-124.46" y="441.96"/>
-<instance part="NCP565ST12T3G" gate="G$1" x="0" y="439.42"/>
+<instance part="NCP565ST12T3G" gate="G$1" x="0" y="439.42">
+<attribute name="DIGIKEY#" x="0" y="439.42" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="0" y="439.42" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="0" y="439.42" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C15" gate="G$1" x="-12.7" y="431.8"/>
 <instance part="P+7" gate="1" x="-12.7" y="444.5"/>
 <instance part="SUPPLY11" gate="GND" x="0" y="424.18"/>
@@ -12019,7 +12162,11 @@ to minimize hotplug ripple</text>
 <instance part="C17" gate="G$1" x="22.86" y="431.8"/>
 <instance part="VCC4" gate="G$1" x="22.86" y="444.5"/>
 <instance part="MCU" gate="G$1" x="-20.32" y="137.16"/>
-<instance part="MCU" gate="G$2" x="-53.34" y="139.7"/>
+<instance part="MCU" gate="G$2" x="-53.34" y="139.7">
+<attribute name="DIGIKEY#" x="-53.34" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="-53.34" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="-53.34" y="139.7" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="MCU" gate="G$3" x="-238.76" y="307.34"/>
 <instance part="MCU" gate="G$4" x="-403.86" y="317.5"/>
 <instance part="MCU" gate="G$5" x="17.78" y="396.24"/>
@@ -12068,9 +12215,19 @@ to minimize hotplug ripple</text>
 <instance part="FPGA" gate="BVCCAUX" x="-322.58" y="162.56"/>
 <instance part="FPGA" gate="BVCCINT" x="-322.58" y="193.04"/>
 <instance part="VCC1" gate="G$1" x="-314.96" y="203.2"/>
-<instance part="FPGA" gate="B2" x="-149.86" y="175.26"/>
+<instance part="FPGA" gate="B2" x="-149.86" y="175.26" smashed="yes">
+<attribute name="NAME" x="-160.02" y="132.08" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-160.02" y="129.54" size="1.778" layer="96"/>
+<attribute name="DIGIKEY#" x="-149.86" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="-149.86" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="-149.86" y="175.26" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="FPGA" gate="B3" x="-91.44" y="175.26"/>
-<instance part="MIC5219-5.0YM1" gate="G$1" x="-294.64" y="431.8"/>
+<instance part="MIC5219-5.0YM1" gate="G$1" x="-294.64" y="431.8">
+<attribute name="DIGIKEY#" x="-294.64" y="431.8" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="-294.64" y="431.8" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="-294.64" y="431.8" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C28" gate="G$1" x="-279.4" y="421.64"/>
 <instance part="SUPPLY23" gate="GND" x="-279.4" y="414.02"/>
 <instance part="C29" gate="G$1" x="-271.78" y="429.26"/>
@@ -12080,8 +12237,17 @@ to minimize hotplug ripple</text>
 <instance part="SUPPLY24" gate="GND" x="-116.84" y="27.94"/>
 <instance part="R19" gate="G$1" x="-121.92" y="50.8" rot="R90"/>
 <instance part="R20" gate="G$1" x="-121.92" y="38.1" rot="R90"/>
-<instance part="U$2" gate="G$1" x="-99.06" y="66.04"/>
-<instance part="SDRAM" gate="G$1" x="22.86" y="81.28"/>
+<instance part="U$2" gate="G$1" x="-99.06" y="66.04">
+<attribute name="DIGIKEY#" x="-99.06" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="-99.06" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="-99.06" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SDRAM" gate="G$1" x="22.86" y="81.28">
+<attribute name="DIGIKEY#" x="22.86" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="22.86" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="22.86" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="22.86" y="81.28" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R21" gate="G$1" x="40.64" y="401.32" rot="R180"/>
 <instance part="R22" gate="G$1" x="50.8" y="398.78" rot="R180"/>
 <instance part="SUPPLY5" gate="GND" x="-7.62" y="137.16"/>
@@ -12095,29 +12261,53 @@ to minimize hotplug ripple</text>
 <instance part="VCC8" gate="G$1" x="-314.96" y="175.26"/>
 <instance part="+3V5" gate="G$1" x="-210.82" y="142.24"/>
 <instance part="R25" gate="G$1" x="-15.24" y="388.62" rot="R90"/>
-<instance part="Y1" gate="G$1" x="-292.1" y="99.06" rot="R180"/>
+<instance part="Y1" gate="G$1" x="-292.1" y="99.06" rot="R180">
+<attribute name="DIGIKEY#" x="-292.1" y="99.06" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANF" x="-292.1" y="99.06" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANF#" x="-292.1" y="99.06" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="C18" gate="G$1" x="-297.18" y="88.9"/>
 <instance part="C19" gate="G$1" x="-289.56" y="88.9"/>
 <instance part="SUPPLY12" gate="GND" x="-289.56" y="81.28"/>
-<instance part="OSC_50M" gate="G$1" x="-193.04" y="342.9"/>
+<instance part="OSC_50M" gate="G$1" x="-193.04" y="342.9">
+<attribute name="DIGIKEY#" x="-193.04" y="342.9" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="-193.04" y="342.9" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="-193.04" y="342.9" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+3V15" gate="G$1" x="-205.74" y="355.6"/>
 <instance part="SUPPLY25" gate="GND" x="-180.34" y="335.28"/>
 <instance part="R26" gate="G$1" x="-210.82" y="345.44" rot="R90"/>
-<instance part="R27" gate="A" x="-55.88" y="83.82"/>
+<instance part="R27" gate="A" x="-55.88" y="83.82">
+<attribute name="DIGIKEY#" x="-55.88" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="-55.88" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="-55.88" y="83.82" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R27" gate="B" x="-55.88" y="78.74"/>
 <instance part="R27" gate="C" x="-55.88" y="73.66"/>
 <instance part="R27" gate="D" x="-55.88" y="68.58"/>
-<instance part="R28" gate="A" x="-55.88" y="63.5"/>
+<instance part="R28" gate="A" x="-55.88" y="63.5">
+<attribute name="DIGIKEY#" x="-55.88" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="-55.88" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="-55.88" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R28" gate="B" x="-55.88" y="58.42"/>
 <instance part="R28" gate="C" x="-55.88" y="53.34"/>
 <instance part="R28" gate="D" x="-55.88" y="48.26"/>
 <instance part="VCC9" gate="G$1" x="-45.72" y="88.9"/>
-<instance part="FPGA_JTAG" gate="G$1" x="-424.18" y="271.78"/>
+<instance part="FPGA_JTAG" gate="G$1" x="-424.18" y="271.78">
+<attribute name="DIGIKEY#" x="-424.18" y="271.78" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="-424.18" y="271.78" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="-424.18" y="271.78" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="FPGA" gate="BNA" x="-386.08" y="269.24" rot="R180"/>
 <instance part="SUPPLY26" gate="GND" x="-391.16" y="259.08"/>
 <instance part="SUPPLY27" gate="GND" x="-431.8" y="259.08"/>
 <instance part="VCC10" gate="G$1" x="-414.02" y="284.48"/>
-<instance part="X1" gate="G$1" x="66.04" y="393.7"/>
+<instance part="X1" gate="G$1" x="66.04" y="393.7">
+<attribute name="DIGIKEY#" x="66.04" y="393.7" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="66.04" y="393.7" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="66.04" y="393.7" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="VCC11" gate="G$1" x="43.18" y="76.2"/>
 <instance part="R29" gate="G$1" x="-132.08" y="203.2"/>
 <instance part="R30" gate="G$1" x="-213.36" y="175.26" rot="R90"/>
@@ -12125,19 +12315,35 @@ to minimize hotplug ripple</text>
 <instance part="+3V4" gate="G$1" x="-205.74" y="185.42"/>
 <instance part="+3V16" gate="G$1" x="-5.08" y="175.26"/>
 <instance part="SUPPLY28" gate="GND" x="-116.84" y="-5.08"/>
-<instance part="U$3" gate="G$1" x="-99.06" y="2.54"/>
+<instance part="U$3" gate="G$1" x="-99.06" y="2.54">
+<attribute name="DIGIKEY#" x="-99.06" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="-99.06" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="-99.06" y="2.54" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="VCC12" gate="G$1" x="-83.82" y="22.86"/>
 <instance part="R32" gate="G$1" x="-129.54" y="5.08" rot="R180"/>
 <instance part="R33" gate="G$1" x="-137.16" y="2.54" rot="R180"/>
 <instance part="R34" gate="G$1" x="-76.2" y="12.7" rot="R90"/>
 <instance part="R35" gate="G$1" x="-68.58" y="12.7" rot="R90"/>
-<instance part="LED_L_EYE" gate="G$1" x="-236.22" y="187.96" rot="R90"/>
-<instance part="LED_R_EYE" gate="G$1" x="-200.66" y="147.32" rot="R90"/>
+<instance part="LED_L_EYE" gate="G$1" x="-236.22" y="187.96" rot="R90">
+<attribute name="DIGIKEY#" x="-236.22" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="-236.22" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="-236.22" y="187.96" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="LED_R_EYE" gate="G$1" x="-200.66" y="147.32" rot="R90">
+<attribute name="DIGIKEY#" x="-200.66" y="147.32" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANF" x="-200.66" y="147.32" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANF#" x="-200.66" y="147.32" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="R36" gate="G$1" x="-246.38" y="187.96" rot="R180"/>
 <instance part="SUPPLY29" gate="GND" x="-228.6" y="185.42"/>
 <instance part="R37" gate="G$1" x="-210.82" y="147.32" rot="R180"/>
 <instance part="SUPPLY30" gate="GND" x="-193.04" y="144.78"/>
-<instance part="U$4" gate="G$1" x="-271.78" y="383.54"/>
+<instance part="U$4" gate="G$1" x="-271.78" y="383.54">
+<attribute name="DIGIKEY#" x="-271.78" y="383.54" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="-271.78" y="383.54" size="1.778" layer="96" display="off"/>
+<attribute name="MANF#" x="-271.78" y="383.54" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY31" gate="GND" x="-261.62" y="383.54"/>
 <instance part="SUPPLY32" gate="GND" x="-276.86" y="383.54"/>
 <instance part="C20" gate="G$1" x="-360.68" y="322.58" rot="R180"/>
