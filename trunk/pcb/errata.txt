@@ -5,3 +5,4 @@ Rev A errors/changes
 - Need VCAP_1 and VCAP_2
 - Connect OTG_HS for second USB port
 - Use cheaper HDMI connector
+- Bypass capacitor near 50MHz oscillator
