@@ -3878,12 +3878,15 @@ design rules under a new name.</description>
 <attribute name="MANF#" value="101-00660-68-6" x="74.93" y="16.51" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J2" library="SparkFun-Connectors" package="POWER_JACK_PTH" value="POWER_JACKPTH" x="69.85" y="81.28" rot="R180">
-<attribute name="DIGIKEY#" value="CP-002A-ND" x="69.85" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY#" value="CP-002AH-ND" x="69.85" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="CUI Inc" x="69.85" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANF#" value="PJ-002A" x="69.85" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="PJ-002AH" x="69.85" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="RESET" library="SparkFun-Electromechanical" package="TACTILE-PTH" value="0" x="96.52" y="11.43" smashed="yes" rot="R270">
 <attribute name="NAME" x="93.218" y="4.826" size="1.27" layer="25" ratio="10"/>
+<attribute name="DIGIKEY#" value="450-1804-ND" x="96.52" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="TE Connectivity" x="96.52" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="1825910-7" x="96.52" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="ETH_PHY" library="gator" package="LQFP-48" value="DP83848C" x="73.66" y="57.15" rot="R90">
 <attribute name="DIGIKEY#" value="DP83848CVVX/NOPBCT-ND" x="73.66" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3906,21 +3909,61 @@ design rules under a new name.</description>
 <attribute name="MANF" value="Xilinx Inc" x="30.634071875" y="45.34801875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF#" value="XC6SLX9-2TQG144C" x="30.634071875" y="45.34801875" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R1" library="SparkFun-Passives" package="0603-RES" value="10K" x="91.44" y="22.86" rot="MR0"/>
-<element name="R2" library="SparkFun-Passives" package="0603-RES" value="10K" x="91.44" y="25.4" rot="MR0"/>
-<element name="R3" library="SparkFun-Passives" package="0603-RES" value="10K" x="91.44" y="33.02" rot="MR0"/>
-<element name="R4" library="SparkFun-Passives" package="0603-RES" value="10K" x="85.725" y="14.605" rot="MR0"/>
-<element name="C1" library="SparkFun-Passives" package="0603-CAP" value="100n" x="90.17" y="13.97" rot="MR90"/>
+<element name="R1" library="SparkFun-Passives" package="0603-RES" value="10K" x="91.44" y="22.86" rot="MR0">
+<attribute name="DIGIKEY#" value="RMCF0603JT10K0CT-ND" x="91.44" y="22.86" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="91.44" y="22.86" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT10K0" x="91.44" y="22.86" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="R2" library="SparkFun-Passives" package="0603-RES" value="10K" x="91.44" y="25.4" rot="MR0">
+<attribute name="DIGIKEY#" value="RMCF0603JT10K0CT-ND" x="91.44" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="91.44" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT10K0" x="91.44" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="R3" library="SparkFun-Passives" package="0603-RES" value="10K" x="91.44" y="33.02" rot="MR0">
+<attribute name="DIGIKEY#" value="RMCF0603JT10K0CT-ND" x="91.44" y="33.02" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="91.44" y="33.02" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT10K0" x="91.44" y="33.02" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="R4" library="SparkFun-Passives" package="0603-RES" value="10K" x="85.725" y="14.605" rot="MR0">
+<attribute name="DIGIKEY#" value="RMCF0603JT10K0CT-ND" x="85.725" y="14.605" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="85.725" y="14.605" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT10K0" x="85.725" y="14.605" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C1" library="SparkFun-Passives" package="0603-CAP" value="100n" x="90.17" y="13.97" rot="MR90">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="90.17" y="13.97" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="90.17" y="13.97" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="90.17" y="13.97" size="1.778" layer="28" rot="MR90" display="off"/>
+</element>
 <element name="MIC5219-5.0YM5" library="SparkFun-PowerIC" package="SOT23-5" value="5.0V" x="58.42" y="21.59" rot="R180">
 <attribute name="DIGIKEY#" value="576-2770-1-ND" x="58.42" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="Micrel Inc" x="58.42" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF#" value="MIC5219-5.0YM5 TR" x="58.42" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C2" library="SparkFun-Passives" package="0603-CAP" value="470p" x="56.515" y="17.145" rot="R270"/>
-<element name="C3" library="SparkFun-Passives" package="0603-CAP" value="100n" x="53.34" y="21.59" rot="R180"/>
-<element name="C4" library="SparkFun-Passives" package="0603-CAP" value="10u" x="53.34" y="19.05" rot="R180"/>
-<element name="C5" library="SparkFun-Passives" package="0603-CAP" value="100n" x="54.61" y="25.4" rot="MR0"/>
-<element name="C6" library="SparkFun-Passives" package="0603-CAP" value="10u" x="31.115" y="75.565" rot="R180"/>
+<element name="C2" library="SparkFun-Passives" package="0603-CAP" value="470p" x="56.515" y="17.145" rot="R270">
+<attribute name="DIGIKEY#" value="445-1289-1-ND" x="56.515" y="17.145" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="56.515" y="17.145" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="C1608C0G1H471J080AA" x="56.515" y="17.145" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C3" library="SparkFun-Passives" package="0603-CAP" value="100n" x="53.34" y="21.59" rot="R180">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="53.34" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="53.34" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="53.34" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C4" library="SparkFun-Passives" package="0603-CAP" value="10u" x="53.34" y="19.05" rot="R180">
+<attribute name="DIGIKEY#" value="445-6853-1-ND" x="53.34" y="19.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="53.34" y="19.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="C1608X5R1A106M080AC" x="53.34" y="19.05" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C5" library="SparkFun-Passives" package="0603-CAP" value="100n" x="54.61" y="25.4" rot="MR0">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="54.61" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="54.61" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="54.61" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C6" library="SparkFun-Passives" package="0603-CAP" value="10u" x="31.115" y="75.565" rot="R180">
+<attribute name="DIGIKEY#" value="445-6853-1-ND" x="31.115" y="75.565" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="31.115" y="75.565" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="C1608X5R1A106M080AC" x="31.115" y="75.565" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="D1" library="SparkFun-DiscreteSemi" package="DIODE-1N4001" value="RPROT" x="76.2" y="72.39" rot="R90">
 <attribute name="DIGIKEY#" value="497-6588-1-ND" x="76.2" y="72.39" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF" value="STMicroelectronics" x="76.2" y="72.39" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3931,63 +3974,211 @@ design rules under a new name.</description>
 <attribute name="MANF" value="Micrel Inc" x="90.17" y="46.99" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF#" value="MIC5219-3.3YM5 TR" x="90.17" y="46.99" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C7" library="SparkFun-Passives" package="0603-CAP" value="470p" x="86.995" y="46.99" rot="R90"/>
-<element name="C8" library="SparkFun-Passives" package="0603-CAP" value="100n" x="76.2" y="53.34" rot="MR180"/>
-<element name="C9" library="SparkFun-Passives" package="0603-CAP" value="10u" x="83.82" y="46.99"/>
-<element name="C10" library="SparkFun-Passives" package="0603-CAP" value="100n" x="48.26" y="74.93"/>
-<element name="R7" library="SparkFun-Passives" package="0603-RES" value="10K" x="90.17" y="50.165"/>
+<element name="C7" library="SparkFun-Passives" package="0603-CAP" value="470p" x="86.995" y="46.99" rot="R90">
+<attribute name="DIGIKEY#" value="445-1289-1-ND" x="86.995" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="86.995" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="C1608C0G1H471J080AA" x="86.995" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C8" library="SparkFun-Passives" package="0603-CAP" value="100n" x="76.2" y="53.34" rot="MR180">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="76.2" y="53.34" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="76.2" y="53.34" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="76.2" y="53.34" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="C9" library="SparkFun-Passives" package="0603-CAP" value="10u" x="83.82" y="46.99">
+<attribute name="DIGIKEY#" value="445-6853-1-ND" x="83.82" y="46.99" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="83.82" y="46.99" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="C1608X5R1A106M080AC" x="83.82" y="46.99" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C10" library="SparkFun-Passives" package="0603-CAP" value="100n" x="48.26" y="74.93">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="48.26" y="74.93" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="48.26" y="74.93" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="48.26" y="74.93" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R7" library="SparkFun-Passives" package="0603-RES" value="10K" x="90.17" y="50.165">
+<attribute name="DIGIKEY#" value="RMCF0603JT10K0CT-ND" x="90.17" y="50.165" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="90.17" y="50.165" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT10K0" x="90.17" y="50.165" size="1.778" layer="27" display="off"/>
+</element>
 <element name="MIC5219-3.3YM5_2" library="SparkFun-PowerIC" package="SOT23-5" value="3.3V" x="28.575" y="66.04" rot="R90">
 <attribute name="DIGIKEY#" value="576-1281-1-ND" x="28.575" y="66.04" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF" value="Micrel Inc" x="28.575" y="66.04" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF#" value="MIC5219-3.3YM5 TR" x="28.575" y="66.04" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C11" library="SparkFun-Passives" package="0603-CAP" value="470p" x="27.94" y="69.215"/>
-<element name="C12" library="SparkFun-Passives" package="0603-CAP" value="100n" x="24.13" y="39.37" rot="MR90"/>
-<element name="C13" library="SparkFun-Passives" package="0603-CAP" value="10u" x="27.94" y="62.865"/>
-<element name="C14" library="SparkFun-Passives" package="0603-CAP" value="100n" x="96.52" y="53.34" rot="R90"/>
-<element name="R8" library="SparkFun-Passives" package="0603-RES" value="10K" x="32.385" y="66.04" rot="R270"/>
+<element name="C11" library="SparkFun-Passives" package="0603-CAP" value="470p" x="27.94" y="69.215">
+<attribute name="DIGIKEY#" value="445-1289-1-ND" x="27.94" y="69.215" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="27.94" y="69.215" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="C1608C0G1H471J080AA" x="27.94" y="69.215" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C12" library="SparkFun-Passives" package="0603-CAP" value="100n" x="24.13" y="39.37" rot="MR90">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="24.13" y="39.37" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="24.13" y="39.37" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="24.13" y="39.37" size="1.778" layer="28" rot="MR90" display="off"/>
+</element>
+<element name="C13" library="SparkFun-Passives" package="0603-CAP" value="10u" x="27.94" y="62.865">
+<attribute name="DIGIKEY#" value="445-6853-1-ND" x="27.94" y="62.865" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="27.94" y="62.865" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="C1608X5R1A106M080AC" x="27.94" y="62.865" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C14" library="SparkFun-Passives" package="0603-CAP" value="100n" x="96.52" y="53.34" rot="R90">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="96.52" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="96.52" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="96.52" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R8" library="SparkFun-Passives" package="0603-RES" value="10K" x="32.385" y="66.04" rot="R270">
+<attribute name="DIGIKEY#" value="RMCF0603JT10K0CT-ND" x="32.385" y="66.04" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="32.385" y="66.04" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT10K0" x="32.385" y="66.04" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="NCP565ST12T3G" library="microbuilder" package="SOT223-R" value="1.2V" x="41.91" y="72.39" rot="R90">
 <attribute name="DIGIKEY#" value="NCP565ST12T3GOSCT-ND" x="41.91" y="72.39" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF" value="ON Semiconductor" x="41.91" y="72.39" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF#" value="NCP565ST12T3G" x="41.91" y="72.39" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C15" library="SparkFun-Passives" package="0603-CAP" value="100n" x="36.195" y="70.485" rot="R90"/>
-<element name="C16" library="SparkFun-Passives" package="0603-CAP" value="10u" x="48.26" y="72.517"/>
-<element name="C17" library="SparkFun-Passives" package="0603-CAP" value="100n" x="26.67" y="36.83" rot="MR0"/>
+<element name="C15" library="SparkFun-Passives" package="0603-CAP" value="100n" x="36.195" y="70.485" rot="R90">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="36.195" y="70.485" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="36.195" y="70.485" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="36.195" y="70.485" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C16" library="SparkFun-Passives" package="0603-CAP" value="10u" x="48.26" y="72.517">
+<attribute name="DIGIKEY#" value="445-6853-1-ND" x="48.26" y="72.517" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="48.26" y="72.517" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="C1608X5R1A106M080AC" x="48.26" y="72.517" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C17" library="SparkFun-Passives" package="0603-CAP" value="100n" x="26.67" y="36.83" rot="MR0">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="26.67" y="36.83" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="26.67" y="36.83" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="26.67" y="36.83" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
 <element name="MCU" library="gator" package="LQFP-100" value="STM32F417VGT6" x="66.411971875" y="53.711971875" rot="R180">
 <attribute name="DIGIKEY#" value="497-11900-ND" x="66.411971875" y="53.711971875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="STMicroelectronics" x="66.411971875" y="53.711971875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF#" value="STM32F417VGT6" x="66.411971875" y="53.711971875" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R5" library="SparkFun-Passives" package="0603-RES" value="51" x="90.17" y="67.31" rot="MR90"/>
-<element name="R6" library="SparkFun-Passives" package="0603-RES" value="51" x="87.63" y="67.31" rot="MR90"/>
-<element name="R9" library="SparkFun-Passives" package="0603-RES" value="51" x="88.265" y="59.055" rot="MR180"/>
-<element name="R10" library="SparkFun-Passives" package="0603-RES" value="51" x="82.55" y="64.77" rot="MR90"/>
-<element name="R11" library="SparkFun-Passives" package="0603-RES" value="2K2" x="82.55" y="53.34" rot="R270"/>
-<element name="R12" library="SparkFun-Passives" package="0603-RES" value="2K2" x="75.565" y="64.135" rot="R90"/>
-<element name="R13" library="SparkFun-Passives" package="0603-RES" value="2K2" x="91.44" y="53.34" rot="R270"/>
-<element name="R14" library="SparkFun-Passives" package="0603-RES" value="120" x="93.98" y="53.34" rot="R270"/>
-<element name="R15" library="SparkFun-Passives" package="0603-RES" value="120" x="85.09" y="53.34" rot="R90"/>
-<element name="C21" library="SparkFun-Passives" package="0603-CAP" value="10u" x="63.246" y="61.722" rot="R270"/>
-<element name="C22" library="SparkFun-Passives" package="0603-CAP" value="100n" x="65.278" y="61.722" rot="R270"/>
-<element name="R16" library="SparkFun-Passives" package="0603-RES" value="4K87" x="78.105" y="63.5" rot="R270"/>
-<element name="C24" library="SparkFun-Passives" package="0603-CAP" value="100n" x="95.25" y="59.69" rot="MR90"/>
-<element name="C25" library="SparkFun-Passives" package="0603-CAP" value="100n" x="85.09" y="67.31" rot="MR90"/>
-<element name="C26" library="SparkFun-Passives" package="0603-CAP" value="100n" x="83.82" y="49.53"/>
-<element name="C27" library="SparkFun-Passives" package="0603-CAP" value="100n" x="53.975" y="40.64" rot="MR180"/>
-<element name="R17" library="SparkFun-Passives" package="0603-RES" value="2K2" x="67.31" y="60.325" rot="R90"/>
-<element name="R18" library="SparkFun-Passives" package="0603-RES" value="2K2" x="74.295" y="47.625" rot="R180"/>
+<element name="R5" library="SparkFun-Passives" package="0603-RES" value="51" x="90.17" y="67.31" rot="MR90">
+<attribute name="DIGIKEY#" value="RMCF0603JT51R0CT-ND" x="90.17" y="67.31" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="90.17" y="67.31" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT51R0" x="90.17" y="67.31" size="1.778" layer="28" rot="MR90" display="off"/>
+</element>
+<element name="R6" library="SparkFun-Passives" package="0603-RES" value="51" x="87.63" y="67.31" rot="MR90">
+<attribute name="DIGIKEY#" value="RMCF0603JT51R0CT-ND" x="87.63" y="67.31" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="87.63" y="67.31" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT51R0" x="87.63" y="67.31" size="1.778" layer="28" rot="MR90" display="off"/>
+</element>
+<element name="R9" library="SparkFun-Passives" package="0603-RES" value="51" x="88.265" y="59.055" rot="MR180">
+<attribute name="DIGIKEY#" value="RMCF0603JT51R0CT-ND" x="88.265" y="59.055" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="88.265" y="59.055" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT51R0" x="88.265" y="59.055" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="R10" library="SparkFun-Passives" package="0603-RES" value="51" x="82.55" y="64.77" rot="MR90">
+<attribute name="DIGIKEY#" value="RMCF0603JT51R0CT-ND" x="82.55" y="64.77" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="82.55" y="64.77" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT51R0" x="82.55" y="64.77" size="1.778" layer="28" rot="MR90" display="off"/>
+</element>
+<element name="R11" library="SparkFun-Passives" package="0603-RES" value="2K2" x="82.55" y="53.34" rot="R270">
+<attribute name="DIGIKEY#" value="RMCF0603JT2K20CT-ND" x="82.55" y="53.34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="82.55" y="53.34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT2K20" x="82.55" y="53.34" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R12" library="SparkFun-Passives" package="0603-RES" value="2K2" x="75.565" y="64.135" rot="R90">
+<attribute name="DIGIKEY#" value="RMCF0603JT2K20CT-ND" x="75.565" y="64.135" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="75.565" y="64.135" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT2K20" x="75.565" y="64.135" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R13" library="SparkFun-Passives" package="0603-RES" value="2K2" x="91.44" y="53.34" rot="R270">
+<attribute name="DIGIKEY#" value="RMCF0603JT2K20CT-ND" x="91.44" y="53.34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="91.44" y="53.34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT2K20" x="91.44" y="53.34" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R14" library="SparkFun-Passives" package="0603-RES" value="120" x="93.98" y="53.34" rot="R270">
+<attribute name="DIGIKEY#" value=" RMCF0603JT120RCT-ND" x="93.98" y="53.34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="93.98" y="53.34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT120R" x="93.98" y="53.34" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R15" library="SparkFun-Passives" package="0603-RES" value="120" x="85.09" y="53.34" rot="R90">
+<attribute name="DIGIKEY#" value=" RMCF0603JT120RCT-ND" x="85.09" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="85.09" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT120R" x="85.09" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C21" library="SparkFun-Passives" package="0603-CAP" value="10u" x="63.246" y="61.722" rot="R270">
+<attribute name="DIGIKEY#" value="445-6853-1-ND" x="63.246" y="61.722" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="63.246" y="61.722" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="C1608X5R1A106M080AC" x="63.246" y="61.722" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C22" library="SparkFun-Passives" package="0603-CAP" value="100n" x="65.278" y="61.722" rot="R270">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="65.278" y="61.722" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="65.278" y="61.722" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="65.278" y="61.722" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R16" library="SparkFun-Passives" package="0603-RES" value="4K87" x="78.105" y="63.5" rot="R270">
+<attribute name="DIGIKEY#" value="RMCF0603FT4K87CT-ND" x="78.105" y="63.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="78.105" y="63.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="RMCF0603FT4K87" x="78.105" y="63.5" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C24" library="SparkFun-Passives" package="0603-CAP" value="100n" x="95.25" y="59.69" rot="MR90">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="95.25" y="59.69" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="95.25" y="59.69" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="95.25" y="59.69" size="1.778" layer="28" rot="MR90" display="off"/>
+</element>
+<element name="C25" library="SparkFun-Passives" package="0603-CAP" value="100n" x="85.09" y="67.31" rot="MR90">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="85.09" y="67.31" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="85.09" y="67.31" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="85.09" y="67.31" size="1.778" layer="28" rot="MR90" display="off"/>
+</element>
+<element name="C26" library="SparkFun-Passives" package="0603-CAP" value="100n" x="83.82" y="49.53">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="83.82" y="49.53" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="83.82" y="49.53" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="83.82" y="49.53" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C27" library="SparkFun-Passives" package="0603-CAP" value="100n" x="53.975" y="40.64" rot="MR180">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="53.975" y="40.64" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="53.975" y="40.64" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="53.975" y="40.64" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="R17" library="SparkFun-Passives" package="0603-RES" value="2K2" x="67.31" y="60.325" rot="R90">
+<attribute name="DIGIKEY#" value="RMCF0603JT2K20CT-ND" x="67.31" y="60.325" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="67.31" y="60.325" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT2K20" x="67.31" y="60.325" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R18" library="SparkFun-Passives" package="0603-RES" value="2K2" x="74.295" y="47.625" rot="R180">
+<attribute name="DIGIKEY#" value="RMCF0603JT2K20CT-ND" x="74.295" y="47.625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="74.295" y="47.625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT2K20" x="74.295" y="47.625" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="MIC5219-5.0YM1" library="SparkFun-PowerIC" package="SOT23-5" value="5.0V" x="27.94" y="72.39" rot="R90">
 <attribute name="DIGIKEY#" value="576-2770-1-ND" x="27.94" y="72.39" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF" value="Micrel Inc" x="27.94" y="72.39" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF#" value="MIC5219-5.0YM5 TR" x="27.94" y="72.39" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C28" library="SparkFun-Passives" package="0603-CAP" value="470p" x="27.305" y="75.565"/>
-<element name="C29" library="SparkFun-Passives" package="0603-CAP" value="100n" x="26.924" y="77.724"/>
-<element name="C30" library="SparkFun-Passives" package="0603-CAP" value="10u" x="24.13" y="69.85" rot="R180"/>
-<element name="C31" library="SparkFun-Passives" package="0603-CAP" value="100n" x="89.662" y="39.37" rot="R180"/>
-<element name="R19" library="SparkFun-Passives" package="0603-RES" value="4K7" x="20.32" y="69.85" rot="R180"/>
-<element name="R20" library="SparkFun-Passives" package="0603-RES" value="4K7" x="22.225" y="66.675"/>
+<element name="C28" library="SparkFun-Passives" package="0603-CAP" value="470p" x="27.305" y="75.565">
+<attribute name="DIGIKEY#" value="445-1289-1-ND" x="27.305" y="75.565" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="27.305" y="75.565" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="C1608C0G1H471J080AA" x="27.305" y="75.565" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C29" library="SparkFun-Passives" package="0603-CAP" value="100n" x="26.924" y="77.724">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="26.924" y="77.724" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="26.924" y="77.724" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="26.924" y="77.724" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C30" library="SparkFun-Passives" package="0603-CAP" value="10u" x="24.13" y="69.85" rot="R180">
+<attribute name="DIGIKEY#" value="445-6853-1-ND" x="24.13" y="69.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="24.13" y="69.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="C1608X5R1A106M080AC" x="24.13" y="69.85" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C31" library="SparkFun-Passives" package="0603-CAP" value="100n" x="89.662" y="39.37" rot="R180">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="89.662" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="89.662" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="89.662" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R19" library="SparkFun-Passives" package="0603-RES" value="4K7" x="20.32" y="69.85" rot="R180">
+<attribute name="DIGIKEY#" value="RMCF0603JT4K70CT-ND" x="20.32" y="69.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="20.32" y="69.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT4K70" x="20.32" y="69.85" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R20" library="SparkFun-Passives" package="0603-RES" value="4K7" x="22.225" y="66.675">
+<attribute name="DIGIKEY#" value="RMCF0603JT4K70CT-ND" x="22.225" y="66.675" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="22.225" y="66.675" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT4K70" x="22.225" y="66.675" size="1.778" layer="27" display="off"/>
+</element>
 <element name="U$2" library="gator" package="HDMI_A_SMT" value="HDMI_A" x="13.97" y="76.835" rot="R90">
 <attribute name="DIGIKEY#" value="WM19084CT-ND" x="13.97" y="76.835" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF" value="Molex Inc" x="13.97" y="76.835" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3999,24 +4190,56 @@ design rules under a new name.</description>
 <attribute name="MANF#" value="MT48LC16M16A2P-6A:D TR" x="13.97" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER#" value="913-AS4C16M16S-6TAN" x="13.97" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R21" library="SparkFun-Passives" package="0603-RES" value="22" x="64.77" y="20.32" rot="R90"/>
-<element name="R22" library="SparkFun-Passives" package="0603-RES" value="22" x="62.23" y="20.32" rot="R90"/>
-<element name="R23" library="SparkFun-Passives" package="0603-RES" value="10K" x="31.75" y="72.39" rot="R270"/>
-<element name="R24" library="SparkFun-Passives" package="0603-RES" value="10K" x="77.47" y="19.05"/>
-<element name="R25" library="SparkFun-Passives" package="0603-RES" value="10K" x="58.42" y="27.94"/>
+<element name="R21" library="SparkFun-Passives" package="0603-RES" value="22" x="64.77" y="20.32" rot="R90">
+<attribute name="DIGIKEY#" value="RMCF0603JT22R0CT-ND" x="64.77" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="64.77" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT22R0" x="64.77" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R22" library="SparkFun-Passives" package="0603-RES" value="22" x="62.23" y="20.32" rot="R90">
+<attribute name="DIGIKEY#" value="RMCF0603JT22R0CT-ND" x="62.23" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="62.23" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT22R0" x="62.23" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R23" library="SparkFun-Passives" package="0603-RES" value="10K" x="31.75" y="72.39" rot="R270">
+<attribute name="DIGIKEY#" value="RMCF0603JT10K0CT-ND" x="31.75" y="72.39" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="31.75" y="72.39" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT10K0" x="31.75" y="72.39" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R24" library="SparkFun-Passives" package="0603-RES" value="10K" x="77.47" y="19.05">
+<attribute name="DIGIKEY#" value="RMCF0603JT10K0CT-ND" x="77.47" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="77.47" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT10K0" x="77.47" y="19.05" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R25" library="SparkFun-Passives" package="0603-RES" value="10K" x="58.42" y="27.94">
+<attribute name="DIGIKEY#" value="RMCF0603JT10K0CT-ND" x="58.42" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="58.42" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT10K0" x="58.42" y="27.94" size="1.778" layer="27" display="off"/>
+</element>
 <element name="Y1" library="SparkFun-FreqCtrl" package="HC49US" value="12MHz" x="46.355" y="57.15" rot="R180">
 <attribute name="DIGIKEY#" value="CTX904-ND" x="46.355" y="57.15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="CTS-Frequency Controls" x="46.355" y="57.15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF#" value="ATS120B" x="46.355" y="57.15" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C18" library="SparkFun-Passives" package="0603-CAP" value="20p" x="44.45" y="60.96" rot="MR90"/>
-<element name="C19" library="SparkFun-Passives" package="0603-CAP" value="20p" x="48.26" y="60.96" rot="MR90"/>
+<element name="C18" library="SparkFun-Passives" package="0603-CAP" value="20p" x="44.45" y="60.96" rot="MR90">
+<attribute name="MANF" value="Murata Electronics North America" x="44.45" y="60.96" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DIGIKEY#" value="490-1410-1-ND" x="44.45" y="60.96" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF#" value="GRM1885C1H200JA01D" x="44.45" y="60.96" size="1.778" layer="28" rot="MR90" display="off"/>
+</element>
+<element name="C19" library="SparkFun-Passives" package="0603-CAP" value="20p" x="48.26" y="60.96" rot="MR90">
+<attribute name="DIGIKEY#" value="490-1410-1-ND" x="48.26" y="60.96" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF" value="Murata Electronics North America" x="48.26" y="60.96" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF#" value="GRM1885C1H200JA01D" x="48.26" y="60.96" size="1.778" layer="28" rot="MR90" display="off"/>
+</element>
 <element name="OSC_50M" library="SparkFun-FreqCtrl" package="CRYSTAL-OSC-SMD-5X3" value="OSCILLATOR5X3-PIN1-INDICATED" x="59.055" y="67.31" rot="R270">
 <attribute name="DIGIKEY#" value="CTX1011CT-ND" x="59.055" y="67.31" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF" value="CTS-Frequency Controls" x="59.055" y="67.31" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF#" value="636L3C050M00000" x="59.055" y="67.31" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R26" library="SparkFun-Passives" package="0603-RES" value="10K" x="59.055" y="72.39"/>
+<element name="R26" library="SparkFun-Passives" package="0603-RES" value="10K" x="59.055" y="72.39">
+<attribute name="DIGIKEY#" value="RMCF0603JT10K0CT-ND" x="59.055" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="59.055" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT10K0" x="59.055" y="72.39" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R27" library="SparkFun-Passives" package="0603-ARV" value="51" x="13.335" y="53.975" rot="MR315">
 <attribute name="DIGIKEY#" value="YC164J-51CT-ND" x="13.335" y="53.975" size="1.778" layer="28" rot="MR315" display="off"/>
 <attribute name="MANF" value="Yageo" x="13.335" y="53.975" size="1.778" layer="28" rot="MR315" display="off"/>
@@ -4037,18 +4260,46 @@ design rules under a new name.</description>
 <attribute name="MANF" value="CNC Tech" x="62.23" y="10.16" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF#" value="1002-002-01100" x="62.23" y="10.16" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R29" library="SparkFun-Passives" package="0603-RES" value="51" x="46.101" y="52.705"/>
-<element name="R30" library="SparkFun-Passives" package="0603-RES" value="4K7" x="48.26" y="37.465" rot="MR180"/>
-<element name="R31" library="SparkFun-Passives" package="0603-RES" value="4K7" x="48.26" y="40.005" rot="MR180"/>
+<element name="R29" library="SparkFun-Passives" package="0603-RES" value="51" x="46.101" y="52.705">
+<attribute name="DIGIKEY#" value="RMCF0603JT51R0CT-ND" x="46.101" y="52.705" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="46.101" y="52.705" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT51R0" x="46.101" y="52.705" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R30" library="SparkFun-Passives" package="0603-RES" value="4K7" x="48.26" y="37.465" rot="MR180">
+<attribute name="DIGIKEY#" value="RMCF0603JT4K70CT-ND" x="48.26" y="37.465" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="48.26" y="37.465" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT4K70" x="48.26" y="37.465" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="R31" library="SparkFun-Passives" package="0603-RES" value="4K7" x="48.26" y="40.005" rot="MR180">
+<attribute name="DIGIKEY#" value="RMCF0603JT4K70CT-ND" x="48.26" y="40.005" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="48.26" y="40.005" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT4K70" x="48.26" y="40.005" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
 <element name="U$3" library="gator" package="TSSOP10" value="PCA9527" x="17.145" y="59.69" rot="R270">
 <attribute name="DIGIKEY#" value="568-4770-1-ND" x="17.145" y="59.69" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF" value="NXP Semiconductors" x="17.145" y="59.69" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF#" value="PCA9527DP,118" x="17.145" y="59.69" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R32" library="SparkFun-Passives" package="0603-RES" value="22" x="18.542" y="66.675" rot="R90"/>
-<element name="R33" library="SparkFun-Passives" package="0603-RES" value="22" x="16.51" y="66.675" rot="R90"/>
-<element name="R34" library="SparkFun-Passives" package="0603-RES" value="10K" x="21.59" y="64.262"/>
-<element name="R35" library="SparkFun-Passives" package="0603-RES" value="10K" x="21.59" y="62.23"/>
+<element name="R32" library="SparkFun-Passives" package="0603-RES" value="22" x="18.542" y="66.675" rot="R90">
+<attribute name="DIGIKEY#" value="RMCF0603JT22R0CT-ND" x="18.542" y="66.675" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="18.542" y="66.675" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT22R0" x="18.542" y="66.675" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R33" library="SparkFun-Passives" package="0603-RES" value="22" x="16.51" y="66.675" rot="R90">
+<attribute name="DIGIKEY#" value="RMCF0603JT22R0CT-ND" x="16.51" y="66.675" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="16.51" y="66.675" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT22R0" x="16.51" y="66.675" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R34" library="SparkFun-Passives" package="0603-RES" value="10K" x="21.59" y="64.262">
+<attribute name="DIGIKEY#" value="RMCF0603JT10K0CT-ND" x="21.59" y="64.262" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="21.59" y="64.262" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT10K0" x="21.59" y="64.262" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R35" library="SparkFun-Passives" package="0603-RES" value="10K" x="21.59" y="62.23">
+<attribute name="DIGIKEY#" value="RMCF0603JT10K0CT-ND" x="21.59" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="21.59" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT10K0" x="21.59" y="62.23" size="1.778" layer="27" display="off"/>
+</element>
 <element name="LED_L_EYE" library="led" package="LED3MM" value="GRN" x="41.275" y="12.192" smashed="yes" rot="R90">
 <attribute name="DIGIKEY#" value="160-1659-ND" x="41.275" y="12.192" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF" value="Lite-On Inc" x="41.275" y="12.192" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4059,40 +4310,156 @@ design rules under a new name.</description>
 <attribute name="MANF" value="Lite-On Inc" x="45.72" y="12.192" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF#" value="LTL1CHKGKNN" x="45.72" y="12.192" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R36" library="SparkFun-Passives" package="0603-RES" value="120" x="38.735" y="17.78" rot="MR90"/>
-<element name="R37" library="SparkFun-Passives" package="0603-RES" value="120" x="48.26" y="17.78" rot="MR90"/>
+<element name="R36" library="SparkFun-Passives" package="0603-RES" value="120" x="38.735" y="17.78" rot="MR90">
+<attribute name="DIGIKEY#" value=" RMCF0603JT120RCT-ND" x="38.735" y="17.78" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="38.735" y="17.78" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT120R" x="38.735" y="17.78" size="1.778" layer="28" rot="MR90" display="off"/>
+</element>
+<element name="R37" library="SparkFun-Passives" package="0603-RES" value="120" x="48.26" y="17.78" rot="MR90">
+<attribute name="DIGIKEY#" value=" RMCF0603JT120RCT-ND" x="48.26" y="17.78" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="48.26" y="17.78" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT120R" x="48.26" y="17.78" size="1.778" layer="28" rot="MR90" display="off"/>
+</element>
 <element name="U$4" library="gator" package="GATOR_HEAD" value="GATOR_HEAD" x="33.147" y="2.54">
 <attribute name="DIGIKEY#" value="T1065-P5P-ND" x="33.147" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="CUI Inc" x="33.147" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="MANF#" value="ETSA060200UDC-P5P-SZ" x="33.147" y="2.54" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C20" library="SparkFun-Passives" package="0603-CAP" value="10u" x="77.47" y="21.463"/>
-<element name="C23" library="SparkFun-Passives" package="0603-CAP" value="100n" x="19.05" y="46.99" rot="MR270"/>
-<element name="C32" library="SparkFun-Passives" package="0603-CAP" value="100n" x="33.02" y="55.88" rot="MR180"/>
-<element name="C33" library="SparkFun-Passives" package="0603-CAP" value="100n" x="3.81" y="8.89" rot="R90"/>
-<element name="C34" library="SparkFun-Passives" package="0603-CAP" value="100n" x="24.003" y="3.048"/>
-<element name="C35" library="SparkFun-Passives" package="0603-CAP" value="100n" x="16.51" y="26.67" rot="MR90"/>
-<element name="C36" library="SparkFun-Passives" package="0603-CAP" value="100n" x="40.64" y="31.75"/>
-<element name="C37" library="SparkFun-Passives" package="0603-CAP" value="100n" x="5.969" y="49.53" rot="MR270"/>
-<element name="C38" library="SparkFun-Passives" package="0603-CAP" value="100n" x="41.783" y="39.878" rot="MR180"/>
-<element name="C39" library="SparkFun-Passives" package="0603-CAP" value="100n" x="38.1" y="58.42" rot="MR90"/>
-<element name="C40" library="SparkFun-Passives" package="0603-CAP" value="100n" x="25.4" y="55.88" rot="MR0"/>
-<element name="C41" library="SparkFun-Passives" package="0603-CAP" value="100n" x="71.247" y="52.578" rot="MR0"/>
-<element name="C42" library="SparkFun-Passives" package="0603-CAP" value="100n" x="64.77" y="33.02" rot="R270"/>
-<element name="C43" library="SparkFun-Passives" package="0603-CAP" value="100n" x="79.502" y="13.843" rot="MR270"/>
-<element name="C44" library="SparkFun-Passives" package="0603-CAP" value="100n" x="75.565" y="62.357" rot="MR180"/>
-<element name="C45" library="SparkFun-Passives" package="CPOL-RADIAL-100UF-25V" value="100u" x="82.55" y="40.64" rot="R90"/>
-<element name="C46" library="SparkFun-Passives" package="CPOL-RADIAL-100UF-25V" value="100u" x="49.53" y="67.31" rot="R180"/>
-<element name="C47" library="SparkFun-Passives" package="CPOL-RADIAL-100UF-25V" value="100u" x="85.09" y="25.4"/>
-<element name="C48" library="SparkFun-Passives" package="CPOL-RADIAL-100UF-25V" value="100u" x="53.848" y="74.041" rot="R90"/>
-<element name="C49" library="SparkFun-Passives" package="0603-CAP" value="100n" x="27.94" y="64.77" rot="MR180"/>
-<element name="R38" library="SparkFun-Passives" package="0603-RES" value="47K" x="76.2" y="15.24" rot="MR270"/>
-<element name="R39" library="SparkFun-Passives" package="0603-RES" value="47K" x="72.39" y="33.02" rot="R180"/>
-<element name="R40" library="SparkFun-Passives" package="0603-RES" value="47K" x="72.39" y="30.48" rot="R180"/>
-<element name="R41" library="SparkFun-Passives" package="0603-RES" value="47K" x="78.74" y="25.4" rot="R270"/>
-<element name="R42" library="SparkFun-Passives" package="0603-RES" value="47K" x="72.39" y="16.51"/>
-<element name="R43" library="SparkFun-Passives" package="0603-RES" value="47K" x="72.39" y="19.05"/>
-<element name="R44" library="SparkFun-Passives" package="0603-RES" value="1K5" x="75.692" y="64.516" rot="MR180"/>
+<element name="C20" library="SparkFun-Passives" package="0603-CAP" value="10u" x="77.47" y="21.463">
+<attribute name="DIGIKEY#" value="445-6853-1-ND" x="77.47" y="21.463" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="77.47" y="21.463" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="C1608X5R1A106M080AC" x="77.47" y="21.463" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C23" library="SparkFun-Passives" package="0603-CAP" value="100n" x="19.05" y="46.99" rot="MR270">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="19.05" y="46.99" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="19.05" y="46.99" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="19.05" y="46.99" size="1.778" layer="28" rot="MR270" display="off"/>
+</element>
+<element name="C32" library="SparkFun-Passives" package="0603-CAP" value="100n" x="33.02" y="55.88" rot="MR180">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="33.02" y="55.88" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="33.02" y="55.88" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="33.02" y="55.88" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="C33" library="SparkFun-Passives" package="0603-CAP" value="100n" x="3.81" y="8.89" rot="R90">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="3.81" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="3.81" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="3.81" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C34" library="SparkFun-Passives" package="0603-CAP" value="100n" x="24.003" y="3.048">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="24.003" y="3.048" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="24.003" y="3.048" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="24.003" y="3.048" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C35" library="SparkFun-Passives" package="0603-CAP" value="100n" x="16.51" y="26.67" rot="MR90">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="16.51" y="26.67" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="16.51" y="26.67" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="16.51" y="26.67" size="1.778" layer="28" rot="MR90" display="off"/>
+</element>
+<element name="C36" library="SparkFun-Passives" package="0603-CAP" value="100n" x="40.64" y="31.75">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="40.64" y="31.75" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="40.64" y="31.75" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="40.64" y="31.75" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C37" library="SparkFun-Passives" package="0603-CAP" value="100n" x="5.969" y="49.53" rot="MR270">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="5.969" y="49.53" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="5.969" y="49.53" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="5.969" y="49.53" size="1.778" layer="28" rot="MR270" display="off"/>
+</element>
+<element name="C38" library="SparkFun-Passives" package="0603-CAP" value="100n" x="41.783" y="39.878" rot="MR180">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="41.783" y="39.878" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="41.783" y="39.878" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="41.783" y="39.878" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="C39" library="SparkFun-Passives" package="0603-CAP" value="100n" x="38.1" y="58.42" rot="MR90">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="38.1" y="58.42" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="38.1" y="58.42" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="38.1" y="58.42" size="1.778" layer="28" rot="MR90" display="off"/>
+</element>
+<element name="C40" library="SparkFun-Passives" package="0603-CAP" value="100n" x="25.4" y="55.88" rot="MR0">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="25.4" y="55.88" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="25.4" y="55.88" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="25.4" y="55.88" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C41" library="SparkFun-Passives" package="0603-CAP" value="100n" x="71.247" y="52.578" rot="MR0">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="71.247" y="52.578" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="71.247" y="52.578" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="71.247" y="52.578" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C42" library="SparkFun-Passives" package="0603-CAP" value="100n" x="64.77" y="33.02" rot="R270">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="64.77" y="33.02" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="64.77" y="33.02" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="64.77" y="33.02" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C43" library="SparkFun-Passives" package="0603-CAP" value="100n" x="79.502" y="13.843" rot="MR270">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="79.502" y="13.843" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="79.502" y="13.843" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="79.502" y="13.843" size="1.778" layer="28" rot="MR270" display="off"/>
+</element>
+<element name="C44" library="SparkFun-Passives" package="0603-CAP" value="100n" x="75.565" y="62.357" rot="MR180">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="75.565" y="62.357" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="75.565" y="62.357" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="75.565" y="62.357" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="C45" library="SparkFun-Passives" package="CPOL-RADIAL-100UF-25V" value="100u" x="82.55" y="40.64" rot="R90">
+<attribute name="DIGIKEY#" value="1189-1247-ND" x="82.55" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF" value="Rubycon" x="82.55" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="25ZLJ150M6.3X11" x="82.55" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C46" library="SparkFun-Passives" package="CPOL-RADIAL-100UF-25V" value="100u" x="49.53" y="67.31" rot="R180">
+<attribute name="DIGIKEY#" value="1189-1247-ND" x="49.53" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF" value="Rubycon" x="49.53" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="25ZLJ150M6.3X11" x="49.53" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C47" library="SparkFun-Passives" package="CPOL-RADIAL-100UF-25V" value="100u" x="85.09" y="25.4">
+<attribute name="DIGIKEY#" value="1189-1247-ND" x="85.09" y="25.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="Rubycon" x="85.09" y="25.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="25ZLJ150M6.3X11" x="85.09" y="25.4" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C48" library="SparkFun-Passives" package="CPOL-RADIAL-100UF-25V" value="100u" x="53.848" y="74.041" rot="R90">
+<attribute name="DIGIKEY#" value="1189-1247-ND" x="53.848" y="74.041" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF" value="Rubycon" x="53.848" y="74.041" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="25ZLJ150M6.3X11" x="53.848" y="74.041" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C49" library="SparkFun-Passives" package="0603-CAP" value="100n" x="27.94" y="64.77" rot="MR180">
+<attribute name="DIGIKEY#" value="445-1316-1-ND" x="27.94" y="64.77" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF" value="TDK Corporation" x="27.94" y="64.77" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF#" value="C1608X7R1E104K080AA" x="27.94" y="64.77" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="R38" library="SparkFun-Passives" package="0603-RES" value="47K" x="76.2" y="15.24" rot="MR270">
+<attribute name="DIGIKEY#" value="RMCF0603JT47K0CT-ND" x="76.2" y="15.24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="76.2" y="15.24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT47K0" x="76.2" y="15.24" size="1.778" layer="28" rot="MR270" display="off"/>
+</element>
+<element name="R39" library="SparkFun-Passives" package="0603-RES" value="47K" x="72.39" y="33.02" rot="R180">
+<attribute name="DIGIKEY#" value="RMCF0603JT47K0CT-ND" x="72.39" y="33.02" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="72.39" y="33.02" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT47K0" x="72.39" y="33.02" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R40" library="SparkFun-Passives" package="0603-RES" value="47K" x="72.39" y="30.48" rot="R180">
+<attribute name="DIGIKEY#" value="RMCF0603JT47K0CT-ND" x="72.39" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="72.39" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT47K0" x="72.39" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R41" library="SparkFun-Passives" package="0603-RES" value="47K" x="78.74" y="25.4" rot="R270">
+<attribute name="DIGIKEY#" value="RMCF0603JT47K0CT-ND" x="78.74" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="78.74" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT47K0" x="78.74" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R42" library="SparkFun-Passives" package="0603-RES" value="47K" x="72.39" y="16.51">
+<attribute name="DIGIKEY#" value="RMCF0603JT47K0CT-ND" x="72.39" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="72.39" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT47K0" x="72.39" y="16.51" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R43" library="SparkFun-Passives" package="0603-RES" value="47K" x="72.39" y="19.05">
+<attribute name="DIGIKEY#" value="RMCF0603JT47K0CT-ND" x="72.39" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="72.39" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT47K0" x="72.39" y="19.05" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R44" library="SparkFun-Passives" package="0603-RES" value="1K5" x="75.692" y="64.516" rot="MR180">
+<attribute name="DIGIKEY#" value="RMCF0603JT1K50CT-ND" x="75.692" y="64.516" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF" value="Stackpole Electronics Inc" x="75.692" y="64.516" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANF#" value="RMCF0603JT1K50" x="75.692" y="64.516" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
