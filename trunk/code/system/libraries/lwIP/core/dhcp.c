@@ -984,7 +984,11 @@ dhcp_bind(struct netif *netif)
 
   ip_addr_copy(gw_addr, dhcp->offered_gw_addr);
   /* gateway address not given? */
+/* JLT 06/2013 - Yagarto warning suppression for 'address will never be null */
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Waddress"
   if (ip_addr_isany(&gw_addr)) {
+#pragma GCC diagnostic pop
     /* copy network address */
     ip_addr_get_network(&gw_addr, &dhcp->offered_ip_addr, &sn_mask);
     /* use first host address on network as gateway */
