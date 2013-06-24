@@ -1,19 +1,12 @@
 
+#ifndef __PORT_DEFS_H_
+#define __PORT_DEFS_H_
 
-#if defined(GPIO_CONFIG)
-
-//                Port  Pin   GPIO Mode      GPIO Speed        GPIO OType     GPIO PuPd         GPIO AF
-GPIO_CONFIG(      C,    6,    GPIO_Mode_OUT, GPIO_Speed_2MHz,  GPIO_OType_PP, GPIO_PuPd_NOPULL, GPIO_AF_TIM1      )
-
-
-#elif defined (GPIO_CONFIG_EVAL)
-
-//                Port  Pin   GPIO Mode      GPIO Speed        GPIO OType     GPIO PuPd         GPIO AF
-GPIO_CONFIG_EVAL( G,    8,    GPIO_Mode_OUT, GPIO_Speed_2MHz,  GPIO_OType_PP, GPIO_PuPd_NOPULL, GPIO_AF_TIM1      )
-GPIO_CONFIG_EVAL( G,    6,    GPIO_Mode_OUT, GPIO_Speed_2MHz,  GPIO_OType_PP, GPIO_PuPd_NOPULL, GPIO_AF_TIM1      )
-
-
-#else
-
+#define LED_PORT_EVAL   GPIOG
+#define LED_PORT_REVA   GPIOC
+#define LED_PORT        MappedSetting(LED_PORT_EVAL, LED_PORT_REVA)
+#define LED_PIN_EVAL    GPIO_Pin_6
+#define LED_PIN_REVA    GPIO_Pin_6
+#define LED_PIN         MappedSetting(LED_PIN_EVAL, LED_PIN_REVA)
 
 #endif
