@@ -1710,7 +1710,8 @@ dhcp_create_msg(struct netif *netif, struct dhcp *dhcp, u8_t message_type)
   ip_addr_set_zero(&dhcp->msg_out->giaddr);
   for (i = 0; i < DHCP_CHADDR_LEN; i++) {
     /* copy netif hardware address, pad with zeroes */
-    dhcp->msg_out->chaddr[i] = (i < netif->hwaddr_len) ? netif->hwaddr[i] : 0/* pad byte*/;
+    /* JLT 2013-06 - added check against NETIF_MAX_HWADDR_LEN to guarantee we're not accessing an array subscript out-of-bounds */
+    dhcp->msg_out->chaddr[i] = (i < NETIF_MAX_HWADDR_LEN && i < netif->hwaddr_len) ? netif->hwaddr[i] : 0/* pad byte*/;
   }
   for (i = 0; i < DHCP_SNAME_LEN; i++) {
     dhcp->msg_out->sname[i] = 0;
