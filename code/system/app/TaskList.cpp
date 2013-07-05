@@ -11,10 +11,12 @@ TaskList * TaskList::GlobalTasks;
 
 TaskList::TaskList()
 {
+   NetServiceManagerTask = new NetServiceManager();
    LEDFlasherTask = new LEDFlasher(LED_PORT, LED_PIN, 500);
 
-
+   NetServiceManagerTask->Create("NetServices", configMINIMAL_STACK_SIZE, 3);
    LEDFlasherTask->Create("LEDFlasher", configMINIMAL_STACK_SIZE, 2);
+
 }
 
 TaskList::~TaskList()

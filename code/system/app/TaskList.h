@@ -11,8 +11,10 @@
 #include "global_defs.h"
 #include "AManagedTask.h"
 #include "LEDFlasher.h"
+#include "NetServiceManager.h"
 #include "port_defs.h"
 #include "stm32f4xx.h"
+#include "lwip/init.h"
 
 class TaskList : public AManagedTask
 {
@@ -24,6 +26,7 @@ public:
 
    static TaskList * GlobalTasks;
    LEDFlasher * LEDFlasherTask;
+   NetServiceManager * NetServiceManagerTask;
 
 private:
    GPIO_TypeDef * MappedSetting(GPIO_TypeDef * eval_port, GPIO_TypeDef * reva_port);
