@@ -19,6 +19,7 @@ NetServiceManager::~NetServiceManager()
 
 bool NetServiceManager::HardwareInit()
 {
+   ETH_BSP_Config();
    low_level_MAC_init();
    LwIP_Init();
 
