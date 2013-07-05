@@ -10,6 +10,7 @@
 
 #include "AManagedTask.h"
 #include "ethernetif.h"
+#include "eth_bsp.h"
 #include "lwip/init.h"
 #include "lwip/netif.h"
 #include "lwip/ip_addr.h"

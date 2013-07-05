@@ -288,7 +288,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="libraries/FreeRTOS/Demo|libraries/STM32Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates|libraries/STM32Libraries/CMSIS/Lib|libraries/STM32Libraries/CMSIS/DSP_Lib|libraries/STM32Libraries/STM32_USB_OTG_Driver|libraries/STM32Libraries/STM32_USB_HOST_Library|libraries/lwIP/core/ipv6|libraries/FatFs" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c|libraries/FreeRTOS/Demo|libraries/STM32Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates|libraries/STM32Libraries/CMSIS/Lib|libraries/STM32Libraries/CMSIS/DSP_Lib|libraries/STM32Libraries/STM32_USB_OTG_Driver|libraries/STM32Libraries/STM32_USB_HOST_Library|libraries/lwIP/core/ipv6|libraries/FatFs" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
