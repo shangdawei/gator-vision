@@ -115,20 +115,31 @@ a lot of data that needs to be copied, this should be set high. */
 
 
 /* ---------- DHCP options ---------- */
-/* Define LWIP_DHCP to 1 if you want DHCP configuration of
-   interfaces. DHCP is not implemented in lwIP 0.5.1, however, so
-   turning this on does currently not work. */
+/* Define LWIP_DHCP to 1 if you want DHCP configuration of interfaces. */
 #define LWIP_DHCP               1
+/* AutoIP configuration of interfaces, if DHCP probe fails. */
+#define LWIP_AUTOIP             1
+#define LWIP_DHCP_AUTOIP_COOP   1
+#define LWIP_DHCP_AUTOIP_COOP_TRIES     9
 
 
 /* ---------- UDP options ---------- */
 #define LWIP_UDP                1
 #define UDP_TTL                 255
 
+/* ---------- DNS options ---------- */
+/**
+ * LWIP_DNS==1: Turn on DNS module. UDP must be available for DNS
+ * transport.
+ */
+#define LWIP_DNS                        1
+
+
 
 /* ---------- Statistics options ---------- */
-#define LWIP_STATS               0
+#define LWIP_STATS               1
 #define LWIP_PROVIDE_ERRNO       1
+
 
 
 /*
@@ -202,6 +213,8 @@ The STM32F2x7 allows computing and verifying the IP, UDP, TCP and ICMP checksums
 
 //#define LWIP_DEBUG                      0
 
+/* Don't expose the raw API */
+#define LWIP_RAW                        0
 
 /*
    ---------------------------------
@@ -217,6 +230,17 @@ The STM32F2x7 allows computing and verifying the IP, UDP, TCP and ICMP checksums
 #define DEFAULT_THREAD_STACKSIZE        500
 #define TCPIP_THREAD_PRIO               (configMAX_PRIORITIES - 3)//2
 #define LWIP_COMPAT_MUTEX               1
+
+
+/*
+   ------------------------------------------------
+   ---------- Network Interfaces options ----------
+   ------------------------------------------------
+*/
+
+#define LWIP_NETIF_HOSTNAME             1
+#define LWIP_NETIF_STATUS_CALLBACK      1
+#define LWIP_NETIF_LINK_CALLBACK        1
 
 
 #endif /* __LWIPOPTS_H__ */
