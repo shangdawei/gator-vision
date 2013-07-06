@@ -118,8 +118,8 @@ a lot of data that needs to be copied, this should be set high. */
 /* Define LWIP_DHCP to 1 if you want DHCP configuration of interfaces. */
 #define LWIP_DHCP               1
 /* AutoIP configuration of interfaces, if DHCP probe fails. */
-#define LWIP_AUTOIP             1
-#define LWIP_DHCP_AUTOIP_COOP   1
+#define LWIP_AUTOIP             0
+#define LWIP_DHCP_AUTOIP_COOP   0
 #define LWIP_DHCP_AUTOIP_COOP_TRIES     9
 
 
@@ -229,7 +229,7 @@ The STM32F2x7 allows computing and verifying the IP, UDP, TCP and ICMP checksums
 #define DEFAULT_ACCEPTMBOX_SIZE         2000
 #define DEFAULT_THREAD_STACKSIZE        500
 #define TCPIP_THREAD_PRIO               (configMAX_PRIORITIES - 3)//2
-#define LWIP_COMPAT_MUTEX               1
+#define LWIP_COMPAT_MUTEX               0
 
 
 /*

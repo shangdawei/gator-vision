@@ -86,7 +86,7 @@ typedef struct _ETHERNET_SettingsTypeDef
 #define ETH_TIME_WAITING_FOR_INPUT           ((portTickType)100)
 
 /* MAC ADDRESS*/
-#define MAC_ADDR0       2
+#define MAC_ADDR0       0x14
 #define MAC_ADDR1       0
 #define MAC_ADDR2       0
 #define MAC_ADDR3       0

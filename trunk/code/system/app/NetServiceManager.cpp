@@ -37,10 +37,13 @@ void NetServiceManager::LwIP_Init()
    tcpip_init(NULL, NULL);
 
    // Try DHCP, then fall back to AutoIP
-   ipaddr.addr = 0;
-   netmask.addr = 0;
-   gw.addr = 0;
+   //ipaddr.addr = 0;
+   //netmask.addr = 0;
+   //gw.addr = 0;
 
+   IP4_ADDR(&ipaddr, IP_ADDR0, IP_ADDR1, IP_ADDR2, IP_ADDR3);
+   IP4_ADDR(&netmask, NETMASK_ADDR0, NETMASK_ADDR1 , NETMASK_ADDR2, NETMASK_ADDR3);
+   IP4_ADDR(&gw, GW_ADDR0, GW_ADDR1, GW_ADDR2, GW_ADDR3);
 
 
    netif_add(&NetIF, &ipaddr, &netmask, &gw, NULL, &ethernetif_init, &tcpip_input);
@@ -50,7 +53,7 @@ void NetServiceManager::LwIP_Init()
 
    /* When the netif is fully configured this function must be called. */
    netif_set_up(&NetIF);
-   dhcp_start(&NetIF);
+   //dhcp_start(&NetIF);
 
 }
 

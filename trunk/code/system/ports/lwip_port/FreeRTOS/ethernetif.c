@@ -121,7 +121,7 @@ static void low_level_init(struct netif *netif)
   netif->mtu = 1500;
 
   /* Accept broadcast address and ARP traffic */
-  netif->flags = NETIF_FLAG_BROADCAST | NETIF_FLAG_ETHARP;
+  netif->flags = NETIF_FLAG_BROADCAST | NETIF_FLAG_ETHARP | NETIF_FLAG_LINK_UP;
   
   s_pxNetIf =netif;
  
