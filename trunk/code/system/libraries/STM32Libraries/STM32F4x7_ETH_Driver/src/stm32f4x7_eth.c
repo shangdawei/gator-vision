@@ -2,32 +2,25 @@
   ******************************************************************************
   * @file    stm32f4x7_eth.c
   * @author  MCD Application Team
-  * @version V1.0.1
-  * @date    21-May-2012
+  * @version V1.0.0
+  * @date    14-October-2011
   * @brief   This file is the low level driver for STM32F407xx/417xx Ethernet Controller.
   *          This driver does not include low level functions for PTP time-stamp.            
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; COPYRIGHT 2012 STMicroelectronics</center></h2>
+  * THE PRESENT FIRMWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
+  * WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE
+  * TIME. AS A RESULT, STMICROELECTRONICS SHALL NOT BE HELD LIABLE FOR ANY
+  * DIRECT, INDIRECT OR CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING
+  * FROM THE CONTENT OF SUCH FIRMWARE AND/OR THE USE MADE BY CUSTOMERS OF THE
+  * CODING INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
   *
-  * Licensed under MCD-ST Liberty SW License Agreement V2, (the "License");
-  * You may not use this file except in compliance with the License.
-  * You may obtain a copy of the License at:
-  *
-  *        http://www.st.com/software_license_agreement_liberty_v2
-  *
-  * Unless required by applicable law or agreed to in writing, software 
-  * distributed under the License is distributed on an "AS IS" BASIS, 
-  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  * See the License for the specific language governing permissions and
-  * limitations under the License.
-  *
+  * <h2><center>&copy; COPYRIGHT 2011 STMicroelectronics</center></h2>
   ******************************************************************************
   */
 
 /* Includes ------------------------------------------------------------------*/
-#include "mod_ethernet_config.h"
 #include "stm32f4x7_eth.h"
 #include "stm32f4xx_rcc.h"
 #include <string.h>
@@ -278,6 +271,7 @@ void ETH_StructInit(ETH_InitTypeDef* ETH_InitStruct)
 uint32_t ETH_Init(ETH_InitTypeDef* ETH_InitStruct, uint16_t PHYAddress)
 {
   uint32_t RegValue = 0, tmpreg = 0;
+  __IO uint32_t i = 0;
   RCC_ClocksTypeDef  rcc_clocks;
   uint32_t hclk = 60000000;
   __IO uint32_t timeout = 0;
@@ -384,12 +378,11 @@ uint32_t ETH_Init(ETH_InitTypeDef* ETH_InitStruct, uint16_t PHYAddress)
     /* We wait for linked status... */
     do
     {
-      //ETHERNET_UpdateInitDisplay();
       timeout++;
-    } while (!(ETH_ReadPHYRegister(PHYAddress, PHY_BSR) & PHY_Linked_Status) && (timeout < 0x20));
+    } while (!(ETH_ReadPHYRegister(PHYAddress, PHY_BSR) & PHY_Linked_Status) && (timeout < PHY_READ_TO));
 
     /* Return ERROR in case of timeout */
-    if(timeout == 0x20)
+    if(timeout == PHY_READ_TO)
     {
       return ETH_ERROR;
     }
@@ -612,22 +605,6 @@ void ETH_Start(void)
   ETH_DMAReceptionCmd(ENABLE);   
 }
 
-/**
-  * @brief  Disables ENET MAC and DMA reception/transmission 
-  * @param  None
-  * @retval None
-  */
-void ETH_Stop(void)
-{
-  /* Disable transmit state machine of the MAC for transmission on the MII */  
-  ETH_MACTransmissionCmd(DISABLE);
-  /* Disable receive state machine of the MAC for reception from the MII */  
-  ETH_MACReceptionCmd(DISABLE);
-  /* Stop DMA transmission */
-  ETH_DMATransmissionCmd(DISABLE); 
-  /* Stop DMA reception */
-  ETH_DMAReceptionCmd(DISABLE);   
-}
 
 /**
   * @brief  Enables or disables the MAC transmission.
@@ -2719,5 +2696,3 @@ uint32_t ETH_GetMMCRegister(uint32_t ETH_MMCReg)
 /**
   * @}
   */
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
