@@ -118,9 +118,9 @@ a lot of data that needs to be copied, this should be set high. */
 /* Define LWIP_DHCP to 1 if you want DHCP configuration of interfaces. */
 #define LWIP_DHCP               1
 /* AutoIP configuration of interfaces, if DHCP probe fails. */
-#define LWIP_AUTOIP             0
-#define LWIP_DHCP_AUTOIP_COOP   0
-#define LWIP_DHCP_AUTOIP_COOP_TRIES     9
+#define LWIP_AUTOIP             1
+#define LWIP_DHCP_AUTOIP_COOP   1
+#define LWIP_DHCP_AUTOIP_COOP_TRIES     8
 
 
 /* ---------- UDP options ---------- */
@@ -163,6 +163,8 @@ The STM32F2x7 allows computing and verifying the IP, UDP, TCP and ICMP checksums
   #define CHECKSUM_GEN_UDP                0
   /* CHECKSUM_GEN_TCP==0: Generate checksums by hardware for outgoing TCP packets.*/
   #define CHECKSUM_GEN_TCP                0 
+  /* CHECKSUM_GEN_ICMP==0: Generate checksums by hardware for outgoing ICMP packets.*/
+  #define CHECKSUM_GEN_ICMP               0
   /* CHECKSUM_CHECK_IP==0: Check checksums by hardware for incoming IP packets.*/
   #define CHECKSUM_CHECK_IP               0
   /* CHECKSUM_CHECK_UDP==0: Check checksums by hardware for incoming UDP packets.*/
