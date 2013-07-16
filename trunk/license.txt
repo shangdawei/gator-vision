@@ -1,5 +1,5 @@
 Gator Vision
-Copyright © 2013 Jeff Theusch
+Copyleft © 2013 Jeff Theusch
 ---
 Licensing Agreement
 ---
