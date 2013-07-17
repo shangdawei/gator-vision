@@ -1,19 +1,19 @@
 /*
- * FTPServer.cpp
+ * FTPSession.cpp
  *
- *  Created on: Jul 15, 2013
+ *  Created on: Jul 16, 2013
  *      Author: Jeff
  */
 
-#include "FTPServer.h"
+#include "FTPSession.h"
 
-FTPServer::FTPServer()
+FTPSession::FTPSession()
 {
    // TODO Auto-generated constructor stub
 
 }
 
-FTPServer::~FTPServer()
+FTPSession::~FTPSession()
 {
    // TODO Auto-generated destructor stub
 }
