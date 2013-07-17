@@ -8,7 +8,11 @@
 #ifndef TCPSERVER_H_
 #define TCPSERVER_H_
 
-class TCPServer
+#include "AManagedTask.h"
+#include "TCPSession.h"
+
+template <TCPSession SessionClass>
+class TCPServer : public AManagedTask
 {
 public:
    TCPServer();
