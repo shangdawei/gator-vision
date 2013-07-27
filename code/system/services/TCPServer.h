@@ -11,7 +11,7 @@
 #include "AManagedTask.h"
 #include "TCPSession.h"
 
-template <TCPSession SessionClass>
+template <class /*TCPSession*/ SessionClass>
 class TCPServer : public AManagedTask
 {
 public:

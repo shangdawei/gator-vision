@@ -7,13 +7,15 @@
 
 #include "TCPServer.h"
 
-TCPServer::TCPServer()
+template <class /*TCPSession*/ SessionClass>
+TCPServer<SessionClass>::TCPServer()
 {
    // TODO Auto-generated constructor stub
 
 }
 
-TCPServer::~TCPServer()
+template <class /*TCPSession*/ SessionClass>
+TCPServer<SessionClass>::~TCPServer()
 {
    // TODO Auto-generated destructor stub
 }
