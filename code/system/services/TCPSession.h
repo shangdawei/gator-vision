@@ -8,11 +8,20 @@
 #ifndef TCPSESSION_H_
 #define TCPSESSION_H_
 
+#include "lwip/sockets.h"
+
 class TCPSession
 {
 public:
    TCPSession();
+   virtual void Reset() = 0;
+   void OnConnect(int socket) { Reset(); SocketNum = socket; }
+   virtual void Poll() = 0;
+   virtual void OnDisconnect() = 0;
    virtual ~TCPSession();
+
+protected:
+   int SocketNum;
 };
 
 #endif /* TCPSESSION_H_ */

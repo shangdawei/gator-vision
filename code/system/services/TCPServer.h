@@ -16,6 +16,7 @@ class TCPServer : public AManagedTask
 {
 public:
    TCPServer();
+   void Run();
    virtual ~TCPServer();
 };
 
