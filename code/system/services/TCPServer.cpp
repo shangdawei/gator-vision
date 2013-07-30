@@ -8,7 +8,7 @@
 #include "TCPServer.h"
 
 template <class /*TCPSession*/ SessionClass>
-TCPServer<SessionClass>::TCPServer()
+TCPServer<SessionClass>::TCPServer(int max_conn, int backlog)
 {
    // TODO Auto-generated constructor stub
 

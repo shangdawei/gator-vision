@@ -15,7 +15,7 @@ class TCPSession
 public:
    TCPSession();
    virtual void Reset() = 0;
-   void OnConnect(int socket) { Reset(); SocketNum = socket; }
+   void OnConnect(int sockfd) { Reset(); SocketNum = sockfd; }
    virtual void Poll() = 0;
    virtual void OnDisconnect() = 0;
    virtual ~TCPSession();
