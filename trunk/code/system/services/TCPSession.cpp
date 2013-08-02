@@ -13,8 +13,4 @@ TCPSession::TCPSession()
 
 }
 
-TCPSession::~TCPSession()
-{
-   // TODO Auto-generated destructor stub
-}
 

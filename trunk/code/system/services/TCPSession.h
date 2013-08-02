@@ -16,9 +16,9 @@ public:
    TCPSession();
    virtual void Reset() = 0;
    void OnConnect(int sockfd) { Reset(); SocketNum = sockfd; }
-   virtual void Poll() = 0;
+   virtual bool Poll() = 0;
    virtual void OnDisconnect() = 0;
-   virtual ~TCPSession();
+   virtual ~TCPSession() { }
 
 protected:
    int SocketNum;
