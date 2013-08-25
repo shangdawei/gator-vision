@@ -13,8 +13,9 @@
 class FTPSession: public TCPSession
 {
 public:
-   FTPSession();
-   virtual ~FTPSession();
+   void Reset();
+   bool Poll();
+   void OnDisconnect();
 };
 
 #endif /* FTPSESSION_H_ */

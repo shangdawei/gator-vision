@@ -7,14 +7,24 @@
 
 #include "FTPSession.h"
 
-FTPSession::FTPSession()
+void FTPSession::Reset()
 {
-   // TODO Auto-generated constructor stub
+
 
 }
 
-FTPSession::~FTPSession()
+bool FTPSession::Poll()
 {
-   // TODO Auto-generated destructor stub
+   bool disconnect = false;
+
+
+   return disconnect;
+}
+
+
+void FTPSession::OnDisconnect()
+{
+
+
 }
 

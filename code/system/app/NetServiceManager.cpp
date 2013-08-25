@@ -9,7 +9,7 @@
 
 NetServiceManager::NetServiceManager()
 {
-
+   FTPServer = new TCPServer<FTPSession>(2,2);
 }
 
 NetServiceManager::~NetServiceManager()
