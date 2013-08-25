@@ -17,6 +17,8 @@
 #include "lwip/tcpip.h"
 #include "lwip/dhcp.h"
 #include "lwip/autoip.h"
+#include "services/TCPServer.h"
+#include "services/FTPSession.h"
 
 class NetServiceManager : public AManagedTask
 {
@@ -28,6 +30,7 @@ public:
 
 private:
    struct netif NetIF;
+   TCPServer<FTPSession> * FTPServer;
 
    void LwIP_Init();
 

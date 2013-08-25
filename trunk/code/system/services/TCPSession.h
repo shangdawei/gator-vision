@@ -19,6 +19,7 @@ public:
    virtual bool Poll() = 0;
    virtual void OnDisconnect() = 0;
    virtual ~TCPSession() { }
+   int GetSocketNum() { return SocketNum; }
 
 protected:
    int SocketNum;
