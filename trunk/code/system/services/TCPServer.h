@@ -9,6 +9,7 @@
 #define TCPSERVER_H_
 
 #include "global_defs.h"
+#include <vector>
 #include <string.h>
 #include <sys/socket.h>
 #include "AManagedTask.h"
@@ -34,11 +35,18 @@ public:
    bool Start(uint32_t addr, uint16_t port);
    void Stop();
    bool IsActive();
+   int NumActiveSessions();
    virtual ~TCPServer();
 
 private:
+   static const portTickType POLL_INTERVAL_MS = 5;
+
+   void AcceptClient();
    void PollClients();
    void DisconnectAll();
+   bool InitListener();
+
+   std::vector<SessionClass> ClientSessions;
 
    int ListenerSocket;
    int MaxSessions;

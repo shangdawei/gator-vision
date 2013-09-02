@@ -52,3 +52,10 @@ extern "C" void vApplicationStackOverflowHook( xTaskHandle pxTask, signed char *
    for( ;; );
 }
 /*-----------------------------------------------------------*/
+
+// Fix for static initialization bug in yagarto
+extern "C"
+{
+void *__dso_handle = NULL;
+}
+
