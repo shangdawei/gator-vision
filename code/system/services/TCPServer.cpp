@@ -11,11 +11,15 @@
 template <class /*TCPSession*/ SessionClass>
 TCPServer<SessionClass>::TCPServer(int max_conn, int backlog)
 {
+   State = SRVR_NOT_STARTED;
    MaxSessions = max_conn;
    ListenerBacklog = backlog;
    ServerIsActive = false;
    ServerAddress = 0;
    ServerPort = 0;
+
+   // Allocate memory for the client sessions once on init
+   ClientSessions.reserve(max_conn);
 }
 
 template <class /*TCPSession*/ SessionClass>
@@ -35,56 +39,21 @@ void TCPServer<SessionClass>::Run()
          break;
 
       case SRVR_BIND:
-         ListenerSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
-         if (ListenerSocket < 0)
+
+         // Create, bind, and listen the listener socket
+         ServerIsActive = InitListener();
+
+         if (ServerIsActive)
          {
-            // Could not make a new socket
-            ServerIsActive = false;
+            // Poll each of the client sessions
+            PollClients();
+            State = SRVR_LISTENING;
          }
          else
-         {
-            // Made the new listener socket
-            // Bind it to a port
-            struct sockaddr_in serv_addr;
-
-            (void)memset(&serv_addr, 0, sizeof(serv_addr));
-            serv_addr.sin_family = AF_INET;
-            serv_addr.sin_port = htons(ServerPort);
-            serv_addr.sin_addr.s_addr = htonl(ServerAddress);
-
-            if ( -1 == bind( ListenerSocket, (struct sockaddr *)&serv_addr, sizeof(serv_addr) ) )
-            {
-               // Could not bind to that address and port
-               close(ListenerSocket);
-               ServerIsActive = false;
-            }
-            else
-            {
-               // Binding completed successfully
-               // Start listening
-               if ( -1 == listen( ListenerSocket, ListenerBacklog ) )
-               {
-                  // Could not listen on the bound address and port
-                  close(ListenerSocket);
-                  ServerIsActive = false;
-               }
-               else
-               {
-                  State = SRVR_LISTENING;
-               }
-            }
-         }
-
-         if (!ServerIsActive)
          {
             // Disconnect all connected clients
             DisconnectAll();
             State = SRVR_NOT_STARTED;
-         }
-         else
-         {
-            // Poll each of the client sessions
-            PollClients();
          }
 
          break;
@@ -99,11 +68,19 @@ void TCPServer<SessionClass>::Run()
          }
          else
          {
+            // Accept incoming connections
+            AcceptClient();
+
             // Poll each of the client sessions
             PollClients();
          }
 
          // If the number of connected clients reaches the max, stop listening
+         if (NumActiveSessions() >= MaxSessions)
+         {
+            close(ListenerSocket);
+            State = SRVR_FULL;
+         }
 
          break;
 
@@ -122,6 +99,10 @@ void TCPServer<SessionClass>::Run()
          }
 
          // If the number of connected clients is less than the max, then bind and listen for connections again
+         if (NumActiveSessions() < MaxSessions)
+         {
+            State = SRVR_BIND;
+         }
 
          break;
 
@@ -132,18 +113,97 @@ void TCPServer<SessionClass>::Run()
          State = SRVR_NOT_STARTED;
          break;
 
-         // Listen on a port
-
-         // Accept connections
-
-         // Manage session lifetimes
-
-         // Poll active connections
       }
 
-      Delay(5);
+      Delay(POLL_INTERVAL_MS);
    }
 }
+
+
+template <class /*TCPSession*/ SessionClass>
+bool TCPServer<SessionClass>::InitListener()
+{
+   bool retval;
+
+   ListenerSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+   if (ListenerSocket < 0)
+   {
+      // Could not make a new socket
+      retval = false;
+   }
+   else
+   {
+      // Made the new listener socket
+      // Bind it to a port
+      struct sockaddr_in serv_addr;
+
+      (void)memset(&serv_addr, 0, sizeof(serv_addr));
+      serv_addr.sin_family = AF_INET;
+      serv_addr.sin_port = htons(ServerPort);
+      serv_addr.sin_addr.s_addr = htonl(ServerAddress);
+
+      if ( -1 == bind( ListenerSocket, (struct sockaddr *)&serv_addr, sizeof(serv_addr) ) )
+      {
+         // Could not bind to that address and port
+         close(ListenerSocket);
+         retval = false;
+      }
+      else
+      {
+         // Binding completed successfully
+         // Start listening
+         if ( -1 == listen( ListenerSocket, ListenerBacklog ) )
+         {
+            // Could not listen on the bound address and port
+            close(ListenerSocket);
+            retval = false;
+         }
+         else
+         {
+            retval = true;
+         }
+      }
+   }
+
+   return retval;
+
+}
+
+
+template <class /*TCPSession*/ SessionClass>
+void TCPServer<SessionClass>::AcceptClient()
+{
+   // Set the nonblocking flag on the listener socket
+   int sck_flags;
+   int err;
+   int accepted_sck;
+   struct sockaddr cliaddr;
+   socklen_t addrlen;
+
+   sck_flags = fcntl(ListenerSocket, F_GETFL, 0);
+   sck_flags |= O_NONBLOCK;
+   err = fcntl(ListenerSocket, F_SETFL, sck_flags);
+   if (0 == err)
+   {
+      // Setting listener to non-blocking succeeded
+      // See if we can accept another connection
+      if (NumActiveSessions() < MaxSessions)
+      {
+         // Haven't reached the max number of client sessions yet
+         // Try to accept an incoming client connection
+         accepted_sck = accept(ListenerSocket, &cliaddr, &addrlen);
+         if (accepted_sck >= 0)
+         {
+            // Accepted an incoming connection
+            // Add session to list so we can start polling it
+            //AddSession(accepted_sck);
+         }
+      }
+   }
+
+
+}
+
 
 template <class /*TCPSession*/ SessionClass>
 bool TCPServer<SessionClass>::Start(uint32_t addr, uint16_t port)
