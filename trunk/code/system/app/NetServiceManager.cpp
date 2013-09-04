@@ -59,6 +59,8 @@ void NetServiceManager::LwIP_Init()
 
 void NetServiceManager::Run()
 {
+
+
    // Nothing to do yet, just return
    this->Delete();
 }

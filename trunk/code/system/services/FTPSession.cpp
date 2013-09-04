@@ -7,24 +7,18 @@
 
 #include "FTPSession.h"
 
-void FTPSession::Reset()
-{
-
-
-}
 
 bool FTPSession::Poll()
 {
-   bool disconnect = false;
+   bool stay_alive = false;
 
 
-   return disconnect;
+
+   return stay_alive;
 }
 
 
-void FTPSession::OnDisconnect()
+FTPSession::~FTPSession()
 {
 
-
 }
-
