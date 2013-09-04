@@ -7,10 +7,6 @@
 
 #include "TCPSession.h"
 
-TCPSession::TCPSession()
-{
-   // TODO Auto-generated constructor stub
 
-}
 
 

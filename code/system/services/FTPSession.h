@@ -13,9 +13,9 @@
 class FTPSession: public TCPSession
 {
 public:
-   void Reset();
+   FTPSession(int sockfd) : TCPSession(sockfd) { }
    bool Poll();
-   void OnDisconnect();
+   ~FTPSession();
 };
 
 #endif /* FTPSESSION_H_ */

@@ -13,16 +13,15 @@
 class TCPSession
 {
 public:
-   TCPSession();
-   virtual void Reset() = 0;
-   void OnConnect(int sockfd) { Reset(); SocketNum = sockfd; }
+   TCPSession() { SocketNum = -1; }
+   TCPSession(int sockfd) { SocketNum = sockfd; }
    virtual bool Poll() = 0;
-   virtual void OnDisconnect() = 0;
    virtual ~TCPSession() { }
    int GetSocketNum() { return SocketNum; }
 
 protected:
    int SocketNum;
+
 };
 
 #endif /* TCPSESSION_H_ */

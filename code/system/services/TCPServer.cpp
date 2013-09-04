@@ -121,6 +121,13 @@ void TCPServer<SessionClass>::Run()
 
 
 template <class /*TCPSession*/ SessionClass>
+int TCPServer<SessionClass>::NumActiveSessions()
+{
+   return ClientSessions.size();
+}
+
+
+template <class /*TCPSession*/ SessionClass>
 bool TCPServer<SessionClass>::InitListener()
 {
    bool retval;
@@ -196,7 +203,7 @@ void TCPServer<SessionClass>::AcceptClient()
          {
             // Accepted an incoming connection
             // Add session to list so we can start polling it
-            //AddSession(accepted_sck);
+            ClientSessions.push_back(SessionClass(accepted_sck));
          }
       }
    }
@@ -204,6 +211,33 @@ void TCPServer<SessionClass>::AcceptClient()
 
 }
 
+template <class /*TCPSession*/ SessionClass>
+void TCPServer<SessionClass>::PollClients()
+{
+   // Loop through each session in the vector
+   typename std::vector<SessionClass>::iterator i = ClientSessions.begin();
+   while ( i != ClientSessions.end() )
+   {
+      bool keep_alive = (*i).Poll();
+
+      if (keep_alive)
+      {
+         i++;
+      }
+      else
+      {
+         i = ClientSessions.erase(i);
+      }
+
+   }
+}
+
+
+template <class /*TCPSession*/ SessionClass>
+void TCPServer<SessionClass>::DisconnectAll()
+{
+   ClientSessions.clear();
+}
 
 template <class /*TCPSession*/ SessionClass>
 bool TCPServer<SessionClass>::Start(uint32_t addr, uint16_t port)
