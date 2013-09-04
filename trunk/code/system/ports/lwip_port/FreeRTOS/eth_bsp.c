@@ -372,16 +372,13 @@ void EthLink_ITHandler(uint16_t PHYAddress)
     {
       EthLinkStatus = 0;
       /* Network Cable is now connected */
-      // TODO: update link status
-      //ETHERNET_UpdateConnState(0);
-      //ETHERNET_UpdateIcon(ethernet_conn_icon);
+      netif_set_link_up(netif_default);
     }
     else
     {
       EthLinkStatus = 1;
       /* Network Cable is unplugged */
-      //ETHERNET_UpdateConnState(1);
-      //ETHERNET_UpdateIcon(ethernet_disconn_icon);
+      netif_set_link_down(netif_default);
     }
   }
 }

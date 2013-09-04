@@ -26,11 +26,13 @@ public:
    NetServiceManager();
    void Run();
    bool HardwareInit();
+   void OnNetIFStatusChange(bool up);
    virtual ~NetServiceManager();
 
 private:
    struct netif NetIF;
    TCPServer<FTPSession> * FTPServer;
+   bool NetIFUp;
 
    void LwIP_Init();
 

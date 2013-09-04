@@ -9,7 +9,22 @@
 
 NetServiceManager::NetServiceManager()
 {
+   NetIFUp = false;
    FTPServer = new TCPServer<FTPSession>(2,2);
+}
+
+void NetServiceManager::OnNetIFStatusChange(bool up)
+{
+   // If the network interface came up, start the servers
+   if (up)
+   {
+      FTPServer->Start(NetIF.ip_addr.addr, 21);
+   }
+   // If the network interface went down, stop the servers
+   else
+   {
+      FTPServer->Stop();
+   }
 }
 
 NetServiceManager::~NetServiceManager()
@@ -48,20 +63,28 @@ void NetServiceManager::LwIP_Init()
 
    netif_add(&NetIF, &ipaddr, &netmask, &gw, NULL, &ethernetif_init, &tcpip_input);
 
-   /*  Registers the default network interface. */
+   /* Registers the default network interface. */
    netif_set_default(&NetIF);
 
    /* When the netif is fully configured this function must be called. */
-   netif_set_up(&NetIF);
    dhcp_start(&NetIF);
 
 }
 
 void NetServiceManager::Run()
 {
-
-
-   // Nothing to do yet, just return
-   this->Delete();
+   // Monitor NetIF status
+   // When network status changes, bring the servers up or down
+   while (true)
+   {
+      bool status = ((NetIF.flags & NETIF_FLAG_UP) != 0) && ((NetIF.flags & NETIF_FLAG_LINK_UP) != 0);
+      if ( NetIFUp != status )
+      {
+         NetIFUp = status;
+         OnNetIFStatusChange(status);
+      }
+      Delay(10);
+   }
 }
+
 
