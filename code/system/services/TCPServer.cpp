@@ -226,6 +226,7 @@ void TCPServer<SessionClass>::PollClients()
       }
       else
       {
+         close((*i).GetSocketNum());
          i = ClientSessions.erase(i);
       }
 
