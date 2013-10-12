@@ -7,3 +7,5 @@ Rev A errors/changes
 - Use cheaper HDMI connector
 - Bypass capacitor near 50MHz oscillator
 - Needs part names and more outlines on silkscreen layers
+- Split out CAN pins to reserve for future use
+- Power with microUSB for a cheaper/more common power source (cell charger)
