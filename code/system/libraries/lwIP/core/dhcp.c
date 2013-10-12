@@ -789,7 +789,11 @@ dhcp_network_changed(struct netif *netif)
       dhcp->autoip_coop_state = DHCP_AUTOIP_COOP_STATE_OFF;
     }
 #endif /* LWIP_DHCP_AUTOIP_COOP */
-    dhcp_discover(netif);
+
+    /* JLT 4 Sept 2013 - We need reboot here, not just discover */
+    netif_set_down(netif);
+    dhcp->tries = 0;
+    dhcp_reboot(netif);
     break;
   }
 }
