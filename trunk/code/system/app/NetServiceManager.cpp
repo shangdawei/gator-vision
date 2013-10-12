@@ -11,6 +11,8 @@ NetServiceManager::NetServiceManager()
 {
    NetIFUp = false;
    FTPServer = new TCPServer<FTPSession>(2,2);
+
+   FTPServer->Create("FTPServer",configMINIMAL_STACK_SIZE,2);
 }
 
 void NetServiceManager::OnNetIFStatusChange(bool up)
@@ -18,7 +20,7 @@ void NetServiceManager::OnNetIFStatusChange(bool up)
    // If the network interface came up, start the servers
    if (up)
    {
-      FTPServer->Start(NetIF.ip_addr.addr, 21);
+      FTPServer->Start(ntohl(NetIF.ip_addr.addr), 21);
    }
    // If the network interface went down, stop the servers
    else
@@ -83,6 +85,7 @@ void NetServiceManager::Run()
          NetIFUp = status;
          OnNetIFStatusChange(status);
       }
+
       Delay(10);
    }
 }
