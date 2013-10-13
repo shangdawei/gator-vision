@@ -12,7 +12,7 @@ NetServiceManager::NetServiceManager()
    NetIFUp = false;
    FTPServer = new TCPServer<FTPSession>(2,2);
 
-   FTPServer->Create("FTPServer",configMINIMAL_STACK_SIZE,2);
+   FTPServer->Create("FTPServer",1000,2);
 }
 
 void NetServiceManager::OnNetIFStatusChange(bool up)
