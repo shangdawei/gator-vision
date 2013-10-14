@@ -7,6 +7,9 @@
 /* storage control module to the FatFs module with a defined API.        */
 /*-----------------------------------------------------------------------*/
 
+// JLT 10/2013 - see https://docs.google.com/open?id=0B7OY5pub_GfIa2k2MmFzelZFR1U
+// for an example of interfacing to SD cards using SDIO on STM32
+
 #include "diskio.h"		/* FatFs lower layer API */
 #include "usbdisk.h"	/* Example: USB drive control */
 #include "atadrive.h"	/* Example: ATA drive control */
