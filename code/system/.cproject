@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?fileVersion 4.0.0?>
-
-<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
 		<cconfiguration id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.debug.500507166">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.debug.500507166" moduleId="org.eclipse.cdt.core.settings" name="Debug">
 				<externalSettings/>
 				<extensions>
-					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
@@ -289,8 +287,11 @@
 							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.printsize.debug.446897715" name="ARM Yagarto Windows GNU Print Size" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.printsize.debug.261908877"/>
 						</toolChain>
 					</folderInfo>
+					<fileInfo id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.debug.500507166.125590291" name="stm324xg_eval_sdio_sd.c" rcbsApplicability="disable" resourcePath="ports/fatfs_port/stm324xg_eval_sdio_sd.c" toolsToInvoke="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.compiler.debug.1153197559.898989045">
+						<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.compiler.debug.1153197559.898989045" name="ARM Yagarto Windows GCC C Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.compiler.debug.1153197559"/>
+					</fileInfo>
 					<sourceEntries>
-						<entry excluding="libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c|libraries/FreeRTOS/Demo|libraries/STM32Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates|libraries/STM32Libraries/CMSIS/Lib|libraries/STM32Libraries/CMSIS/DSP_Lib|libraries/STM32Libraries/STM32_USB_OTG_Driver|libraries/STM32Libraries/STM32_USB_HOST_Library|libraries/lwIP/core/ipv6|libraries/FatFs" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ports/fatfs_port/stm324xg_eval_sdio_sd.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c|libraries/FreeRTOS/Demo|libraries/STM32Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates|libraries/STM32Libraries/CMSIS/Lib|libraries/STM32Libraries/CMSIS/DSP_Lib|libraries/STM32Libraries/STM32_USB_OTG_Driver|libraries/STM32Libraries/STM32_USB_HOST_Library|libraries/lwIP/core/ipv6|libraries/FatFs" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
