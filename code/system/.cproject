@@ -55,6 +55,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/app}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/config}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/libraries}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/services}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/libraries/lwIP/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/libraries/lwIP/include/ipv4}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/libraries/lwIP/include/posix}&quot;"/>
@@ -287,11 +288,8 @@
 							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.printsize.debug.446897715" name="ARM Yagarto Windows GNU Print Size" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.printsize.debug.261908877"/>
 						</toolChain>
 					</folderInfo>
-					<fileInfo id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.debug.500507166.333802744" name="FATFileSystem.cpp" rcbsApplicability="disable" resourcePath="services/FATFileSystem.cpp" toolsToInvoke="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.compiler.debug.21965953.1300114055">
-						<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.compiler.debug.21965953.1300114055" name="ARM Yagarto Windows GCC C++ Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.compiler.debug.21965953"/>
-					</fileInfo>
 					<sourceEntries>
-						<entry excluding="services/FATFileSystem.cpp|services/CramfsFileSystem.cpp|ports/fatfs_port/stm324xg_eval_sdio_sd.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c|libraries/FreeRTOS/Demo|libraries/STM32Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates|libraries/STM32Libraries/CMSIS/Lib|libraries/STM32Libraries/CMSIS/DSP_Lib|libraries/STM32Libraries/STM32_USB_OTG_Driver|libraries/STM32Libraries/STM32_USB_HOST_Library|libraries/lwIP/core/ipv6|libraries/FatFs" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="services/CramfsFileSystem.cpp|ports/fatfs_port/stm324xg_eval_sdio_sd.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c|libraries/STM32Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c|libraries/FreeRTOS/Demo|libraries/STM32Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates|libraries/STM32Libraries/CMSIS/Lib|libraries/STM32Libraries/CMSIS/DSP_Lib|libraries/STM32Libraries/STM32_USB_OTG_Driver|libraries/STM32Libraries/STM32_USB_HOST_Library|libraries/lwIP/core/ipv6|libraries/FatFs" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

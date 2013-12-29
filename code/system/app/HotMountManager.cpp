@@ -10,7 +10,7 @@
 HotMountManager::HotMountManager()
 {
    // TODO Auto-generated constructor stub
-
+   FatFS = new FATFileSystem();
 }
 
 HotMountManager::~HotMountManager()

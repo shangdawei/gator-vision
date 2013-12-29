@@ -9,12 +9,16 @@
 #define HOTMOUNTMANAGER_H_
 
 #include "AManagedTask.h"
+#include "FATFileSystem.h"
 
 class HotMountManager : public AManagedTask
 {
 public:
    HotMountManager();
    virtual ~HotMountManager();
+
+private:
+   FATFileSystem * FatFS;
 };
 
 #endif /* HOTMOUNTMANAGER_H_ */
