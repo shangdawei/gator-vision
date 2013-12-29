@@ -66,6 +66,45 @@ public:
       void *         TrackingObject;
    };
 
+   enum FSCommandType
+   {
+      Q_MOUNT,
+      Q_STAT,
+      Q_OPEN,
+      Q_READ,
+      Q_WRITE,
+      Q_SEEK,
+      Q_TRUNCATE,
+      Q_SYNC,
+      Q_OPENDIR,
+      Q_READDIR,
+      Q_CLOSEDIR,
+      Q_MKDIR,
+      Q_UNLINK,
+      Q_CHMOD,
+      Q_UTIME,
+      Q_RENAME,
+      Q_GETFREE,
+      Q_GETLABEL
+   };
+
+   struct FSCommand
+   {
+      FSCommandType  Type;
+      FileHandle *   FileHndl;
+      DirHandle *    DirHndl;
+      FileInfo *     FileInfoOut;
+      string         Path;
+      string         NewName;
+      string         Label;
+      string         SerialNumber;
+      uint8_t *      Buffer;
+      uint32_t       BufferSize;
+      uint32_t       ActualByteCount;
+      uint64_t       FreeSize;
+   };
+
+
 protected:
    // These are blocking functions implemented by the specific filesystem type
    virtual FSResult Mount(const string & logical_drive) = 0;
