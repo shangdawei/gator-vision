@@ -18,17 +18,17 @@ FATFileSystem::~FATFileSystem()
    // TODO Auto-generated destructor stub
 }
 
-FileSystem::FSResult FATFileSystem::Mount(const string & logical_drive)
+FileSystem::FSResult FATFileSystem::Mount(const char (&logical_drive)[_MAX_PATH+1])
 {
    return DISK_ERR;
 }
 
-FileSystem::FSResult FATFileSystem::Stat(FileInfo & file_info, const string & path)
+FileSystem::FSResult FATFileSystem::Stat(FileInfo & file_info, const char (&path)[_MAX_PATH+1])
 {
    return DISK_ERR;
 }
 
-FileSystem::FSResult FATFileSystem::Open(FileHandle & file_hndl, const string & file_path, uint8_t mode)
+FileSystem::FSResult FATFileSystem::Open(FileHandle & file_hndl, const char (&file_path)[_MAX_PATH+1], uint8_t mode)
 {
    return DISK_ERR;
 }
@@ -78,7 +78,7 @@ FileSystem::FSResult FATFileSystem::Sync(FileHandle & file_hndl)
    return DISK_ERR;
 }
 
-FileSystem::FSResult FATFileSystem::OpenDir(DirHandle & dir_hndl, const string & dir_path)
+FileSystem::FSResult FATFileSystem::OpenDir(DirHandle & dir_hndl, const char (&dir_path)[_MAX_PATH+1])
 {
    return DISK_ERR;
 }
@@ -93,27 +93,27 @@ FileSystem::FSResult FATFileSystem::CloseDir(DirHandle & dir_hndl)
    return DISK_ERR;
 }
 
-FileSystem::FSResult FATFileSystem::MkDir(const string & dir_path)
+FileSystem::FSResult FATFileSystem::MkDir(const char (&dir_path)[_MAX_PATH+1])
 {
    return DISK_ERR;
 }
 
-FileSystem::FSResult FATFileSystem::Unlink(const string & path)
+FileSystem::FSResult FATFileSystem::Unlink(const char (&path)[_MAX_PATH+1])
 {
    return DISK_ERR;
 }
 
-FileSystem::FSResult FATFileSystem::ChMod(const string & path, uint8_t attr, uint8_t mask)
+FileSystem::FSResult FATFileSystem::ChMod(const char (&path)[_MAX_PATH+1], uint8_t attr, uint8_t mask)
 {
    return DISK_ERR;
 }
 
-FileSystem::FSResult FATFileSystem::UTime(const string & path, const FileInfo & date_time)
+FileSystem::FSResult FATFileSystem::UTime(const char (&path)[_MAX_PATH+1], const FileInfo & date_time)
 {
    return DISK_ERR;
 }
 
-FileSystem::FSResult FATFileSystem::Rename(const string & old_name, const string & new_name)
+FileSystem::FSResult FATFileSystem::Rename(const char (&old_name)[_MAX_PATH+1], const char (&new_name)[_MAX_PATH+1])
 {
    return DISK_ERR;
 }
@@ -123,7 +123,7 @@ FileSystem::FSResult FATFileSystem::GetFree(uint64_t & free_bytes)
    return DISK_ERR;
 }
 
-FileSystem::FSResult FATFileSystem::GetLabel(string & label, string & serial_no)
+FileSystem::FSResult FATFileSystem::GetLabel(char (&label)[_MAX_LABEL])
 {
    return DISK_ERR;
 }
