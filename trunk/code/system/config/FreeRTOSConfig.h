@@ -96,6 +96,7 @@ extern uint32_t SystemCoreClock;
 #define configTICK_RATE_HZ				( ( portTickType ) 1000 )
 #define configMAX_PRIORITIES			( ( unsigned portBASE_TYPE ) 12 )
 #define configMINIMAL_STACK_SIZE		( ( unsigned short ) 130 )
+#define configTOTAL_HEAP_SIZE       2048
 #define configMAX_TASK_NAME_LEN			( 16 )
 #define configUSE_TRACE_FACILITY		1
 #define configUSE_16_BIT_TICKS			0
@@ -123,7 +124,7 @@ extern uint32_t SystemCoreClock;
 to exclude the API function. */
 #define INCLUDE_vTaskPrioritySet		1
 #define INCLUDE_uxTaskPriorityGet		1
-#define INCLUDE_vTaskDelete				1
+#define INCLUDE_vTaskDelete				0 /* Never delete tasks.  We don't want OS heap to fragment. */
 #define INCLUDE_vTaskCleanUpResources	1
 #define INCLUDE_vTaskSuspend			1
 #define INCLUDE_vTaskDelayUntil			1
