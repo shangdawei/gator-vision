@@ -1,4 +1,4 @@
-Gator Vision
+Gator Vision 
 Copyright (Copyleft) © 2013 Jeff Theusch
 ---
 Licensing Agreement
